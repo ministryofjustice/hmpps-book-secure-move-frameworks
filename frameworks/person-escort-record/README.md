@@ -10,7 +10,7 @@ and [client applications](https://github.com/ministryofjustice/hmpps-book-secure
 
 A manifest is a list of sections in the PER defined as a tree-like structure. Each manifest file contains definitions of the steps and the questions that are required to be answered within each section.
 
-Manifest files should live in [`manifests/`](./manifests) and be stored in a flat structure.
+Manifest files should live in [`manifests/`](./manifests) and be stored in a flat structure. File names must use lower kebab casing, for example `file-name.yml`.
 
 ### Manifest options
 
@@ -26,11 +26,11 @@ Steps define a form page within a particular section. A section can be made up o
 - `name` **(required)** - the name of the step. Used for the page heading.
 - `slug` **(required)** - the URL section for this step
 - `questions` **(required)** - list of questions to ask on this step and in what order. Each item should match the filename of the question. See [questions documentation](#questions) for question options.
-- `next` - can be used to override the following step or to [define complex step based logic](#next-steps). Value should match the `slug` property.
+- `next_step` - can be used to override the following step or to [define complex step based logic](#next-steps). Value should match the `slug` property.
 
 #### Next steps
 
-The next value of a step can be a relative URL within that journey or an array of conditional steps. Each condition next step can contain a next location, a field name, operator and value.
+The `next_step` value for a step can be a relative URL within that journey or an array of conditional steps. Each conditional `next_step` can contain a next location, a question name, operator and value.
 
 ```yaml
 steps:
@@ -38,18 +38,18 @@ steps:
     name: Step 1
   -
     name: Step 2
-    next:
+    next_step:
       # an object defining a field and expected value
       -
-        field: field1
+        question: question1
         value: Yes
-        next: conditional-next-step
+        next_step: conditional-next-step
       # an object defining a field, operator and expected value based on operator
       -
-        field: field1
+        question: question2
         op: '==='
         value: Yes
-        next: conditional-next-step
+        next_step: conditional-next-step
       # default can be a string
       - default-next-step
 ```
@@ -60,7 +60,7 @@ Questions define the way in which to gather a piece of information. Questions ca
 question and can contain dependency logic to define whether a question should only be answered if another question is answered
 in a particular way.
 
-Question files should live in [`questions/`](./questions) and be stored in a flat structure.
+Question files should live in [`questions/`](./questions) and be stored in a flat structure. File names must use lower kebab casing, for example `file-name.yml`.
 
 ### Question options
 
