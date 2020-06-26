@@ -77,12 +77,12 @@ Question files should live in [`questions/`](./questions) and be stored in a fla
       - `name` **(required)** - the validation error key
       - `message` - custom text that will be displayed in the form
 - `validations` - list of [validations](#validations) that need to be applied to this question
-  - `name` **(required)** - the validation error key
+  - `type` **(required)** - the validation error key
   - `message` - custom text that will be displayed in the form
 
 #### Validations
 
-Validations are defined as object that contain a validation key (`name`) and a message (`message`) to display if this question fails this validation.
+Validations are defined as an object and contain a validation type (`type`) and a message (`message`) to display if the response doesn't pass that validation.
 
 Currently supported validation types:
 
