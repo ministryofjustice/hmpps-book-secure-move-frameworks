@@ -1,0 +1,19 @@
+type: radio
+question: Are they a current or previous sex offender?
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of any current or previous sex offences
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person is a current or previous sex offender

@@ -1,0 +1,20 @@
+type: radio
+question: Is there a reason this person should not be released?
+hint: For example, they may be wanted by immigration or recalled to custody
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of why this person should not be released
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person should not be released
