@@ -1,0 +1,19 @@
+type: radio
+question: Do they have any addictions or dependencies that might affect them when they leave custody?
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of any addictions or dependencies that might affect them when they leave custody
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person has any addictions or dependencies that might affect them when they leave custody

@@ -1,0 +1,20 @@
+type: radio
+question: Is there a contact number for someone who can provide more information about the detainee’s health information?
+hint: For example, a medical professional who has up-to-date health details
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter contact details for someone who can provide more information about the detainee’s health information
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if there is a contact number for someone who can provide more information about the detainee’s health information

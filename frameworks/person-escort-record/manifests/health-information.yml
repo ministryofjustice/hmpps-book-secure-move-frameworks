@@ -1,0 +1,77 @@
+name: Health information
+steps:
+  -
+    name: Physical health issues
+    slug: physical-health-issues
+    questions:
+      - health-affecting-transport
+      - wheelchair-user
+      - pregnant
+  -
+    name: Mental health
+    slug: mental-health
+    questions:
+      - mental-health-after-custody
+  -
+    name: Medical care
+    slug: medical-care
+    questions:
+      - sensitive-medication
+      - prescribed-medication
+      - medical-health-professional-referral
+    next_step:
+      -
+        question: sensitive-medication
+        value: 'Yes'
+        next_step: sensitive-medical-details
+      - dependencies
+  -
+    name: Provide sensitive medical details
+    slug: sensitive-medical-details
+    type: interruption-card
+    content_before_questions: |
+      !!! warning
+      Print out sensitive medical details and provide to the escort in a sealed envelope during handover
+      !!!
+
+      Include information about medical care and medication that the person needs or has with them, as well as anything that has been prescribed while in custody.
+
+      Ensure the following details are included:
+        - medication name
+        - directions
+        - dosage
+        - frequency
+        - time last given
+        - time next given
+  -
+    name: Dependencies
+    slug: dependencies
+    questions:
+      - alcohol-withdrawal
+      - addiction-dependencies
+  -
+    name: Allergies and intolerances
+    slug: allergies-and-intolerances
+    questions:
+      - special-diet-or-allergies
+  -
+    name: Personal care
+    slug: personal-care
+    questions:
+      - help-with-personal-tasks
+      - female-hygiene-kit
+  -
+    name: Any other health
+    slug: other-health-information
+    questions:
+      - other-health-information
+  -
+    name: Special vehicle
+    slug: other-health-information
+    questions:
+      - requires-special-vehicle
+  -
+    name: Contact details
+    slug: contact-details
+    questions:
+      - health-contact-details

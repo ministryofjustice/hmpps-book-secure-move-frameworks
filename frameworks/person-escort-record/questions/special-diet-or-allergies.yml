@@ -1,0 +1,20 @@
+type: radio
+question: Do they have any known special diet or allergies?
+hint: For example, dietary, medical or environmental allergies
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter any known special diet or allergies
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person has any known special diet or allergies

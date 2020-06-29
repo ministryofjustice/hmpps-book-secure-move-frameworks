@@ -1,0 +1,21 @@
+type: radio
+question: Does this person need or have they been prescribed any medication?
+hint: This includes regular medication that the person needs to has with them, as well as anything that has been prescribed while in custody
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Provide details of medication
+      hint: Enter any medication that is required while moving and include medication name, direction, dosage, frequency, time last given and time next given for each medication
+      validations:
+        -
+          type: required
+          message: Enter any medication they need to have been prescribed
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person needs or has been prescribed any medication

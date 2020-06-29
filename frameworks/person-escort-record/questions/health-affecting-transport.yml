@@ -1,0 +1,20 @@
+type: radio
+question: Do they have any physical health needs that might affect them when they leave custody?
+hint: For example, they may need treatment for an illness or infection, or they may not be able to be handcuffed or sit for long periods of time
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter any physical health needs that might affect the person when they leave custody
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person has any physical health needs that might affect them when they leave custody
