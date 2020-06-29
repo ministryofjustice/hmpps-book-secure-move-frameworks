@@ -1,0 +1,16 @@
+type: radio
+question: Is there a history of self harm?
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup:
+      - history-of-self-harm-recency
+      - history-of-self-harm-details
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: You must select an option

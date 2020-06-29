@@ -1,0 +1,19 @@
+type: radio
+question: Have they concealed mobile phones, SIMs or other items in custody?
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter any mobile phones, SIMs or other items the person has concealed
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person has concealed mobile phones, SIMs or other items in custody

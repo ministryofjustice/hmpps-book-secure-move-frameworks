@@ -1,0 +1,19 @@
+type: radio
+question: Are they a risk to other religions?
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter why the person is a risk to other religions
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person is a risk to other religions

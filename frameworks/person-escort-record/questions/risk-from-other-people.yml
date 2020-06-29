@@ -1,0 +1,20 @@
+type: radio
+question: Are they at risk from other people?
+hint: Check for any recent vulnerable or at risk alerts
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter why the person is at risk from other people
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person is at risk from other people

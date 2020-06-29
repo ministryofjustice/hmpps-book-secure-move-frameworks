@@ -1,0 +1,23 @@
+type: radio
+question: Are they a stalker, harasser or intimidator?
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of a stalking, harassment or intimidation
+    flags:
+      -
+        label: Escape risk
+        type: alert
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person is a stalker, harasser or intimidator

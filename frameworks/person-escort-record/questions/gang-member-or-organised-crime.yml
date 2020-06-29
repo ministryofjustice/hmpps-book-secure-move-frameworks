@@ -1,0 +1,19 @@
+type: radio
+question: Are they a gang member or involved in organised crime?
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of any involvements with gangs or organised crime
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person is in a gang member or involved in organised crime
