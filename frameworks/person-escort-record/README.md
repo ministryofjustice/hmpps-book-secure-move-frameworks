@@ -77,7 +77,7 @@ Question files should live in [`questions/`](./questions) and be stored in a fla
       - `type` **(required)** - the validation error key
       - `message` - custom text that will be displayed in the form
   - `flags` - list of flags to conditionally display on summary pages as alerts if this question is answered with this value.
-    - `key` **(required)** - the flag key
+    - `type` **(required)** - the type of the flag to display. Current supported types: `info`, `attention`, `warning`, `alert`
     - `label` **(required)** - text displayed on the flag label
 - `validations` - list of [validations](#validations) that need to be applied to this question
   - `type` **(required)** - the validation error key
