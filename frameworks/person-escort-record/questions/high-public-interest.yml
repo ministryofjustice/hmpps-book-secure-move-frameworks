@@ -1,6 +1,7 @@
 type: radio
 question: Are they of high public interest?
 hint: For example, if they are a public figure or involved in a high profile case
+description: Of high public interest
 options:
   -
     label: "Yes"

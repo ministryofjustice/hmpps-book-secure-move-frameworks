@@ -1,5 +1,6 @@
 type: radio
-question: Is there a history of self harm?
+question: Is there a history of self-harm?
+description: History of self-harm
 options:
   -
     label: "Yes"

@@ -1,5 +1,6 @@
 type: radio
 question: Are they violent or dangerous?
+description: Violent or dangerous
 options:
   -
     label: "Yes"

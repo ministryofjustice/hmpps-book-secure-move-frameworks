@@ -1,5 +1,6 @@
 type: radio
 question: Have they created or used weapons in custody?
+description: Created or used weapons
 options:
   -
     label: "Yes"

@@ -1,5 +1,6 @@
 type: radio
 question: Are they an escape risk?
+description: Escape risk
 options:
   -
     label: "Yes"

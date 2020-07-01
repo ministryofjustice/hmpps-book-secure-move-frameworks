@@ -1,5 +1,6 @@
 type: radio
 question: What is their current observation level?
+description: Current observation level
 options:
   -
     label: Level 1 - check at least hourly

@@ -1,6 +1,7 @@
 type: radio
 question: Does this person need or have they been prescribed any medication?
 hint: This includes relevant regular medication that they need or already have with them, as well as anything that they may have been prescribed whilst in custody
+description: Prescribed medication
 options:
   -
     label: "Yes"

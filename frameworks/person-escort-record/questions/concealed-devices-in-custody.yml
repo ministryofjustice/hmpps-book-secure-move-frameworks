@@ -1,5 +1,6 @@
 type: radio
 question: Have they concealed mobile phones, SIMs or other items in custody?
+description: Concealed mobile phones, SIMs or other items
 options:
   -
     label: "Yes"

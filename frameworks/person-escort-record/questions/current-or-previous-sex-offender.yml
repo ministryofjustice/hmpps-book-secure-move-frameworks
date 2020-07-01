@@ -1,5 +1,6 @@
 type: radio
 question: Are they a current or previous sex offender?
+description: Sex offender
 options:
   -
     label: "Yes"

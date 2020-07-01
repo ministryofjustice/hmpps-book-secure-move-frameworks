@@ -1,6 +1,7 @@
 type: radio
 question: Have you provided them with any additional support?
 hint: For example, a call to family or the Samaritans
+description: Provided with additional support
 options:
   -
     label: "Yes"

@@ -1,5 +1,6 @@
 type: radio
 question: Are they an arsonist?
+description: Arsonist
 options:
   -
     label: "Yes"

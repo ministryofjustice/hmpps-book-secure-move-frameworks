@@ -1,5 +1,6 @@
 type: radio
 question: Have they attempted to harm themselves since being in custody?
+description: Attempted self-harm in custody
 options:
   -
     label: "Yes"
@@ -9,7 +10,7 @@ options:
       validations:
         -
           type: required
-          message: Enter details of self harm in custody
+          message: Enter details of self-harm in custody
   -
     label: "No"
     value: "No"

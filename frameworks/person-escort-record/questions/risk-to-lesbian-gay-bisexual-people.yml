@@ -1,5 +1,6 @@
 type: radio
 question: Are they a risk to lesbian, gay, or bisexual people?
+description: Risk to lesbian, gay, or bisexual people
 options:
   -
     label: "Yes"

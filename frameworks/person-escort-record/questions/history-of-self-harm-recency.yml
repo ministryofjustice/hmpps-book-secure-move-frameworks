@@ -1,5 +1,6 @@
 type: radio
-question: How recently did self-harm or suicide occur?
+question: How recently did self-harm occur?
+description: Recency of self-harm
 options:
   -
     label: Within the last month
@@ -19,4 +20,4 @@ options:
 validations:
   -
     type: required
-    message: Select how recently self-harm or suicide occurred
+    message: Select how recently self-harm occurred

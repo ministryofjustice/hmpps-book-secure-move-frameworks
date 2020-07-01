@@ -1,6 +1,7 @@
 type: textarea
 question: Give details
+description: Self-harm history details
 validations:
   -
     type: required
-    message: Enter details of recent self-harm or suicide
+    message: Enter details of recent self-harm

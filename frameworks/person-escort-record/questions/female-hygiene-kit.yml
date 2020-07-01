@@ -1,5 +1,6 @@
 type: radio
 question: Do they need a female hygiene kit?
+description: Requires female hygiene kit
 options:
   -
     label: "Yes"

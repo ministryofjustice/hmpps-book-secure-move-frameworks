@@ -1,5 +1,6 @@
 type: radio
-question: Have they been referred to a medical professional to manage the risk of suicide or self harm?
+question: Have they been referred to a medical professional to manage the risk of suicide or self-harm?
+description: Referred to a medical professional
 options:
   -
     label: "Yes"
@@ -12,4 +13,4 @@ options:
 validations:
   -
     type: required
-    message: Select yes if the person has been referred to a medical professional to manage the risk of suicide or self harm
+    message: Select yes if the person has been referred to a medical professional to manage the risk of suicide or self-harm

@@ -1,5 +1,6 @@
 type: radio
 question: Have they been referred to a medical professional, including a Liasion and Diversion professional?
+description: Referred to a medical professional
 options:
   -
     label: "Yes"

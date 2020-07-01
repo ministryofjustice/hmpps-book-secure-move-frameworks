@@ -1,5 +1,6 @@
 type: radio
 question: Do you believe they are at risk of suicide or self-harm?
+description: Believed to be at risk of suicide or self-harm
 options:
   -
     label: "Yes"
