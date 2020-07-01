@@ -26,7 +26,16 @@ Steps define a form page within a particular section. A section can be made up o
 - `name` **(required)** - the name of the step. Used for the page heading.
 - `slug` **(required)** - the URL section for this step
 - `questions` **(required)** - list of questions to ask on this step and in what order. Each item should match the filename of the question. See [questions documentation](#questions) for question options.
+- `type` - display different styles for a particular step. See [step types](#step-types) for support types.
 - `next_step` - can be used to override the following step or to [define complex step based logic](#next-steps). Value should match the `slug` property.
+
+#### Step types
+
+The `type` options allows the use of different types of layout for a step. Not passing this option will use the default layout.
+
+- `interruption-card` - display the step using a blue background, instructions and a "Continue" button instead of "Save and continue". Usually used to define offline process during an online journey.
+
+  <img width="40%" src="../../images/interruption-card.png">
 
 #### Next steps
 
