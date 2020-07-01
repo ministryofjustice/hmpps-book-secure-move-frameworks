@@ -61,6 +61,16 @@ The `type` options allows the use of different types of layout for a step. Not p
   !!!
   ```
 
+- **Lede text (Size 24px)**
+
+  Start the text you wish to wrap with `!!! lede` and end it with `!!!`. For example:
+
+  ```markdown
+  !!! lede
+  Lede text content
+  !!!
+  ```
+
 #### Next steps
 
 The `next_step` value for a step can be a relative URL within that journey or an array of conditional steps. Each conditional `next_step` can contain a next location, a question name, operator and value.

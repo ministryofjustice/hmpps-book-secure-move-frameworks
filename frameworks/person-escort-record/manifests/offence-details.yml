@@ -9,7 +9,9 @@ steps:
     name: Offence history
     slug: offence-history
     content_before_questions: |
+      !!! lede
       Check your local intelligence system and any arrest and custody records you have access to for warning markers such as hostage taker and sex offender.
+      !!!
     questions:
       - hostage-taker
       - current-or-previous-sex-offender
