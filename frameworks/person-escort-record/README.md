@@ -3,7 +3,7 @@
 This framework contains the sections, steps and questions that need to be completed to produce
 a Person Escort Record (PER) when moving somebody using the Book a secure move service.
 
-The framework contains a set of YAML defintions that will be used by the [Book a secure move API](https://github.com/ministryofjustice/hmpps-book-secure-move-api)
+The framework contains a set of YAML definitions that will be used by the [Book a secure move API](https://github.com/ministryofjustice/hmpps-book-secure-move-api)
 and [client applications](https://github.com/ministryofjustice/hmpps-book-secure-move-frontend) of the API to generate validation and form journeys.
 
 ## Manifest files
