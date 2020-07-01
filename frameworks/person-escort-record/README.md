@@ -73,6 +73,7 @@ Question files should live in [`questions/`](./questions) and be stored in a fla
   - `followup` - list of questions to conditionally display if this question is answered with this value. This will add this question as a dependent question dynamically to any followup questions and include them in the step where this question is defined.
   - `followup_comment` - allow for a text box input to be displayed conditionally if a specific value from a question has been selected
     - `label` **(required)** - text displayed on the text box label
+    - `hint` - hint text to display after the label, usually for advice on how to format an answer
     - `validations` - list of [validations](#validations) that need to be applied to this text box
       - `type` **(required)** - the validation error key
       - `message` - custom text that will be displayed in the form
