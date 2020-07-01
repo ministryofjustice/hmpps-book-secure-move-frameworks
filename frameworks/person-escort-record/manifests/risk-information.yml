@@ -1,0 +1,60 @@
+name: Risk information
+steps:
+  -
+    name: Security
+    slug: security
+    questions:
+      - high-public-interest
+      - violent-or-dangerous
+      - gang-member-or-organised-crime
+      - stalker-harasser-or-intimidator
+      - escape-risk
+  -
+    name: Hold separately
+    slug: hold-separately
+    questions:
+      - risk-from-other-people
+      - discriminatory-towards-others
+      - risk-to-staff
+      - risk-to-females
+      - risk-to-lesbian-gay-bisexual-people
+      - risk-to-transgender-or-transexual-people
+      - risk-to-other-races
+      - risk-to-other-religions
+      - risk-to-other-groups
+  -
+    name: Self harm
+    slug: self-harm
+    next_step:
+      -
+        question: indication-of-self-harm-or-suicide
+        value: "Yes"
+        next_step: self-harm-information
+      - weapons-drugs-or-concealed-items
+    questions:
+      - indication-of-self-harm-or-suicide
+      - observation-level
+  -
+    name: Self harm
+    slug: self-harm-information
+    questions:
+      - attempted-harm-in-custody
+      - referred-suicide-or-self-harm-risk
+      - believed-suicide-or-self-harm-risk
+      - self-harm-health-professional-referral
+      - self-harm-support-provided
+      - history-of-self-harm
+  -
+    name: Weapons, drugs, or concealed items
+    slug: weapons-drugs-or-concealed-items
+    questions:
+      - concealed-items
+      - used-weapons-in-custody
+      - concealed-weapons-in-custody
+      - concealed-drugs-in-custody
+      - concealed-devices-in-custody
+  -
+    name: Any other risks
+    slug: other-risks
+    questions:
+      - other-risk-information

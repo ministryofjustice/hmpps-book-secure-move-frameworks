@@ -1,0 +1,20 @@
+type: radio
+question: Does this person need to travel in a special vehicle?
+hint: This could be a specially-adapted prison van (for example, to accomodate wheelchairs)
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of any special vehicle requirements
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person needs to travel in a special vehicle

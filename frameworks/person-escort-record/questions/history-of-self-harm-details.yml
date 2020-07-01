@@ -1,0 +1,6 @@
+type: textarea
+question: Give details
+validations:
+  -
+    type: required
+    message: Enter details of recent self-harm or suicide

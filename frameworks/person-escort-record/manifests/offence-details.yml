@@ -1,0 +1,19 @@
+name: Offence details
+steps:
+  -
+    name: Release status
+    slug: release-status
+    questions:
+      - release-status
+  -
+    name: Offence history
+    slug: offence-history
+    questions:
+      - hostage-taker
+      - current-or-previous-sex-offender
+      - arsonist
+  -
+    name: Current offences
+    slug: current-offences
+    questions:
+      - current-offences

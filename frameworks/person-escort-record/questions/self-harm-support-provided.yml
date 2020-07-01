@@ -1,0 +1,20 @@
+type: radio
+question: Have you provided them with any additional support?
+hint: For example, a call to family or the Samaritans
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of what additional support you provided
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if you have provided them with any additional support

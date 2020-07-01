@@ -1,0 +1,19 @@
+type: radio
+question: Do they need a female hygiene kit?
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter female hygiene kit details
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person needs a female hygiene kit

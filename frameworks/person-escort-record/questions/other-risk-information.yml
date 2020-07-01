@@ -1,0 +1,19 @@
+type: radio
+question: Is there any other information related to risk you would like to include?
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter any other information related to risk you would like to include
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if there is any other information related to risk you would like to include

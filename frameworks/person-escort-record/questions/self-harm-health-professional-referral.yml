@@ -1,0 +1,15 @@
+type: radio
+question: Have they been referred to a medical professional?
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if they have been referred to a medical professional

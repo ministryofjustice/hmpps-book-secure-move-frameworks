@@ -1,0 +1,19 @@
+type: radio
+question: Have they concealed drugs in custody?
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter any drugs the person has concealed
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person has concealed drugs in custody

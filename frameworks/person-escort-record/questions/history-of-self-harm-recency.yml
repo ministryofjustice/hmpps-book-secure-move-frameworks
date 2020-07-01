@@ -1,0 +1,22 @@
+type: radio
+question: How recently did self-harm or suicide occur?
+options:
+  -
+    label: Within the last month
+    value: Within the last month
+  -
+    label: Within the last 6 months
+    value: Within the last 6 months
+  -
+    label: Between 6 and 12 months ago
+    value: Between 6 and 12 months ago
+  -
+    label: Between 1 and 5 years ago
+    value: Between 1 and 5 years ago
+  -
+    label: More than 5 years ago
+    value: More than 5 years ago
+validations:
+  -
+    type: required
+    message: Select how recently self-harm or suicide occurred
