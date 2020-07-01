@@ -1,5 +1,6 @@
 type: radio
 question: Are they a risk to staff?
+description: Risk to staff
 options:
   -
     label: "Yes"

@@ -100,6 +100,7 @@ Question files should live in [`questions/`](./questions) and be stored in a fla
 - `type` **(required)** - the type of question input. Current supported types: `radio`, `checkbox`, `text`, `textarea`
 - `question` **(required)** - the full text of the question, usually including a question mark, that should be displayed in forms and summary tables.
 - `hint` - hint text to display after the question, usually for advice on how to format an answer
+- `description` - text to display as the summary table row heading for this question. If not supplied, will use `question` value
 - `options` - for question types that require answers to be within a particular set of items. Usually for radios and checkboxes
   - `label` **(required)** - text displayed on the option label
   - `value` - value submitted to the server, defaults to value of `label`

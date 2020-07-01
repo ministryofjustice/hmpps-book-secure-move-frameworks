@@ -1,6 +1,7 @@
 type: radio
-question: Is there any indication that they might self harm or attempt suicide?
+question: Is there any indication that they might self-harm or attempt suicide?
 hint: They may already have harmed themself or said that they may harm themself
+description: Risk of self-harm or suicide
 options:
   -
     label: "Yes"
@@ -11,4 +12,4 @@ options:
 validations:
   -
     type: required
-    message: Select yes if there is any indication that the person might self harm or attempt suicide
+    message: Select yes if there is any indication that the person might self-harm or attempt suicide

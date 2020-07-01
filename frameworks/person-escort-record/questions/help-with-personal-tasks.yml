@@ -1,6 +1,7 @@
 type: radio
 question: Will they need help with personal tasks when they leave custody?
 hint: For example, going to the toilet, eating or drinking
+description: Help with personal tasks
 options:
   -
     label: "Yes"

@@ -1,6 +1,7 @@
 type: radio
 question: Is there a reason this person should not be released?
 hint: For example, they may be wanted by immigration or recalled to custody
+description: Release status
 options:
   -
     label: "Yes"

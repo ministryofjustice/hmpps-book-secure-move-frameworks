@@ -1,5 +1,6 @@
 type: radio
 question: Are they a wheelchair user?
+description: Wheelchair user
 options:
   -
     label: "Yes"

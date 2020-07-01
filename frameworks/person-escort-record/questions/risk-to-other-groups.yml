@@ -1,5 +1,6 @@
 type: radio
 question: Are they a risk to any other group that has not already been mentioned?
+description: Risk to any other group
 options:
   -
     label: "Yes"

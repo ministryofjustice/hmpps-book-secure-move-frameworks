@@ -1,5 +1,6 @@
 type: radio
 question: Are they experiencing or at risk of alcohol withdrawal?
+description: Alcohol withdrawal
 options:
   -
     label: "Yes"

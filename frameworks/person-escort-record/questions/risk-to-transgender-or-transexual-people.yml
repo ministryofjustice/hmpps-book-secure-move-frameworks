@@ -1,5 +1,6 @@
 type: radio
 question: Are they a risk to transgender or transexual people?
+description: Risk to transgender or transexual people
 options:
   -
     label: "Yes"

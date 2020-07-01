@@ -1,5 +1,6 @@
 type: radio
 question: Are they a risk to other races?
+description: Risk to other races
 options:
   -
     label: "Yes"

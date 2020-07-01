@@ -1,5 +1,6 @@
 type: radio
 question: Has someone else said they are at risk of suicide or self-harm?
+description: Someone else has said they are at risk of suicide or self-harm
 options:
   -
     label: "Yes"
@@ -9,7 +10,7 @@ options:
       validations:
         -
           type: required
-          message: Enter details of who said the person is at  risk of suicide or self-harm
+          message: Enter details of who said the person is at risk of suicide or self-harm
   -
     label: "No"
     value: "No"

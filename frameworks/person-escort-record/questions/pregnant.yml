@@ -1,5 +1,6 @@
 type: radio
 question: Are they pregnant?
+description: Pregnant
 options:
   -
     label: "Yes"

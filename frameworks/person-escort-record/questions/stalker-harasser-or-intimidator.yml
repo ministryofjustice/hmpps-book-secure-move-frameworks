@@ -1,5 +1,6 @@
 type: radio
 question: Are they a stalker, harasser or intimidator?
+description: Stalker, harasser or intimidator
 options:
   -
     label: "Yes"

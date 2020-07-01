@@ -1,5 +1,6 @@
 type: radio
 question: Have they concealed items?
+description: Concealed items
 options:
   -
     label: "Yes"

@@ -23,7 +23,7 @@ steps:
       - risk-to-other-religions
       - risk-to-other-groups
   -
-    name: Self harm
+    name: Self-harm
     slug: self-harm
     next_step:
       -
@@ -35,7 +35,7 @@ steps:
       - indication-of-self-harm-or-suicide
       - observation-level
   -
-    name: Self harm
+    name: Self-harm details
     slug: self-harm-information
     questions:
       - attempted-harm-in-custody

@@ -1,5 +1,6 @@
 type: radio
 question: Have they concealed weapons in custody?
+description: Concealed weapons
 options:
   -
     label: "Yes"

@@ -1,6 +1,7 @@
 type: radio
 question: Do they have any physical health needs that might affect them when they leave custody?
 hint: For example, they may need treatment for an illness or infection, or they may not be able to be handcuffed or sit for long periods of time
+description: Physical health issues
 options:
   -
     label: "Yes"
