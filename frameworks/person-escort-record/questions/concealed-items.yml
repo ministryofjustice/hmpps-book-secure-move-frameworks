@@ -1,20 +1,54 @@
-type: radio
-question: Have they concealed items?
-description: Concealed items
+type: checkbox
+question: What restricted items have they concealed, created or used?
+hint: Select all that apply
+description: Items concealed, created or used
 options:
   -
-    label: "Yes"
-    value: "Yes"
+    label: Created or used weapons
+    value: Created or used weapons
     followup_comment:
       label: Give details
       validations:
         -
           type: required
-          message: Enter any items the person has concealed
+          message: Enter details of weapons the person has created or used
   -
-    label: "No"
-    value: "No"
+    label: Concealed weapons
+    value: Concealed weapons
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of weapons the person has concealed
+  -
+    label: Concealed drugs
+    value: Concealed drugs
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of drugs that have been concealed
+  -
+    label: Concealed mobiles phones or SIM cards
+    value: Concealed mobiles phones or SIM cards
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of mobile phones or SIM cards that have been concealed
+  -
+    label: Any other items
+    value: Any other items
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of any other items that have been concealed, created or used
 validations:
   -
     type: required
-    message: Select yes if the person has concealed items
+    message: Select the items that the person has concealed, created or used

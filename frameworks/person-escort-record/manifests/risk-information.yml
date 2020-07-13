@@ -48,12 +48,19 @@ steps:
   -
     name: Weapons, drugs, or concealed items
     slug: weapons-drugs-or-concealed-items
+    next_step:
+      -
+        question: has-concealed-items
+        value: "Yes"
+        next_step: weapons-drugs-or-concealed-items-information
+      - other-risks
+    questions:
+      - has-concealed-items
+  -
+    name: Weapons, drugs, or concealed items information
+    slug: weapons-drugs-or-concealed-items-information
     questions:
       - concealed-items
-      - used-weapons-in-custody
-      - concealed-weapons-in-custody
-      - concealed-drugs-in-custody
-      - concealed-devices-in-custody
   -
     name: Any other risks
     slug: other-risks
