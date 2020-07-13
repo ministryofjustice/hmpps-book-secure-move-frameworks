@@ -1,6 +1,15 @@
 type: radio
 question: Is there any indication that they might self-harm or attempt suicide?
-hint: They may already have harmed themself or said that they may harm themself
+hint: |
+  For example, the person:
+
+  - may have self-harmed or attempted self-harm
+  - said they will self-harm or commit suicide
+  - have a history of self-harm
+  - show signs of behavioural mental disorder
+  - reacted to an offence, charge, conviction or sentence
+  - killed or seriously injured a family member
+  - is at increased risk due to their veterans status
 description: Risk of self-harm or suicide
 options:
   -

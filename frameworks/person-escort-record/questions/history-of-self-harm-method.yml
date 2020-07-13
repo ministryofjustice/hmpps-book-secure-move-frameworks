@@ -5,6 +5,7 @@ description: Methods used to self-harm
 options:
   -
     label: Ligature
+    hint: For example, a cord, rope, or other material, for hanging or strangulation
     value: Ligature
   -
     label: Cutting
@@ -13,8 +14,11 @@ options:
     label: Overdose
     value: Overdose
   -
-    label: Other methods
-    value: Other methods
+    label: Unknown method
+    value: Unknown method
+  -
+    label: Another method
+    value: Another method
 validations:
   -
     type: required

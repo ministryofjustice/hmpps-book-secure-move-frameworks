@@ -1,5 +1,6 @@
 type: radio
 question: Are they violent or dangerous?
+hint: For example, is there any relevant history of violence, actual or threatened
 description: Violent or dangerous
 options:
   -
