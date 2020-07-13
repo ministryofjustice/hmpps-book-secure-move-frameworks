@@ -1,0 +1,14 @@
+type: radio
+question: Do they have any physical or mental health issues?
+description: Health issues
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person has any physical or mental health needs that might affect them

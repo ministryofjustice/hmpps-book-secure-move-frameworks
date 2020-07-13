@@ -1,17 +1,24 @@
 name: Health information
 steps:
   -
-    name: Physical health issues
-    slug: physical-health-issues
+    name: Health concerns
+    slug: health-concerns
+    next_step:
+      -
+        question: health-issues
+        value: 'Yes'
+        next_step: physical-and-mental-health-needs
+      - medical-care
     questions:
-      - health-affecting-transport
+      - health-issues
       - wheelchair-user
       - pregnant
   -
-    name: Mental health
-    slug: mental-health
+    name: Physical and mental health needs
+    slug: physical-and-mental-health-needs
     questions:
-      - mental-health-after-custody
+      - physical-health-needs
+      - mental-health-needs
   -
     name: Medical care
     slug: medical-care

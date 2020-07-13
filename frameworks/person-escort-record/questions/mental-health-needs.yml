@@ -1,0 +1,21 @@
+type: radio
+question: Do they have mental health needs?
+hint: For example, there is a relevant mental health or self-harm risk
+description: Mental health needs
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of any mental health needs that might affect the person
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person has mental health needs that might affect them
