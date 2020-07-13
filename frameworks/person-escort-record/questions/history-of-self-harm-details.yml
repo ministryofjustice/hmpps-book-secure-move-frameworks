@@ -4,4 +4,4 @@ description: Self-harm history details
 validations:
   -
     type: required
-    message: Enter details of recent self-harm
+    message: Enter details of self-harm history

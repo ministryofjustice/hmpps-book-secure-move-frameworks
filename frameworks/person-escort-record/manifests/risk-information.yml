@@ -39,15 +39,12 @@ steps:
       - indication-of-self-harm-or-suicide
       - observation-level
   -
-    name: Self-harm details
+    name: Self-harm information
     slug: self-harm-information
     questions:
-      - attempted-harm-in-custody
-      - referred-suicide-or-self-harm-risk
-      - believed-suicide-or-self-harm-risk
-      - self-harm-health-professional-referral
-      - self-harm-support-provided
+      - nature-of-self-harm
       - history-of-self-harm
+      - actions-of-self-harm-undertaken
   -
     name: Weapons, drugs, or concealed items
     slug: weapons-drugs-or-concealed-items

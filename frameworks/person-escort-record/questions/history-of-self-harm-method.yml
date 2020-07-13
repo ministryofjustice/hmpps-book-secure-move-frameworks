@@ -1,0 +1,21 @@
+type: checkbox
+question: What methods were used to self-harm?
+hint: Select all that apply
+description: Methods used to self-harm
+options:
+  -
+    label: Ligature
+    value: Ligature
+  -
+    label: Cutting
+    value: Cutting
+  -
+    label: Overdose
+    value: Overdose
+  -
+    label: Other methods
+    value: Other methods
+validations:
+  -
+    type: required
+    message: Select what methods were used to self-harm

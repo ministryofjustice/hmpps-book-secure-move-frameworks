@@ -1,0 +1,72 @@
+type: checkbox
+question: What is the nature of the self-harm concern?
+hint: Select all that apply
+description: Nature of self-harm
+options:
+  -
+    label: They have harmed or attempted to harm themself in custody
+    value: They have harmed or attempted to harm themself in custody
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of any harm or attempted harm in custody
+  -
+    label: They have said they will self-harm or commit suicide
+    value: They have said they will self-harm or commit suicide
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of anything the person has said about self-harm or suicide
+  -
+    label: Someone else has said they will self-harm or commit suicide
+    value: Someone else has said they will self-harm or commit suicide
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of anything someone else has said about self-harm or suicide
+  -
+    label: They have shown signs of behavioural mental disorder
+    value: They have shown signs of behavioural mental disorder
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of signs of behavioural mental disorder
+  -
+    label: They have reacted to offence, charge, conviction or sentence
+    value: They have reacted to offence, charge, conviction or sentence
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of any reactions
+  -
+    label: A risk of suicide or self-harm has been referenced in a Pre-Sentence Report
+    value: A risk of suicide or self-harm has been referenced in a Pre-Sentence Report
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of a Pre-Sentence Report
+  -
+    label: Any other concerns
+    value: Any other concerns
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of any other concerns
+validations:
+  -
+    type: required
+    message: Select the nature of the self-harm concern
