@@ -12,16 +12,20 @@ steps:
   -
     name: Hold separately
     slug: hold-separately
+    next_step:
+      -
+        question: held-separately
+        value: "Yes"
+        next_step: vulnerable-or-risk-to-others
+      - self-harm
+    questions:
+      - held-separately
+  -
+    name: Vulnerable or risk to others
+    slug: vulnerable-or-risk-to-others
     questions:
       - risk-from-other-people
-      - discriminatory-towards-others
-      - risk-to-staff
-      - risk-to-females
-      - risk-to-lesbian-gay-bisexual-people
-      - risk-to-transgender-or-transexual-people
-      - risk-to-other-races
-      - risk-to-other-religions
-      - risk-to-other-groups
+      - risk-to-other-people
   -
     name: Self-harm
     slug: self-harm

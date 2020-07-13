@@ -1,0 +1,68 @@
+type: checkbox
+question: Are they a risk to specific groups?
+hint: Select any that apply
+description: Risk to other people
+options:
+  -
+    label: Staff
+    value: Staff
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of why the person is a risk to staff
+  -
+    label: Females
+    value: Females
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of why the person is a risk to females
+  -
+    label: Lesbian, gay, or bisexual people
+    value: Lesbian, gay, or bisexual people
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of why the person is a risk to lesbian, gay, or bisexual people
+  -
+    label: Transgender or transexual people
+    value: Transgender or transexual people
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of why the person is a risk to transgender or transexual people
+  -
+    label: Other races
+    value: Other races
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of why the person is a risk to other races
+  -
+    label: Other religions
+    value: Other religions
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of why the person is a risk to other religions
+  -
+    label: Any other group
+    value: Any other group
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of why the person is a risk to any other group
