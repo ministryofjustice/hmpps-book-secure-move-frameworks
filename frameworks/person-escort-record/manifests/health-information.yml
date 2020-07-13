@@ -68,15 +68,15 @@ steps:
       - help-with-personal-tasks
       - female-hygiene-kit
   -
-    name: Any other health
-    slug: other-health-information
-    questions:
-      - other-health-information
-  -
     name: Special vehicle
-    slug: other-health-information
+    slug: special-vehicle
     questions:
       - requires-special-vehicle
+  -
+    name: Any other health concerns
+    slug: other-health-concerns
+    questions:
+      - other-health-information
   -
     name: Contact details
     slug: contact-details
