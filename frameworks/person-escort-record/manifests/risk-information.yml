@@ -65,4 +65,5 @@ steps:
     name: Any other risks
     slug: other-risks
     questions:
+      - communication-needs
       - other-risk-information

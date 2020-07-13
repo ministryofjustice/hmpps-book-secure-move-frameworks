@@ -1,0 +1,21 @@
+type: radio
+question: Do they have any communication needs?
+hint: For example, any foreign language or literacy needs, including visual or hearing impairments
+description: Communication needs
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter communication needs
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person has any communication needs
