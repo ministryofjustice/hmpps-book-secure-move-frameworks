@@ -1,4 +1,5 @@
 name: Offence details
+order: 2
 steps:
   -
     name: Release status
