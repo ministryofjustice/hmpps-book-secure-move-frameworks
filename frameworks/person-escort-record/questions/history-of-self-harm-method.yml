@@ -1,0 +1,25 @@
+type: checkbox
+question: What methods were used to self-harm?
+hint: Select all that apply
+description: Methods used to self-harm
+options:
+  -
+    label: Ligature
+    hint: For example, a cord, rope, or other material, for hanging or strangulation
+    value: Ligature
+  -
+    label: Cutting
+    value: Cutting
+  -
+    label: Overdose
+    value: Overdose
+  -
+    label: Unknown method
+    value: Unknown method
+  -
+    label: Another method
+    value: Another method
+validations:
+  -
+    type: required
+    message: Select what methods were used to self-harm

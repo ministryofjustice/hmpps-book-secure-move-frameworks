@@ -4,8 +4,8 @@ hint: For example, they may be wanted by immigration or recalled to custody
 description: Release status
 options:
   -
-    label: "Yes"
-    value: "Yes"
+    label: "Yes, this person should not be released"
+    value: "Not for release"
     followup_comment:
       label: Give details
       validations:
@@ -14,7 +14,7 @@ options:
           message: Enter details of why this person should not be released
   -
     label: "No"
-    value: "No"
+    value: "For release"
 validations:
   -
     type: required

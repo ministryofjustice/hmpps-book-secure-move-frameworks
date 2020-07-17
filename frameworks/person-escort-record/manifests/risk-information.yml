@@ -12,16 +12,20 @@ steps:
   -
     name: Hold separately
     slug: hold-separately
+    next_step:
+      -
+        question: held-separately
+        value: "Yes"
+        next_step: vulnerable-or-risk-to-others
+      - self-harm
+    questions:
+      - held-separately
+  -
+    name: Vulnerable or risk to others
+    slug: vulnerable-or-risk-to-others
     questions:
       - risk-from-other-people
-      - discriminatory-towards-others
-      - risk-to-staff
-      - risk-to-females
-      - risk-to-lesbian-gay-bisexual-people
-      - risk-to-transgender-or-transexual-people
-      - risk-to-other-races
-      - risk-to-other-religions
-      - risk-to-other-groups
+      - risk-to-other-people
   -
     name: Self-harm
     slug: self-harm
@@ -35,26 +39,31 @@ steps:
       - indication-of-self-harm-or-suicide
       - observation-level
   -
-    name: Self-harm details
+    name: Self-harm information
     slug: self-harm-information
     questions:
-      - attempted-harm-in-custody
-      - referred-suicide-or-self-harm-risk
-      - believed-suicide-or-self-harm-risk
-      - self-harm-health-professional-referral
-      - self-harm-support-provided
+      - nature-of-self-harm
       - history-of-self-harm
+      - actions-of-self-harm-undertaken
   -
     name: Weapons, drugs, or concealed items
     slug: weapons-drugs-or-concealed-items
+    next_step:
+      -
+        question: has-concealed-items
+        value: "Yes"
+        next_step: weapons-drugs-or-concealed-items-information
+      - other-risks
+    questions:
+      - has-concealed-items
+  -
+    name: Weapons, drugs, or concealed items information
+    slug: weapons-drugs-or-concealed-items-information
     questions:
       - concealed-items
-      - used-weapons-in-custody
-      - concealed-weapons-in-custody
-      - concealed-drugs-in-custody
-      - concealed-devices-in-custody
   -
     name: Any other risks
     slug: other-risks
     questions:
+      - communication-needs
       - other-risk-information

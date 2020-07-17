@@ -1,0 +1,67 @@
+type: checkbox
+question: What actions have you taken to keep this person safe?
+hint: Select all that apply
+description: Actions taken to keep person safe
+options:
+  -
+    label: Placed them in a cell with others
+    value: Placed them in a cell with others
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of any cell sharing
+  -
+    label: Had a conversation with them
+    value: Had a conversation with them
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of any conversations
+  -
+    label: Placed them on an Assessment, Care in Custody and Teamwork (ACCT) plan
+    value: Placed them on an Assessment, Care in Custody and Teamwork (ACCT) plan
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of any open Assessment, Care in Custody and Teamwork (ACCT) plans
+  -
+    label: Referred them to a medical professional to manage risk of suicide or self-harm
+    value: Referred them to a medical professional to manage risk of suicide or self-harm
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details any medical professional referrals
+  -
+    label: Provided them with any additional support
+    hint: For example, a call to family or the Samaritans
+    value: Provided them with any additional support
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of any additional support
+  -
+    label: Any other actions
+    value: Any other actions
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of any other actions
+  -
+    label: No action taken
+    value: No action taken
+validations:
+  -
+    type: required
+    message: Select actions taken to keep the person safe
