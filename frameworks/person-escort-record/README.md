@@ -27,8 +27,8 @@ Steps define a form page within a particular section. A section can be made up o
 - `slug` **(required)** - the URL section for this step
 - `questions` **(required)** - list of questions to ask on this step and in what order. Each item should match the filename of the question. See [questions documentation](#questions) for question options.
 - `type` - display different styles for a particular step. See [step types](#step-types) for support types.
-- `content_before_questions` - content to appear before the questions on this step. Supports [markdown format](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and some [additional syntax](#custom-markdown-support) for custom components.
-- `content_after_questions` - content to appear after the questions on this step. Supports [markdown format](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and some [additional syntax](#custom-markdown-support) for custom components.
+- `content_before_questions` - content to appear before the questions on this step. Supports [markdown](#markdown-support).
+- `content_after_questions` - content to appear after the questions on this step. Supports [markdown](#markdown-support).
 - `next_step` - can be used to override the following step or to [define complex step based logic](#next-steps). Value should match the `slug` property.
 
 #### Step types
@@ -39,27 +39,7 @@ The `type` options allows the use of different types of layout for a step. Not p
 
   <img width="40%" src="../../images/interruption-card.png">
 
-#### Custom markdown support
 
-- **[Inset text component](https://design-system.service.gov.uk/components/inset-text/)**
-
-  Start the text you wish to wrap with `!!! inset` and end it with `!!!`. For example:
-
-  ```markdown
-  !!! inset
-  Text to be displayed within indentation
-  !!!
-  ```
-
-- **[Warning text component](https://design-system.service.gov.uk/components/warning-text/)**
-
-  Start the text you wish to wrap with `!!! warning` and end it with `!!!`. For example:
-
-  ```markdown
-  !!! inset
-  Text to be displayed with warning symbol
-  !!!
-  ```
 
 #### Next steps
 
@@ -99,29 +79,56 @@ Question files should live in [`questions/`](./questions) and be stored in a fla
 
 - `type` **(required)** - the type of question input. Current supported types: `radio`, `checkbox`, `text`, `textarea`
 - `question` **(required)** - the full text of the question, usually including a question mark, that should be displayed in forms and summary tables.
-- `hint` - hint text to display after the question, usually for advice on how to format an answer
+- `hint` - hint text to display after the question, usually for advice on how to format an answer. Supports [markdown](#markdown-support).
 - `description` - text to display as the summary table row heading for this question. If not supplied, will use `question` value
 - `options` - for question types that require answers to be within a particular set of items. Usually for radios and checkboxes
   - `label` **(required)** - text displayed on the option label
   - `value` - value submitted to the server, defaults to value of `label`
+  - `hint` - hint text displayed after the option label, usually for advice on this option. Supports [markdown](#markdown-support).
   - `followup` - list of questions to conditionally display if this question is answered with this value. This will add this question as a dependent question dynamically to any followup questions and include them in the step where this question is defined.
   - `followup_comment` - allow for a text box input to be displayed conditionally if a specific value from a question has been selected
     - `label` **(required)** - text displayed on the text box label
-    - `hint` - hint text to display after the label, usually for advice on how to format an answer
-    - `validations` - list of [validations](#validations) that need to be applied to this text box
+    - `hint` - hint text to display after the label, usually for advice on how to format an answer. Supports [markdown](#markdown-support).
+    - `validations` - list of [validations](#question-validation) that need to be applied to this text box
       - `type` **(required)** - the validation error key
       - `message` - custom text that will be displayed in the form
   - `flags` - list of flags to conditionally display on summary pages as alerts if this question is answered with this value.
     - `type` **(required)** - the type of the flag to display. Current supported types: `information`, `attention`, `warning`, `alert`
     - `label` **(required)** - text displayed on the flag label
-- `validations` - list of [validations](#validations) that need to be applied to this question
+- `validations` - list of [validations](#question-validation) that need to be applied to this question
   - `type` **(required)** - the validation error key
   - `message` - custom text that will be displayed in the form
 
-#### Validations
+#### Question validation
 
-Validations are defined as an object and contain a validation type (`type`) and a message (`message`) to display if the response doesn't pass that validation.
+Validations are defined as an object containing a validation type (`type`) and a message (`message`) to display if the response doesn't pass that validation.
 
-Currently supported validation types:
+Supported validations:
 
-`required` - mark a question as mandatory. For radios or checkboxes it will require at least one option to be selected, for text or textarea questions it will require at least 1 character
+- `required` - mark a question as mandatory. For radios or checkboxes it will require at least one option to be selected, for text or textarea questions it will require at least 1 character
+
+## Markdown support
+
+In some places of the framework we support basic [markdown formatting](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and some [additional syntax](#custom-markdown-syntax) for custom components.
+
+### Custom markdown syntax
+
+- **[Inset text component](https://design-system.service.gov.uk/components/inset-text/)**
+
+  Start the text you wish to wrap with `!!! inset` and end it with `!!!`. For example:
+
+  ```markdown
+  !!! inset
+  Text to be displayed within indentation
+  !!!
+  ```
+
+- **[Warning text component](https://design-system.service.gov.uk/components/warning-text/)**
+
+  Start the text you wish to wrap with `!!! warning` and end it with `!!!`. For example:
+
+  ```markdown
+  !!! inset
+  Text to be displayed with warning symbol
+  !!!
+  ```
