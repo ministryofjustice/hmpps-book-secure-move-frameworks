@@ -108,9 +108,7 @@ Supported validations:
 
 ## Markdown support
 
-In some places of the framework we support basic [markdown formatting](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and some [additional syntax](#custom-markdown-syntax) for custom components.
-
-### Custom markdown syntax
+In some places of the framework we support basic [markdown formatting](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and some additional syntax for custom components:
 
 - **[Inset text component](https://design-system.service.gov.uk/components/inset-text/)**
 
