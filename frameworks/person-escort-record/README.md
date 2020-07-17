@@ -16,6 +16,7 @@ Manifest files should live in [`manifests/`](./manifests) and be stored in a fla
 
 - `name` **(required)** - name of the section. Used for the step heading caption.
 - `steps` - a list of steps for this section. See [steps documentation](#steps) for options.
+- `order` - order in which to display the sections in a summary or a task list
 
 ## Steps
 
@@ -38,8 +39,6 @@ The `type` options allows the use of different types of layout for a step. Not p
 - `interruption-card` - display the step using a blue background, instructions and a "Continue" button instead of "Save and continue". Usually used to define offline process during an online journey.
 
   <img width="40%" src="../../images/interruption-card.png">
-
-
 
 #### Next steps
 
