@@ -8,6 +8,10 @@ options:
     followup:
       - medication-while-moving-details
       - medication-carrier-while-moving
+    flags:
+      -
+        label: Medication while moving
+        type: attention
   -
     label: "No"
     value: "No"

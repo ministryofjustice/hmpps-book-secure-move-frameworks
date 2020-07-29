@@ -11,6 +11,10 @@ options:
         -
           type: required
           message: Enter details of any involvements with gangs or organised crime
+    flags:
+      -
+        label: Gang member or organised crime
+        type: alert
   -
     label: "No"
     value: "No"

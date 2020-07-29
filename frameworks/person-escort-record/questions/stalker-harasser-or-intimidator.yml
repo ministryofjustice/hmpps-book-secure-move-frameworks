@@ -14,7 +14,7 @@ options:
           message: Enter details of a stalking, harassment or intimidation
     flags:
       -
-        label: Escape risk
+        label: Stalker, harasser or intimidator
         type: alert
   -
     label: "No"

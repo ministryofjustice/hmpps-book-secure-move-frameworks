@@ -11,6 +11,10 @@ options:
         -
           type: required
           message: Enter any other information related to risk you would like to include
+    flags:
+      -
+        label: Other risks
+        type: alert
   -
     label: "No"
     value: "No"

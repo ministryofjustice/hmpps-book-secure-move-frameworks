@@ -12,6 +12,10 @@ options:
         -
           type: required
           message: Enter details of any special vehicle requirements
+    flags:
+      -
+        label: Special vehicle
+        type: warning
   -
     label: "No"
     value: "No"

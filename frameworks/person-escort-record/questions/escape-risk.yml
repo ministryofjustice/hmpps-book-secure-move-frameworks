@@ -12,6 +12,10 @@ options:
         -
           type: required
           message: Enter why the person is an escape risk
+    flags:
+      -
+        label: Escape
+        type: alert
   -
     label: "No"
     value: "No"

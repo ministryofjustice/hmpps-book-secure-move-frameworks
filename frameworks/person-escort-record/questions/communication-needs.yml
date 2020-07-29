@@ -12,6 +12,10 @@ options:
         -
           type: required
           message: Enter communication needs
+    flags:
+      -
+        label: Other risks
+        type: alert
   -
     label: "No"
     value: "No"

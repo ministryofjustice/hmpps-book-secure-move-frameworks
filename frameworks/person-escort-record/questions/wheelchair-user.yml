@@ -11,6 +11,10 @@ options:
         -
           type: required
           message: Enter details of any wheelchair use
+    flags:
+      -
+        label: Wheelchair user
+        type: attention
   -
     label: "No"
     value: "No"

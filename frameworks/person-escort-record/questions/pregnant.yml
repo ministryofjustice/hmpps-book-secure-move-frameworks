@@ -11,6 +11,10 @@ options:
         -
           type: required
           message: Enter details of pregnancy
+    flags:
+      -
+        label: Pregnant
+        type: attention
   -
     label: "No"
     value: "No"

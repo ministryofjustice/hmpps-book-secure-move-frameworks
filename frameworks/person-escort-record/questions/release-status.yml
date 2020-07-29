@@ -12,6 +12,10 @@ options:
         -
           type: required
           message: Enter details of why this person should not be released
+    flags:
+      -
+        label: Not for release
+        type: alert
   -
     label: "No"
     value: "For release"

@@ -12,6 +12,10 @@ options:
         -
           type: required
           message: Enter why the person is of high public interest
+    flags:
+      -
+        label: High public interest
+        type: alert
   -
     label: "No"
     value: "No"

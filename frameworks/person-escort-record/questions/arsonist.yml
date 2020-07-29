@@ -11,6 +11,10 @@ options:
         -
           type: required
           message: Enter details of why the person is an arsonist
+    flags:
+      -
+        label: Arsonist
+        type: alert
   -
     label: "No"
     value: "No"

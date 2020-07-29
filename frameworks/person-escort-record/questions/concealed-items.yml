@@ -12,6 +12,10 @@ options:
         -
           type: required
           message: Enter details of weapons the person has created or used
+    flags:
+      -
+        label: Created/used weapons
+        type: alert
   -
     label: Concealed weapons
     value: Concealed weapons
@@ -21,6 +25,10 @@ options:
         -
           type: required
           message: Enter details of weapons the person has concealed
+    flags:
+      -
+        label: Concealed items
+        type: alert
   -
     label: Concealed drugs
     value: Concealed drugs
@@ -30,6 +38,10 @@ options:
         -
           type: required
           message: Enter details of drugs that have been concealed
+    flags:
+      -
+        label: Concealed items
+        type: alert
   -
     label: Concealed mobiles phones or SIM cards
     value: Concealed mobiles phones or SIM cards
@@ -39,6 +51,10 @@ options:
         -
           type: required
           message: Enter details of mobile phones or SIM cards that have been concealed
+    flags:
+      -
+        label: Concealed items
+        type: alert
   -
     label: Any other items
     value: Any other items
@@ -48,6 +64,10 @@ options:
         -
           type: required
           message: Enter details of any other items that have been concealed, created or used
+    flags:
+      -
+        label: Concealed items
+        type: alert
 validations:
   -
     type: required

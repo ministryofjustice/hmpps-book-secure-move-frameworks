@@ -12,6 +12,10 @@ options:
         -
           type: required
           message: Enter why the person is at risk from other people
+    flags:
+      -
+        label: Hold separately
+        type: alert
   -
     label: "No"
     value: "No"
