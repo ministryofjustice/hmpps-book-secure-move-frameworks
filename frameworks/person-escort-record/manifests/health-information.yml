@@ -25,6 +25,7 @@ steps:
     slug: medical-care
     questions:
       - sensitive-medication
+      - medication-while-moving
       - prescribed-medication
       - medical-health-professional-referral
     next_step:

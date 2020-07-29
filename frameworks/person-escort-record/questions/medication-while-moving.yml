@@ -1,0 +1,31 @@
+type: radio
+question: Do they need to take any medication while moving?
+description: Medication while moving
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup:
+      - medication-carrier-while-moving
+    followup_comment:
+      label: Provide details of medication required while moving
+      hint: |
+        Ensure the following details are included:
+
+        - medication name
+        - directions
+        - dosage
+        - frequency
+        - time last given
+        - time next given
+      validations:
+        -
+          type: required
+          message: Enter details for medication while moving
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if they need to take any medication while moving

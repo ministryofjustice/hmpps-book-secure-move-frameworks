@@ -14,6 +14,7 @@ steps:
     questions:
       - hostage-taker
       - current-or-previous-sex-offender
+      - terrorism-offences
       - arsonist
   -
     name: Current offences
