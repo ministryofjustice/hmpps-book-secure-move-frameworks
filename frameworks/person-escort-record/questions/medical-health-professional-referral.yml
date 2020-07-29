@@ -17,4 +17,4 @@ options:
 validations:
   -
     type: required
-    message: Select yes if they have been referred to a medical professional
+    message: Select yes if the person has been referred to a medical professional

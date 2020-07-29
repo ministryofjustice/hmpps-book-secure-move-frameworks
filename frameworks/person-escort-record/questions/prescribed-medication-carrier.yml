@@ -1,0 +1,14 @@
+type: radio
+question: Who will carry the medication?
+description: Prescribed medication carrier
+options:
+  -
+    label: Escort
+    value: Escort
+  -
+    label: Person being moved
+    value: Person being moved
+validations:
+  -
+    type: required
+    message: Select who will carry medication not required while moving
