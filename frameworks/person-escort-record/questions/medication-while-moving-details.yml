@@ -1,0 +1,16 @@
+type: textarea
+question: Provide details of medication required while moving
+hint: |
+  Include the following details:
+
+  - medication name
+  - directions
+  - dosage
+  - frequency
+  - time last given
+  - time next given
+description: Medication while moving details
+validations:
+  -
+    type: required
+    message: Enter details of medication required by the person while moving

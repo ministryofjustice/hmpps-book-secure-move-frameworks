@@ -1,0 +1,16 @@
+type: textarea
+question: Provide details of medication
+hint: |
+  Include the following details:
+
+  - medication name
+  - directions
+  - dosage
+  - frequency
+  - time last given
+  - time next given
+description: Prescribed medication details
+validations:
+  -
+    type: required
+    message: Enter details of needed or prescribed medication by the person

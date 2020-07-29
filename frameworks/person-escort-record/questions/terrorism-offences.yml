@@ -12,4 +12,4 @@ options:
 validations:
   -
     type: required
-    message: Select yes if they have committed any offences connected to terrorism
+    message: Select yes if the person has committed any offences connected to terrorism

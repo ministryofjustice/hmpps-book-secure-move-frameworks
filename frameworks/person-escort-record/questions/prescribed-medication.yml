@@ -7,22 +7,8 @@ options:
     label: "Yes"
     value: "Yes"
     followup:
+      - prescribed-medication-details
       - prescribed-medication-carrier
-    followup_comment:
-      label: Provide details of medication
-      hint: |
-        Ensure the following details are included:
-
-        - medication name
-        - directions
-        - dosage
-        - frequency
-        - time last given
-        - time next given
-      validations:
-        -
-          type: required
-          message: Enter any medication they need to have been prescribed
   -
     label: "No"
     value: "No"
