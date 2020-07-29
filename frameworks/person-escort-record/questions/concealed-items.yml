@@ -14,7 +14,7 @@ options:
           message: Enter details of weapons the person has created or used
     flags:
       -
-        label: Created/used weapons
+        label: Created or used weapons
         type: alert
   -
     label: Concealed weapons

@@ -12,6 +12,10 @@ options:
         -
           type: required
           message: Enter details of any harm or attempted harm in custody
+    flags:
+      -
+        label: Self-harm
+        type: alert
   -
     label: They have said they will self-harm or commit suicide
     value: They have said they will self-harm or commit suicide
@@ -21,6 +25,10 @@ options:
         -
           type: required
           message: Enter details of anything the person has said about self-harm or suicide
+    flags:
+      -
+        label: Self-harm
+        type: alert
   -
     label: Someone else has said they will self-harm or commit suicide
     value: Someone else has said they will self-harm or commit suicide
@@ -30,6 +38,10 @@ options:
         -
           type: required
           message: Enter details of anything someone else has said about self-harm or suicide
+    flags:
+      -
+        label: Self-harm
+        type: alert
   -
     label: They have shown signs of behavioural mental disorder
     value: They have shown signs of behavioural mental disorder
@@ -39,6 +51,10 @@ options:
         -
           type: required
           message: Enter details of signs of behavioural mental disorder
+    flags:
+      -
+        label: Self-harm
+        type: alert
   -
     label: They have reacted to offence, charge, conviction or sentence
     value: They have reacted to offence, charge, conviction or sentence
@@ -48,6 +64,10 @@ options:
         -
           type: required
           message: Enter details of any reactions
+    flags:
+      -
+        label: Self-harm
+        type: alert
   -
     label: A risk of suicide or self-harm has been referenced in a Pre-Sentence Report
     value: A risk of suicide or self-harm has been referenced in a Pre-Sentence Report
@@ -57,6 +77,10 @@ options:
         -
           type: required
           message: Enter details of a Pre-Sentence Report
+    flags:
+      -
+        label: Self-harm
+        type: alert
   -
     label: Any other concerns
     value: Any other concerns
@@ -66,6 +90,10 @@ options:
         -
           type: required
           message: Enter details of any other concerns
+    flags:
+      -
+        label: Self-harm
+        type: alert
 validations:
   -
     type: required

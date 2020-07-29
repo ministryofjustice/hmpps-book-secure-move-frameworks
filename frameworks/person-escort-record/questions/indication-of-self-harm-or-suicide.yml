@@ -15,10 +15,6 @@ options:
   -
     label: "Yes"
     value: "Yes"
-    flags:
-      -
-        label: Self-harm
-        type: alert
   -
     label: "No"
     value: "No"
