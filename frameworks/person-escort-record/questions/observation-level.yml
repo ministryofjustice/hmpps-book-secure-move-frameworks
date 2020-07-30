@@ -3,17 +3,26 @@ question: What is their current observation level?
 description: Current observation level
 options:
   -
-    label: Level 1 - check at least hourly
-    value: Level 1 - check at least hourly
+    label: Check at least hourly
+    value: Check at least hourly
   -
-    label: Level 2 - wake and check at least every 30 minutes
-    value: Level 2 - wake and check at least every 30 minutes
+    label: Check at least every 30 minutes
+    value: Check at least every 30 minutes
   -
-    label: Level 3 - constant watch via CCTV
-    value: Level 3 - constant watch via CCTV
+    label: Check at least every 15 minutes
+    value: Check at least every 15 minutes
   -
-    label: Level 4 - constant physical watch
-    value: Level 4 - constant physical watch
+    label: Check at least every 10 minutes
+    value: Check at least every 10 minutes
+  -
+    label: Check at least every 5 minutes
+    value: Check at least every 5 minutes
+  -
+    label: Constant watch via CCTV
+    value: Constant watch via CCTV
+  -
+    label: Constant physical watch
+    value: Constant physical watch
 validations:
   -
     type: required

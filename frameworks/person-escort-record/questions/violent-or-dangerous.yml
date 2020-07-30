@@ -12,6 +12,10 @@ options:
         -
           type: required
           message: Enter why the person is violent or dangerous
+    flags:
+      -
+        label: Violent or dangerous
+        type: alert
   -
     label: "No"
     value: "No"

@@ -12,6 +12,10 @@ options:
         -
           type: required
           message: Enter any help with personal tasks the person may need when they leave custody
+    flags:
+      -
+        label: Social care
+        type: attention
   -
     label: "No"
     value: "No"

@@ -12,6 +12,10 @@ options:
         -
           type: required
           message: Enter any known special diet or allergies
+    flags:
+      -
+        label: Special diet or allergy
+        type: attention
   -
     label: "No"
     value: "No"

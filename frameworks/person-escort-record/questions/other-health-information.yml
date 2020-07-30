@@ -11,6 +11,10 @@ options:
         -
           type: required
           message: Enter any other information related to health you would like to include
+    flags:
+      -
+        label: Health issue
+        type: attention
   -
     label: "No"
     value: "No"

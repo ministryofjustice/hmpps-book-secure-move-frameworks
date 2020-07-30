@@ -6,6 +6,10 @@ options:
   -
     label: "Yes"
     value: "Yes"
+    flags:
+      -
+        label: Sensitive medical info
+        type: attention
   -
     label: "No"
     value: "No"

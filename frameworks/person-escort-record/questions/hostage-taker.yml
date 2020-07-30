@@ -12,6 +12,10 @@ options:
         -
           type: required
           message: Enter details of why the person is a hostage taker
+    flags:
+      -
+        label: Hostage taker
+        type: alert
   -
     label: "No"
     value: "No"

@@ -6,6 +6,10 @@ options:
   -
     label: "Yes"
     value: "Yes"
+    flags:
+      -
+        label: Hold separately
+        type: alert
   -
     label: "No"
     value: "No"

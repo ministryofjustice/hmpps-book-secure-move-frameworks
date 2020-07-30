@@ -12,6 +12,10 @@ options:
         -
           type: required
           message: Enter details of any addictions or dependencies that might affect them when they leave custody
+    flags:
+      -
+        label: Dependency
+        type: attention
   -
     label: "No"
     value: "No"

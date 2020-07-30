@@ -1,7 +1,7 @@
 type: radio
 question: Are they at risk of physical or verbal abuse from other people?
 hint: Check for any recent vulnerable or at risk alerts or intel
-description: Risk from other people
+description: Vulnerable — at risk from other people
 options:
   -
     label: "Yes"
@@ -12,6 +12,10 @@ options:
         -
           type: required
           message: Enter why the person is at risk from other people
+    flags:
+      -
+        label: Hold separately
+        type: alert
   -
     label: "No"
     value: "No"

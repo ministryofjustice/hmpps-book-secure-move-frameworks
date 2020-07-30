@@ -30,6 +30,10 @@ options:
         -
           type: required
           message: Enter details of any open Assessment, Care in Custody and Teamwork (ACCT) plans
+    flags:
+      -
+        label: Self-harm
+        type: alert
   -
     label: Referred them to a medical professional to manage risk of suicide or self-harm
     value: Referred them to a medical professional to manage risk of suicide or self-harm
@@ -38,7 +42,7 @@ options:
       validations:
         -
           type: required
-          message: Enter details any medical professional referrals
+          message: Enter details of any medical professional referrals
   -
     label: Provided them with any additional support
     hint: For example, a call to family or the Samaritans

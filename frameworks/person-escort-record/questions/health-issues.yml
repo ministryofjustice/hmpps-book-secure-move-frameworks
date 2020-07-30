@@ -5,6 +5,10 @@ options:
   -
     label: "Yes"
     value: "Yes"
+    flags:
+      -
+        label: Health issue
+        type: attention
   -
     label: "No"
     value: "No"

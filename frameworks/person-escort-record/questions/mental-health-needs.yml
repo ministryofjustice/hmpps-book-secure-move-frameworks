@@ -12,6 +12,10 @@ options:
         -
           type: required
           message: Enter details of any mental health needs that might affect the person
+    flags:
+      -
+        label: Health issue
+        type: attention
   -
     label: "No"
     value: "No"

@@ -9,6 +9,10 @@ options:
     followup:
       - prescribed-medication-details
       - prescribed-medication-carrier
+    flags:
+      -
+        label: Medication
+        type: attention
   -
     label: "No"
     value: "No"

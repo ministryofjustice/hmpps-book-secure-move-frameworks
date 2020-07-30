@@ -11,6 +11,10 @@ options:
         -
           type: required
           message: Enter any risk of alcohol withdrawal
+    flags:
+      -
+        label: Alcohol withdrawal
+        type: attention
   -
     label: "No"
     value: "No"

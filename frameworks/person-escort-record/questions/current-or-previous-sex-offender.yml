@@ -12,6 +12,10 @@ options:
         -
           type: required
           message: Enter details of any current or previous sex offences
+    flags:
+      -
+        label: Sexual offence
+        type: alert
   -
     label: "No"
     value: "No"
