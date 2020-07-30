@@ -42,7 +42,7 @@ options:
       validations:
         -
           type: required
-          message: Enter details any medical professional referrals
+          message: Enter details of any medical professional referrals
   -
     label: Provided them with any additional support
     hint: For example, a call to family or the Samaritans

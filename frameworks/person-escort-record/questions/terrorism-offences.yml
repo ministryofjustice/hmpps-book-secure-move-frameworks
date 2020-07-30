@@ -1,11 +1,17 @@
 type: radio
 question: Have they committed any current or previous offences connected to terrorism?
-description: Terrorism offences
+description: Terrorism related offences
 hint: This includes any terrorism offences, as well as any offences with a connection to terrorism
 options:
   -
     label: "Yes"
     value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of any terrorism offences
     flags:
       -
         label: Terrorism related offence

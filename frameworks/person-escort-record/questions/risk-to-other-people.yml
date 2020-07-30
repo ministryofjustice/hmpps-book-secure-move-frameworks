@@ -30,14 +30,14 @@ options:
         label: Hold separately
         type: alert
   -
-    label: Lesbian, gay, or bisexual people
-    value: Lesbian, gay, or bisexual people
+    label: Lesbian, gay or bisexual people
+    value: Lesbian, gay or bisexual people
     followup_comment:
       label: Give details
       validations:
         -
           type: required
-          message: Enter details of why the person is a risk to lesbian, gay, or bisexual people
+          message: Enter details of why the person is a risk to lesbian, gay or bisexual people
     flags:
       -
         label: Hold separately
