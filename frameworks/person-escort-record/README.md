@@ -76,10 +76,14 @@ Question files should live in [`questions/`](./questions) and be stored in a fla
 
 ### Question options
 
-- `type` **(required)** - the type of question input. Current supported types: `radio`, `checkbox`, `text`, `textarea`
+- `type` **(required)** - the type of question input. Current supported types: `radio`, `checkbox`, `text`, `textarea`, `add-another`
 - `question` **(required)** - the full text of the question, usually including a question mark, that should be displayed in forms and summary tables.
+- `list_item_name` - text to display in the "Add another ..." button and item names for questions with type `add-another`
 - `hint` - hint text to display after the question, usually for advice on how to format an answer. Supports [markdown](#markdown-support).
 - `description` - text to display as the summary table row heading for this question. If not supplied, will use `question` value
+- `display` - list of further display styles for question input
+  - `unit` - a one-character string positioned at the beginning of a textbox (currency or number entry textboxes)
+  - `width` - the width of a question input
 - `options` - for question types that require answers to be within a particular set of items. Usually for radios and checkboxes
   - `label` **(required)** - text displayed on the option label
   - `value` - value submitted to the server, defaults to value of `label`
@@ -88,6 +92,9 @@ Question files should live in [`questions/`](./questions) and be stored in a fla
   - `followup_comment` - allow for a text box input to be displayed conditionally if a specific value from a question has been selected
     - `label` **(required)** - text displayed on the text box label
     - `hint` - hint text to display after the label, usually for advice on how to format an answer. Supports [markdown](#markdown-support).
+    - `display` - list of further display styles for question input
+      - `unit` - a one-character string positioned at the beginning of a textbox (currency or number entry textboxes)
+      - `width` - the width of a question input
     - `validations` - list of [validations](#question-validation) that need to be applied to this text box
       - `type` **(required)** - the validation error key
       - `message` - custom text that will be displayed in the form
@@ -97,6 +104,7 @@ Question files should live in [`questions/`](./questions) and be stored in a fla
 - `validations` - list of [validations](#question-validation) that need to be applied to this question
   - `type` **(required)** - the validation error key
   - `message` - custom text that will be displayed in the form
+  - `value` - further data required for some [validation types](#question-validation).
 
 #### Question validation
 
@@ -105,6 +113,9 @@ Validations are defined as an object containing a validation type (`type`) and a
 Supported validations:
 
 - `required` - mark a question as mandatory. For radios or checkboxes it will require at least one option to be selected, for text or textarea questions it will require at least 1 character
+
+- `min_length` - mark the minimum length of items required for a question with a response of type list. This validation requires an extra `value` option which specifies the length as an integer. If not specified defaults to `0`.
+- `max_length` - mark the maximum length of items required for a question with a response of type list. This validation requires an extra `value` option which specifies the length as an integer. If not specified defaults to infinite.
 
 ## Markdown support
 
