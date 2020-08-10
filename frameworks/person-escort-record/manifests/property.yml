@@ -1,0 +1,8 @@
+name: Property
+order: 4
+steps:
+  -
+    name: Bags of property
+    slug: bags-of-property
+    questions:
+      - bags-of-property

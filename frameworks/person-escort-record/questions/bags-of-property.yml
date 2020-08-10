@@ -1,0 +1,7 @@
+type: multiple
+question: Do they have any property?
+description: Bags of property
+list_item_name: Bag
+item_questions:
+  - property-seal-number
+  - property-type

@@ -1,0 +1,7 @@
+type: text
+question: Type of property
+description: Property type
+validations:
+  -
+    type: required
+    message: Enter the property type
