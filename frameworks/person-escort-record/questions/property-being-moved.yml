@@ -1,0 +1,15 @@
+type: radio
+question: Do they have any property to be moved?
+hint: For example, any medication, money, valuables, documentation or other valuables.
+description: Property being moved
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person has property to be moved

@@ -1,0 +1,8 @@
+type: text
+question: Seal number
+display:
+  character_width: 20
+validations:
+  -
+    type: required
+    message: Enter the seal number

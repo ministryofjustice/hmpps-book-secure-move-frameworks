@@ -1,0 +1,47 @@
+type: checkbox
+question: What type of property is in the bag?
+hint: Select all that apply
+description: Property types
+options:
+  -
+    label: Medication
+    value: Medication
+    followup_comment:
+      label: Give details (optional)
+  -
+    label: UK currency
+    value: UK currency
+    followup_comment:
+      type: text
+      label: Total amount, in pounds
+      hint: For example, 23.99
+      display:
+        character_width: 5
+      validations:
+        -
+          type: required
+          message: Enter the total amount of UK currency
+  -
+    label: Other currency
+    value: Other currency
+    followup_comment:
+      label: Give details of currencies and amounts (optional)
+  -
+    label: Valuables
+    value: Valuables
+    followup_comment:
+      label: Give details (optional)
+  -
+    label: Documentation
+    value: Documentation
+    followup_comment:
+      label: Give details (optional)
+  -
+    label: Other property
+    value: Other property
+    followup_comment:
+      label: Give details (optional)
+validations:
+  -
+    type: required
+    message: Select the types of property
