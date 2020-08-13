@@ -1,5 +1,5 @@
 type: checkbox
-question: What actions have you taken to keep this person safe?
+question: What actions have been taken to keep this person safe?
 hint: Select all that apply
 description: Actions taken to keep person safe
 options:
@@ -68,4 +68,4 @@ options:
 validations:
   -
     type: required
-    message: Select actions taken to keep the person safe
+    message: Select actions that have been taken to keep the person safe
