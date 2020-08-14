@@ -16,6 +16,7 @@ options:
       label: Total amount, in pounds
       hint: For example, 23.99
       display:
+        unit: £
         character_width: 5
       validations:
         -

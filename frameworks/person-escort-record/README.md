@@ -85,6 +85,7 @@ Question files should live in [`questions/`](./questions) and be stored in a fla
 - `display` - list of further display styles for question input
   - `rows` - the number of rows to display for `textarea` questions
   - `character_width` - the character width of a question input. Helps to make the input the right size for the content its intended for. Supported values: `20`, `10`, `5`, `4`, `3`, `2`.
+  - `unit` - a one-character string positioned at the beginning of a textbox (currency or number entry textboxes)
 - `options` - for question types that require answers to be within a particular set of items. Usually for radios and checkboxes
   - `label` **(required)** - text displayed on the option label
   - `value` - value submitted to the server, defaults to value of `label`
@@ -96,6 +97,7 @@ Question files should live in [`questions/`](./questions) and be stored in a fla
     - `hint` - hint text to display after the label, usually for advice on how to format an answer. Supports [markdown](#markdown-support).
     - `display` - list of further display styles for question input
       - `rows` - the number of rows to display for `textarea` questions
+      - `unit` - a one-character string positioned at the beginning of a textbox (currency or number entry textboxes)
       - `character_width` - the character width of a question input. Helps to make the input the right size for the content its intended for. Supported values: `20`, `10`, `5`, `4`, `3`, `2`.
     - `validations` - list of [validations](#question-validation) that need to be applied to this text box
       - `type` **(required)** - the validation error key
