@@ -76,10 +76,15 @@ Question files should live in [`questions/`](./questions) and be stored in a fla
 
 ### Question options
 
-- `type` **(required)** - the type of question input. Current supported types: `radio`, `checkbox`, `text`, `textarea`
+- `type` **(required)** - the [type of question](#question-types) input. Current supported types: `radio`, `checkbox`, `text`, `textarea`, `add_multiple_items`
 - `question` **(required)** - the full text of the question, usually including a question mark, that should be displayed in forms and summary tables.
+- `list_item_name` - text to display in the "Add another ..." button and item names, for questions with type [`add_multiple_items`](#question-types). Should be defined as a singular noun.
+- `questions` - list of questions to display relating to a single item, for questions with type [`add_multiple_items`](#question-types)
 - `hint` - hint text to display after the question, usually for advice on how to format an answer. Supports [markdown](#markdown-support).
 - `description` - text to display as the summary table row heading for this question. If not supplied, will use `question` value
+- `display` - list of further display styles for question input
+  - `rows` - the number of rows to display for `textarea` questions
+  - `character_width` - the character width of a question input. Helps to make the input the right size for the content its intended for. Supported values: `20`, `10`, `5`, `4`, `3`, `2`.
 - `options` - for question types that require answers to be within a particular set of items. Usually for radios and checkboxes
   - `label` **(required)** - text displayed on the option label
   - `value` - value submitted to the server, defaults to value of `label`
@@ -87,7 +92,11 @@ Question files should live in [`questions/`](./questions) and be stored in a fla
   - `followup` - list of questions to conditionally display if this question is answered with this value. This will add this question as a dependent question dynamically to any followup questions and include them in the step where this question is defined.
   - `followup_comment` - allow for a text box input to be displayed conditionally if a specific value from a question has been selected
     - `label` **(required)** - text displayed on the text box label
+    - `type` - the [type of question](#question-types) input. Current supported types for followup comments: `text`, `textarea`
     - `hint` - hint text to display after the label, usually for advice on how to format an answer. Supports [markdown](#markdown-support).
+    - `display` - list of further display styles for question input
+      - `rows` - the number of rows to display for `textarea` questions
+      - `character_width` - the character width of a question input. Helps to make the input the right size for the content its intended for. Supported values: `20`, `10`, `5`, `4`, `3`, `2`.
     - `validations` - list of [validations](#question-validation) that need to be applied to this text box
       - `type` **(required)** - the validation error key
       - `message` - custom text that will be displayed in the form
@@ -98,13 +107,23 @@ Question files should live in [`questions/`](./questions) and be stored in a fla
   - `type` **(required)** - the validation error key
   - `message` - custom text that will be displayed in the form
 
+#### Question types
+
+Supported types:
+
+- `text` - renders a text form element.
+- `textarea` - renders a textarea form element.
+- `radio` - renders a radio form element. Radio items are defined under `options`.
+- `checkbox` - renders a checkbox form element. Checkbox items are defined under `options`.
+- `add_multiple_items` - allows a set of questions to be grouped and repeated within a list item. Child questions to display in each group are defined under `questions`. The noun for the item is defined under `list_item_name` in singular form.
+
 #### Question validation
 
 Validations are defined as an object containing a validation type (`type`) and a message (`message`) to display if the response doesn't pass that validation.
 
 Supported validations:
 
-- `required` - mark a question as mandatory. For radios or checkboxes it will require at least one option to be selected, for text or textarea questions it will require at least 1 character
+- `required` - mark a question as mandatory. For radios or checkboxes it will require at least one option to be selected, for text or textarea questions it will require at least 1 character, for add_multiple_items it will require at least 1 item.
 
 ## Markdown support
 
