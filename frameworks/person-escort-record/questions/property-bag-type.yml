@@ -1,7 +1,7 @@
 type: checkbox
 question: What type of property is in the bag?
 hint: Select all that apply
-description: Property types
+description: Contents
 options:
   -
     label: Medication
