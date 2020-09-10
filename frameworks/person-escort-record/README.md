@@ -85,6 +85,9 @@ Question files should live in [`questions/`](./questions) and be stored in a fla
 - `display` - list of further display styles for question input
   - `rows` - the number of rows to display for `textarea` questions
   - `character_width` - the character width of a question input. Helps to make the input the right size for the content its intended for. Supported values: `20`, `10`, `5`, `4`, `3`, `2`.
+- `nomis_mappings` - list of NOMIS codes representing NOMIS alerts, personal care needs and reasonable adjustments mapped to a question, to display on questions.
+  - `code` **(required)** - the code of the NOMIS resource
+  - `type` **(required)** - the type of NOMIS resource. Current supported types for NOMIS mappings: `alert`, `personal_care_need` and `reasonable_adjustment`
 - `options` - for question types that require answers to be within a particular set of items. Usually for radios and checkboxes
   - `label` **(required)** - text displayed on the option label
   - `value` - value submitted to the server, defaults to value of `label`
