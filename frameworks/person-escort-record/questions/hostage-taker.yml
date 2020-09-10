@@ -23,3 +23,7 @@ validations:
   -
     type: required
     message: Select yes if the person is a hostage taker
+nomis_mappings:
+  -
+    code: XHT # Hostage taker
+    type: alert

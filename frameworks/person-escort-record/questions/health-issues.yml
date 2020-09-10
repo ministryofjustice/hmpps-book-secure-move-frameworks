@@ -16,3 +16,139 @@ validations:
   -
     type: required
     message: Select yes if the person has any physical or mental health needs that might affect them
+nomis_mappings:
+  -
+    code: BECTER # End Of Custody Temporary Release
+    type: alert
+  -
+    code: HID # Hidden Disability
+    type: alert
+  -
+    code: MAS # Asthmatic
+    type: alert
+  -
+    code: MHT # Hearing Impaired
+    type: alert
+  -
+    code: MSP # Speech Impediment
+    type: alert
+  -
+    code: RHI # High - Workplace Risk Assessment
+    type: alert
+  -
+    code: RLO # Low - Workplace Risk Assessment
+    type: alert
+  -
+    code: RME # Medium - Workplace Risk Assessment
+    type: alert
+  -
+    code: TM # Medical Hold
+    type: alert
+  -
+    code: UPIU # Protective Isolation Unit
+    type: alert
+  -
+    code: URCU # Reverse Cohorting Unit
+    type: alert
+  -
+    code: URS # Refusing to shield
+    type: alert
+  -
+    code: USU # Shielding Unit
+    type: alert
+  -
+    code: XXRAY # Do Not X-Ray Body Scan
+    type: alert
+  -
+    code: MEP # Epileptic
+    type: alert
+  -
+    code: MFL # False Limbs
+    type: alert
+  -
+    code: MSI # Sight Impaired
+    type: alert
+  -
+    code: PEEP # Personal Emergency Evacuation Plan
+    type: alert
+  -
+    code: ARTH # Arthritic
+    type: personal_care_need
+  -
+    code: ASTH # Asthmatic
+    type: personal_care_need
+  -
+    code: AUTI # Autism
+    type: personal_care_need
+  -
+    code: BIP # Bi-Polar
+    type: personal_care_need
+  -
+    code: BRK # Broken Bone/s
+    type: personal_care_need
+  -
+    code: D # Dyslexia
+    type: personal_care_need
+  -
+    code: DEP # Depression
+    type: personal_care_need
+  -
+    code: DI # Diabetic
+    type: personal_care_need
+  -
+    code: EPI # Epileptic
+    type: personal_care_need
+  -
+    code: FALS # False Limbs
+    type: personal_care_need
+  -
+    code: LD # Learning Difficulties (Inc. Dyslexia)
+    type: personal_care_need
+  -
+    code: LDY # Learning Disability (Inc. Autism)
+    type: personal_care_need
+  -
+    code: MI # Mental Illness
+    type: personal_care_need
+  -
+    code: MIMP # Other Mental Impairment
+    type: personal_care_need
+  -
+    code: OD # Other Disability
+    type: personal_care_need
+  -
+    code: PC # Progressive Condition
+    type: personal_care_need
+  -
+    code: RC # Reduced Physical Capacity
+    type: personal_care_need
+  -
+    code: RM # Reduced Mobility
+    type: personal_care_need
+  -
+    code: SD # Severe Disfigurement
+    type: personal_care_need
+  -
+    code: SPR # Sprain
+    type: personal_care_need
+  -
+    code: TOT # Dental
+    type: personal_care_need
+  -
+    code: VI # Visual Impairment (Inc. Blind)
+    type: personal_care_need
+  -
+    code: AUD/VISUAL # Audio/visual aids
+    type: reasonable_adjustment
+  -
+    code: LEARN SUPP # Learning support
+    type: reasonable_adjustment
+  -
+    code: LGE PRINT # Large print
+    type: reasonable_adjustment
+  -
+    code: PEEP # Personal Emergency Evacuation Plan
+    type: reasonable_adjustment
+  -
+    code: TAC # Tactile strip
+    type: reasonable_adjustment

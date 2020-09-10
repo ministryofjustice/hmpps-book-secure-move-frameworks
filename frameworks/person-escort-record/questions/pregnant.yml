@@ -22,3 +22,16 @@ validations:
   -
     type: required
     message: Select yes if the person has said that they are pregnant
+nomis_mappings:
+  -
+    code: ACCU18 # Preg, acc over 9mths under 18mths
+    type: personal_care_need
+  -
+    code: ACCU9 # Preg, acc under 9mths
+    type: personal_care_need
+  -
+    code: AU9U18 # Preg, acc under 9mths under 18mths
+    type: personal_care_need
+  -
+    code: PREG # Pregnant Unaccompanied
+    type: personal_care_need

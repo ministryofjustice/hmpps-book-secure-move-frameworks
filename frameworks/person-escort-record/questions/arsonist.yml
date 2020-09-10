@@ -22,3 +22,7 @@ validations:
   -
     type: required
     message: Select yes if the person is an arsonist
+nomis_mappings:
+  -
+    code: XA # Arsonist
+    type: alert

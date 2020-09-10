@@ -23,3 +23,16 @@ validations:
   -
     type: required
     message: Select yes if the person will need help with personal tasks when they leave custody
+nomis_mappings:
+  -
+    code: ADSC # Adult Social Care
+    type: alert
+  -
+    code: ASC # Social Care
+    type: alert
+  -
+    code: TTG # Toileting
+    type: personal_care_need
+  -
+    code: DA # Dining Aids (Eating utensils or holders)
+    type: reasonable_adjustment

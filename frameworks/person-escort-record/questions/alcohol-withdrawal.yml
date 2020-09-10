@@ -22,3 +22,7 @@ validations:
   -
     type: required
     message: Select yes if the person is experiencing or at risk of alcohol withdrawal
+nomis_mappings:
+  -
+    code: XAB # Known Brewer of Alcohol
+    type: alert

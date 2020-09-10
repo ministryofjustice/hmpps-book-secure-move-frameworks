@@ -23,3 +23,76 @@ validations:
   -
     type: required
     message: Select yes if the person is violent or dangerous
+nomis_mappings:
+  -
+    code: OCVM # Custodial Violence Management
+    type: alert
+  -
+    code: PC1 # MAPPA Cat 1
+    type: alert
+  -
+    code: PC2 # MAPPA Cat 2
+    type: alert
+  -
+    code: PC3 # MAPPA Cat 3
+    type: alert
+  -
+    code: PL1 # MAPPA Level 1
+    type: alert
+  -
+    code: PL2 # MAPPA Level 2
+    type: alert
+  -
+    code: PL3 # MAPPA Level 3
+    type: alert
+  -
+    code: PVN # ViSOR Nominal
+    type: alert
+  -
+    code: RDV # Domestic Violence Perpetrator
+    type: alert
+  -
+    code: ROH # OASys Serious Harm-High
+    type: alert
+  -
+    code: ROM # OASys Serious Harm-Medium
+    type: alert
+  -
+    code: ROP # OASys Serious Harm-High
+    type: alert
+  -
+    code: ROV # OASys Serious Harm-Very High
+    type: alert
+  -
+    code: RPB # Risk to Public - Community
+    type: alert
+  -
+    code: RPC # Risk to Public - Custody
+    type: alert
+  -
+    code: RSS # Risk to Staff - Custody
+    type: alert
+  -
+    code: RST # Risk to Staff - Community
+    type: alert
+  -
+    code: SA # Staff Assaulter
+    type: alert
+  -
+    code: XB # Bully
+    type: alert
+  -
+    code: XSA # Staff Assaulter
+    type: alert
+  -
+    code: XSC # Serious Crime Prevention Order
+    type: alert
+  -
+    code: XTACT # Terrorism Act or Related Offence
+    type: alert
+  -
+    code: XVL # Violent
+    type: alert
+  -
+    code: CA # Considered for CAT A
+    type: alert

@@ -19,3 +19,23 @@ validations:
   -
     type: required
     message: Select yes if the person is travelling with a child
+nomis_mappings:
+  -
+    code: ACCU18 # Preg, acc over 9mths under 18mths
+    type: personal_care_need
+  -
+    code: ACCU9 # Preg, acc under 9mths
+    type: personal_care_need
+  -
+    code: AU9U18 # Preg, acc under 9mths under 18mths
+    type: personal_care_need
+  -
+    code: NO9U18 # Not Preg, acc over 9mths under 18mths
+    type: personal_care_need
+  -
+    code: NU9 # Not Preg, acc under 9mths
+    type: personal_care_need
+  -
+    code: NU9U18 # Not Preg, acc under 9mths under 18mths
+    type: personal_care_need
+
