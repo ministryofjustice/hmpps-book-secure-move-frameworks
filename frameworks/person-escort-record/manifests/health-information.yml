@@ -14,6 +14,7 @@ steps:
       - health-issues
       - wheelchair-user
       - pregnant
+      - travelling-with-child
   -
     name: Physical and mental health needs
     slug: physical-and-mental-health-needs
