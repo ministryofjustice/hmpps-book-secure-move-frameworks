@@ -7,7 +7,7 @@ options:
     label: "Yes"
     value: "Yes"
     followup_comment:
-      label: Give details
+      label: Additional details
       validations:
         -
           type: required
@@ -19,6 +19,8 @@ options:
   -
     label: "No"
     value: "No"
+    followup_comment:
+      label: Additional details (optional)
 validations:
   -
     type: required
