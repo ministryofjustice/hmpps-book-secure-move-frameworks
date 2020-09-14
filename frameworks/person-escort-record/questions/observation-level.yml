@@ -3,6 +3,9 @@ question: What is their current observation level?
 description: Current observation level
 options:
   -
+    label: Standard observation level — no additional observation required
+    value: Standard observation level — no additional observation required
+  -
     label: Check at least hourly
     value: Check at least hourly
   -
