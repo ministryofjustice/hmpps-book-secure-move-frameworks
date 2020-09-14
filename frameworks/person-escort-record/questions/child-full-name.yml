@@ -1,0 +1,6 @@
+type: text
+question: Child’s full name
+validations:
+  -
+    type: required
+    message: Enter the child’s full name

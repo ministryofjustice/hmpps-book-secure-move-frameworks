@@ -1,0 +1,21 @@
+type: radio
+question: Are they travelling with a child?
+description: Travelling with a child
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup:
+      - child-full-name
+      - child-date-of-birth
+    flags:
+      -
+        label: Accompanied by child
+        type: alert
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person is travelling with a child
