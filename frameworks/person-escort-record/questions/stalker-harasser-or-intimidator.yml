@@ -23,3 +23,16 @@ validations:
   -
     type: required
     message: Select yes if the person is a stalker, harasser or intimidator
+nomis_mappings:
+  -
+    code: RSP # Stalking Perpetrator
+    type: alert
+  -
+    code: OHA # Charged under Harassment Act
+    type: alert
+  -
+    code: OHCO # Harassment Offences/Court orders
+    type: alert
+  -
+    code: XCH # PSO4400 CH2 Harassment
+    type: alert

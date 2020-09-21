@@ -22,3 +22,10 @@ validations:
   -
     type: required
     message: Select yes if the person is a wheelchair user
+nomis_mappings:
+  -
+    code: PEEP # Personal Emergency Evacuation Plan
+    type: reasonable_adjustment
+  -
+    code: WHEELCHR_ACC # Wheelchair accessibility
+    type: reasonable_adjustment

@@ -23,3 +23,40 @@ validations:
   -
     type: required
     message: Select yes if the person should not be released
+nomis_mappings:
+  -
+    code: TAH # Allocation Hold
+    type: alert
+  -
+    code: TAP # Accredited Programme hold
+    type: alert
+  -
+    code: TCPA # Do not transfer to CPA named in comments
+    type: alert
+  -
+    code: TG # Governor's Hold
+    type: alert
+  -
+    code: TM # Medical Hold
+    type: alert
+  -
+    code: TPR # Parole Review Hold
+    type: alert
+  -
+    code: TSE # Security Hold
+    type: alert
+  -
+    code: WO # Non Appearance at Court
+    type: alert
+  -
+    code: XILLENT # Illegal entrant
+    type: alert
+  -
+    code: XLDEPORT # Notified of liability for Deportation
+    type: alert
+  -
+    code: XNR # Not For Release
+    type: alert
+  -
+    code: XSDEPORT # Deportation Order served
+    type: alert

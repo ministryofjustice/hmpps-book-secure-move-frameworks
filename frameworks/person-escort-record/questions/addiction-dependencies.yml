@@ -23,3 +23,7 @@ validations:
   -
     type: required
     message: Select yes if the person has any addictions or dependencies that might affect them when they leave custody
+nomis_mappings:
+  -
+    code: OISFL # Incentivised Substance Free Living
+    type: alert
