@@ -22,6 +22,11 @@ validations:
   -
     type: required
     message: Select yes if the person has any other information related to health
+nomis_fallback_mappings:
+  -
+    type: personal_care_need
+  -
+    type: reasonable_adjustment
 nomis_mappings:
   -
     code: OISFL # Incentivised Substance Free Living

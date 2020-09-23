@@ -22,6 +22,9 @@ validations:
   -
     type: required
     message: Select yes if there is any other information related to risk you would like to include
+nomis_fallback_mappings:
+  -
+    type: alert
 nomis_mappings:
   -
     code: C1 # L1 Restriction No contact with any child
