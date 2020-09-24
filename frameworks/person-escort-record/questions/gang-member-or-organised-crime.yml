@@ -31,4 +31,4 @@ nomis_mappings:
     type: alert
   -
     code: XOCGN # Organised Crime Group Nominal
-    alert: alert
+    type: alert
