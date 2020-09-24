@@ -100,26 +100,26 @@ validations:
     message: Select the nature of the self-harm concern
 nomis_mappings:
   -
-  code: HC # Self Harm - Custody
-  type: alert
+    code: HC # Self Harm - Custody
+    type: alert
   -
-  code: HS # Self Harm - Community
-  type: alert
+    code: HS # Self Harm - Community
+    type: alert
   -
-  code: SH # Self Harm
-  type: alert
+    code: SH # Self Harm
+    type: alert
   -
-  code: HA # ACCT Open (HMPS)
-  type: alert
+    code: HA # ACCT Open (HMPS)
+    type: alert
   -
-  code: HA # ACCT Open (HMPS)
-  type: alert
+    code: HA # ACCT Open (HMPS)
+    type: alert
   -
-  code: HA1 # ACCT Post Closure (HMPS)
-  type: alert
+    code: HA1 # ACCT Post Closure (HMPS)
+    type: alert
   -
-  code: VU # Poor Coper
-  type: alert
+    code: VU # Poor Coper
+    type: alert
   -
-  code: F1 # Armed Forces Veteran
-  type: alert
+    code: F1 # Armed Forces Veteran
+    type: alert
