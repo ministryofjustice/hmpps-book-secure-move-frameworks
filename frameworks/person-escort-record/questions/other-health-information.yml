@@ -9,7 +9,7 @@ options:
       label: Give details
       validations:
         -
-          type: required
+          type: required_unless_nomis_mappings
           message: Enter any other information related to health you would like to include
     flags:
       -

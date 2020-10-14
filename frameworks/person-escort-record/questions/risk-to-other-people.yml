@@ -10,7 +10,7 @@ options:
       label: Give details
       validations:
         -
-          type: required
+          type: required_unless_nomis_mappings
           message: Enter details of why the person is a risk to staff
     flags:
       -
@@ -23,7 +23,7 @@ options:
       label: Give details
       validations:
         -
-          type: required
+          type: required_unless_nomis_mappings
           message: Enter details of why the person is a risk to females
     flags:
       -
@@ -36,7 +36,7 @@ options:
       label: Give details
       validations:
         -
-          type: required
+          type: required_unless_nomis_mappings
           message: Enter details of why the person is a risk to lesbian, gay or bisexual people
     flags:
       -
@@ -49,7 +49,7 @@ options:
       label: Give details
       validations:
         -
-          type: required
+          type: required_unless_nomis_mappings
           message: Enter details of why the person is a risk to transgender or transexual people
     flags:
       -
@@ -62,7 +62,7 @@ options:
       label: Give details
       validations:
         -
-          type: required
+          type: required_unless_nomis_mappings
           message: Enter details of why the person is a risk to other races
     flags:
       -
@@ -75,7 +75,7 @@ options:
       label: Give details
       validations:
         -
-          type: required
+          type: required_unless_nomis_mappings
           message: Enter details of why the person is a risk to other religions
     flags:
       -
@@ -88,7 +88,7 @@ options:
       label: Give details
       validations:
         -
-          type: required
+          type: required_unless_nomis_mappings
           message: Enter details of why the person is a risk to any other group
     flags:
       -

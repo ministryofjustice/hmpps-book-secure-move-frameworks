@@ -10,7 +10,7 @@ options:
       label: Give details
       validations:
         -
-          type: required
+          type: required_unless_nomis_mappings
           message: Enter details of any cell sharing
   -
     label: Had a conversation with them
@@ -19,7 +19,7 @@ options:
       label: Give details
       validations:
         -
-          type: required
+          type: required_unless_nomis_mappings
           message: Enter details of any conversations
   -
     label: Placed them on an Assessment, Care in Custody and Teamwork (ACCT) plan
@@ -28,7 +28,7 @@ options:
       label: Give details
       validations:
         -
-          type: required
+          type: required_unless_nomis_mappings
           message: Enter details of any open Assessment, Care in Custody and Teamwork (ACCT) plans
     flags:
       -
@@ -41,7 +41,7 @@ options:
       label: Give details
       validations:
         -
-          type: required
+          type: required_unless_nomis_mappings
           message: Enter details of any medical professional referrals
   -
     label: Provided them with any additional support
@@ -51,7 +51,7 @@ options:
       label: Give details
       validations:
         -
-          type: required
+          type: required_unless_nomis_mappings
           message: Enter details of any additional support
   -
     label: Any other actions
@@ -60,7 +60,7 @@ options:
       label: Give details
       validations:
         -
-          type: required
+          type: required_unless_nomis_mappings
           message: Enter details of any other actions
   -
     label: No action taken
