@@ -10,7 +10,7 @@ options:
       label: Give details
       validations:
         -
-          type: required
+          type: required_unless_nomis_mappings
           message: Enter details of any mental health needs that might affect the person
     flags:
       -

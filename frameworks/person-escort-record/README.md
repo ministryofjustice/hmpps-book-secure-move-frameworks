@@ -129,6 +129,7 @@ Validations are defined as an object containing a validation type (`type`) and a
 Supported validations:
 
 - `required` - mark a question as mandatory. For radios or checkboxes it will require at least one option to be selected, for text or textarea questions it will require at least 1 character, for add_multiple_items it will require at least 1 item.
+- `required_unless_nomis_mappings` - mark a text or textarea as mandatory, where it will require at least 1 character. If there are NOMIS mappings attached to the response, this will become optional. This validation only applies to the `followup_comment` option
 
 ## Markdown support
 

@@ -9,7 +9,7 @@ options:
       label: Give details
       validations:
         -
-          type: required
+          type: required_unless_nomis_mappings
           message: Enter details of any involvements with gangs or organised crime
     flags:
       -
