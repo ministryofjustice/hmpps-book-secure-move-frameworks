@@ -90,7 +90,7 @@ Question files should live in [`questions/`](./questions) and be stored in a fla
   - `type` **(required)** - the type of NOMIS resource. Current supported types for NOMIS mappings: `alert`, `personal_care_need` and `reasonable_adjustment`
 - `nomis_fallback_mappings` - list of NOMIS code types that will fallback to a question if they are not mapped to any other question.
   - `type` **(required)** - the type of NOMIS resource. Current supported types for NOMIS mappings: `alert`, `personal_care_need` and `reasonable_adjustment`
-- `prefill` - boolean marker to indicate if a question response should be pre-filled by a previous person escort record matching response if available. Accepted values are `true` or `false`
+- `prefill` - indicates if a question's response should be populated by the previously completed Person Escort Record. If there is no previous record or the question does not exist in the previous record the response will be left empty. Accepted values are `true` or `false`.
 - `options` - for question types that require answers to be within a particular set of items. Usually for radios and checkboxes
   - `label` **(required)** - text displayed on the option label
   - `value` - value submitted to the server, defaults to value of `label`
