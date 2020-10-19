@@ -2,6 +2,7 @@ type: checkbox
 question: What actions have been taken to keep this person safe?
 hint: Select all that apply
 description: Actions taken to keep person safe
+prefill: true
 options:
   -
     label: Placed them in a cell with others

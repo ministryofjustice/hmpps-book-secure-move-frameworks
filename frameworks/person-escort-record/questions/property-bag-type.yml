@@ -2,6 +2,7 @@ type: checkbox
 question: What type of property is in the bag?
 hint: Select all that apply
 description: Contents
+prefill: false
 options:
   -
     label: Medication

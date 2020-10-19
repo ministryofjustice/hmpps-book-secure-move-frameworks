@@ -1,6 +1,7 @@
 type: radio
 question: Are they a gang member or involved in organised crime?
 description: Gang member or involved in organised crime
+prefill: true
 options:
   -
     label: "Yes"

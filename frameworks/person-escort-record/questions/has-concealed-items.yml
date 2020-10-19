@@ -2,6 +2,7 @@ type: radio
 question: Have they concealed, created or used any restricted items in custody?
 hint: For example, weapons, drugs, mobile phones or SIM cards
 description: Concealed, created or used restricted items
+prefill: true
 options:
   -
     label: "Yes"

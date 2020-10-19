@@ -2,6 +2,7 @@ type: radio
 question: Are they a hostage taker?
 hint: Including threatened hostage situations
 description: Hostage taker
+prefill: true
 options:
   -
     label: "Yes"

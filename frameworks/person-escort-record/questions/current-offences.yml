@@ -2,6 +2,7 @@ type: textarea
 question: What offences were they charged with?
 hint: Include the offence names and any custody or occurrence reference numbers
 description: Current offences
+prefill: true
 validations:
   -
     type: required

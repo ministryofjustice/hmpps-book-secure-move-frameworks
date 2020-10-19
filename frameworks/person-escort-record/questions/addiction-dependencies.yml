@@ -2,6 +2,7 @@ type: radio
 question: Do they have any addictions or dependencies that might affect them when they leave custody?
 hint: For example, substance misuse
 description: Addictions or dependencies
+prefill: true
 options:
   -
     label: "Yes"

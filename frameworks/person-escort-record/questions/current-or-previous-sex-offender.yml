@@ -2,6 +2,7 @@ type: radio
 question: Are they a current or previous sex offender?
 hint: This doesn’t include prostitution offences, except where the charge is the procurement of others into prostitution
 description: Sex offender
+prefill: true
 options:
   -
     label: "Yes"

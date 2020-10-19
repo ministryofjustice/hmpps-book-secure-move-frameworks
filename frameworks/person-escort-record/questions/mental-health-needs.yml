@@ -2,6 +2,7 @@ type: radio
 question: Do they have mental health needs?
 hint: For example, there is a relevant mental health or self-harm risk
 description: Mental health needs
+prefill: true
 options:
   -
     label: "Yes"

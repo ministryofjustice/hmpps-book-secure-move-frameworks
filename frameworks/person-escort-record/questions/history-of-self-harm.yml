@@ -1,6 +1,7 @@
 type: radio
 question: Is there a history of self-harm?
 description: History of self-harm
+prefill: true
 options:
   -
     label: "Yes"

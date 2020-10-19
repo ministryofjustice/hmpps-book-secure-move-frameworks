@@ -2,6 +2,7 @@ type: checkbox
 question: What methods were used to self-harm?
 hint: Select all that apply
 description: Methods used to self-harm
+prefill: true
 options:
   -
     label: Ligature

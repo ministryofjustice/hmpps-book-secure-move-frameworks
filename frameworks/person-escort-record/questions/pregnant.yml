@@ -1,6 +1,7 @@
 type: radio
 question: Have they said that they are pregnant?
 description: Pregnant
+prefill: true
 options:
   -
     label: "Yes"

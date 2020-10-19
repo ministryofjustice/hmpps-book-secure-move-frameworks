@@ -1,6 +1,7 @@
 type: radio
 question: Is there any other information related to health you would like to include?
 description: Other health information
+prefill: true
 options:
   -
     label: "Yes"

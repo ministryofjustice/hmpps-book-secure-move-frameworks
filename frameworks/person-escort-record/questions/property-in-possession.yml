@@ -2,6 +2,7 @@ type: radio
 question: Are they in possession of any property?
 hint: For example, jewellery
 description: In possession of property
+prefill: false
 options:
   -
     label: "Yes"

@@ -1,6 +1,7 @@
 type: radio
 question: Do they need to take any medication while moving?
 description: Medication while moving
+prefill: true
 options:
   -
     label: "Yes"

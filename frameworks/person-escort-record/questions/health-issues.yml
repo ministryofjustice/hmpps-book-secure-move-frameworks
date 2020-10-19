@@ -1,6 +1,7 @@
 type: radio
 question: Do they have any physical or mental health issues?
 description: Health issues
+prefill: true
 options:
   -
     label: "Yes"

@@ -2,6 +2,7 @@ type: radio
 question: Is there a reason why this person might need to travel in a special vehicle?
 hint: This could be a specially-adapted prison van (for example, to accommodate wheelchairs)
 description: May require special vehicle
+prefill: true
 options:
   -
     label: "Yes"
