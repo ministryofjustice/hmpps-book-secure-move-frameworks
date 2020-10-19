@@ -1,6 +1,7 @@
 type: radio
 question: What is their current observation level?
 description: Current observation level
+prefill: false
 options:
   -
     label: Standard observation level — no additional observation required

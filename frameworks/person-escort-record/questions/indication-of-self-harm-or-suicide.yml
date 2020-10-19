@@ -1,5 +1,6 @@
 type: radio
 question: Is there any indication that they might self-harm or attempt suicide?
+prefill: true
 hint: |
   For example, the person:
 

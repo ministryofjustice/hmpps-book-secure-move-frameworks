@@ -2,6 +2,7 @@ type: checkbox
 question: Are they a risk to specific groups?
 hint: Select any that apply
 description: Risk to other people
+prefill: true
 options:
   -
     label: Staff

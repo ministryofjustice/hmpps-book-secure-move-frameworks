@@ -1,6 +1,7 @@
 type: radio
 question: Is there any property being retained?
 description: Property retained
+prefill: false
 options:
   -
     label: "Yes"

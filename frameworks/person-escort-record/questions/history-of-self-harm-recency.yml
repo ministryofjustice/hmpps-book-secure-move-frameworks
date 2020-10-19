@@ -1,6 +1,7 @@
 type: radio
 question: How recently did self-harm occur?
 description: Recency of self-harm
+prefill: false
 options:
   -
     label: Within the last month

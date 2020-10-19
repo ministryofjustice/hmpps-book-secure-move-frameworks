@@ -1,5 +1,6 @@
 type: textarea
 question: Provide details of medication required while moving
+prefill: true
 hint: |
   Include the following details:
 
