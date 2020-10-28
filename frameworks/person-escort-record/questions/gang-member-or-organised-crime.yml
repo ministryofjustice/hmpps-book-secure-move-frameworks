@@ -33,3 +33,6 @@ nomis_mappings:
   -
     code: XOCGN # Organised Crime Group Nominal
     type: alert
+  -
+    code: DOCGM # Organised Crime Group Nominal, Do not share with offender
+    type: alert
