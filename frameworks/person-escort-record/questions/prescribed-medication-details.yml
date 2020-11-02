@@ -1,6 +1,6 @@
 type: textarea
 question: Provide details of medication
-prefill: true
+prefill: false
 hint: |
   Include the following details:
 

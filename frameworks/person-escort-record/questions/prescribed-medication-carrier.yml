@@ -1,7 +1,7 @@
 type: radio
 question: Who will carry the medication?
 description: Prescribed medication carrier
-prefill: true
+prefill: false
 options:
   -
     label: Escort
