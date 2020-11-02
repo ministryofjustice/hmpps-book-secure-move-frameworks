@@ -1,6 +1,6 @@
 {
   "name": "@hmpps-book-secure-move-frameworks/1.5.1",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "YAML definitions for the frameworks used by the Book a secure move service",
   "repository": {
     "type": "git",
