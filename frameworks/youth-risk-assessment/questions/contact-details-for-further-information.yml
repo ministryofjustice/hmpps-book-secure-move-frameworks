@@ -1,0 +1,14 @@
+type: textarea
+question: Contact details for anyone who can provide more information about this person
+prefill: true
+hint: |
+  For example, up-to-date risk information or health details.
+  Include:
+  - name
+  - role
+  - contact details
+description: Contact details for further information
+validations:
+  -
+    type: required
+    message: Enter contact details

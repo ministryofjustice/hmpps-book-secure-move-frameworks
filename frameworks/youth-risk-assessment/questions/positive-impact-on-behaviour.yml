@@ -1,0 +1,22 @@
+type: radio
+question: Is there anything that positively impacts on their behaviour?
+hint: For example, topics of discussion which have a positive impact on their behaviour.
+description: Positive impact on behaviour
+prefill: true
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of any positive impacts
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person has positive impacts on their behaviour

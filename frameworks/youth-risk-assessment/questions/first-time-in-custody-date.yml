@@ -1,0 +1,10 @@
+type: text
+question: Date of their first time in custody at any establishment
+hint: For example 28/10/2019 or 28 October 2019
+prefill: true
+display:
+  character_width: 10
+validations:
+  -
+    type: required
+    message: Enter the date of the person’s first time in custody
