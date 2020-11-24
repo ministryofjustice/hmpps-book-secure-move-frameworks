@@ -37,3 +37,6 @@ nomis_mappings:
   -
     code: DA # Dining Aids (Eating utensils or holders)
     type: reasonable_adjustment
+  -
+    code: PH # Personal Hygiene
+    type: personal_care_need
