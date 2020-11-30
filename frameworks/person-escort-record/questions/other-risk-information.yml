@@ -192,3 +192,6 @@ nomis_mappings:
   -
     code: XYA # YO held as Adult
     type: alert
+  -
+    code: OURX # Unused Rx: Immediate calculation required on recall
+    type: alert
