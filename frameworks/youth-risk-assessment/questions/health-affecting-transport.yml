@@ -1,0 +1,110 @@
+type: checkbox
+question: Do they have any health issues that may affect transport?
+description: Health affecting transport
+hint: Select any that apply
+prefill: true
+options:
+  -
+    label: Special diet or allergies
+    value: Special diet or allergies
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter special diet or allergy details
+    flags:
+      -
+        label: Special diet or allergy
+        type: attention
+  -
+    label: Physical health issue
+    value: Physical health issue
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter physical health issue details
+    flags:
+      -
+        label: Health issue
+        type: attention
+  -
+    label: Mental health issue
+    value: Mental health issue
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter mental health issue details
+    flags:
+      -
+        label: Health issue
+        type: attention
+  -
+    label: Learning difficulties
+    value: Learning difficulties
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter learning difficulty details
+    flags:
+      -
+        label: Learning difficulties
+        type: attention
+  -
+    label: Medication
+    value: Medication
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter medication details
+    flags:
+      -
+        label: Medication
+        type: attention
+  -
+    label: Pregnant
+    value: Pregnant
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter pregnancy details
+    flags:
+      -
+        label: Pregnant
+        type: attention
+  -
+    label: Wheelchair user
+    value: Wheelchair user
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter wheelchair use details
+    flags:
+      -
+        label: Wheelchair user
+        type: attention
+  -
+    label: Any other requirements
+    value: Any other requirements
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of any other requirements
+    flags:
+      -
+        label: Health issue
+        type: attention

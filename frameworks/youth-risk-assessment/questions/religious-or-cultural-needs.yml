@@ -1,0 +1,26 @@
+type: radio
+question: Do they have any religious or cultural needs?
+hint: For example, they may not be eating or drinking for a length of time during specific dates.
+description: Religious or cultural needs
+prefill: true
+options:
+  -
+    label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter details of any religious or cultural needs
+    flags:
+      -
+        label: Religious or cultural needs
+        type: attention
+  -
+    label: "No"
+    value: "No"
+validations:
+  -
+    type: required
+    message: Select yes if the person has any religious or cultural needs

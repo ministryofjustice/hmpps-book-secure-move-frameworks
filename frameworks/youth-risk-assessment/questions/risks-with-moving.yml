@@ -1,0 +1,97 @@
+type: checkbox
+question: Are there any risks with moving them?
+description: Risks with moving
+hint: Select any that apply
+prefill: true
+options:
+  -
+    label: Violent and dangerous
+    value: Violent and dangerous
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter violent and dangerous details
+    flags:
+      -
+        label: Violent or dangerous
+        type: alert
+  -
+    label: Escape risk
+    value: Escape risk
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter escape risk details
+    flags:
+      -
+        label: Escape
+        type: alert
+  -
+    label: Hold separately — vulnerable from others
+    value: Hold separately — vulnerable from others
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter vulnerable from others details
+    flags:
+      -
+        label: Hold separately
+        type: alert
+  -
+    label: Hold separately — risk to others
+    value: Hold separately — risk to others
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter risk to others details
+    flags:
+      -
+        label: Hold separately
+        type: alert
+  -
+    label: Self-harm
+    value: Self-harm
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter self-harm details
+    flags:
+      -
+        label: Self-harm
+        type: alert
+  -
+    label: Concealed items
+    value: Concealed items
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter concealed item details
+    flags:
+      -
+        label: Concealed items
+        type: alert
+  -
+    label: Any other risk
+    value: Any other risk
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter any other risk details
+    flags:
+      -
+        label: Other risks
+        type: alert

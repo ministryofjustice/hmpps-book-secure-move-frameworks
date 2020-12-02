@@ -1,0 +1,9 @@
+type: textarea
+question: What offences were they charged with?
+hint: Include the offence names and any relevant reference numbers you may have (for example, custody or occurrence reference numbers).
+description: Current offences
+prefill: true
+validations:
+  -
+    type: required
+    message: Enter details of what offence the person has been charged with

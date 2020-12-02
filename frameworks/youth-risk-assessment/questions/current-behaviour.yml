@@ -1,0 +1,9 @@
+type: textarea
+question: How is this young person currently behaving in custody?
+hint: For example, how their behaviour may impact others or any behavioural needs they may have.
+description: Current behaviour
+prefill: false
+validations:
+  -
+    type: required
+    message: Enter details of the person’s current behaviour
