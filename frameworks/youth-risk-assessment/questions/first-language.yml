@@ -19,7 +19,7 @@ options:
     flags:
       -
         label: English not first language
-        type: attention
+        type: information
 validations:
   -
     type: required
