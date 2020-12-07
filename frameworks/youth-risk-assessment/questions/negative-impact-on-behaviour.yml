@@ -16,7 +16,7 @@ options:
     flags:
       -
         label: Behaviour triggers
-        type: alert
+        type: information
   -
     label: "No"
     value: "No"

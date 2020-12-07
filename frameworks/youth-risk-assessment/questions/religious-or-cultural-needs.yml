@@ -16,7 +16,7 @@ options:
     flags:
       -
         label: Religious or cultural needs
-        type: attention
+        type: information
   -
     label: "No"
     value: "No"
