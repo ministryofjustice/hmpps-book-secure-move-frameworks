@@ -1,5 +1,5 @@
 type: radio
-question: Do they need to take any medication while moving?
+question: Will the detainee need to take this medication while moving?
 description: Medication while moving
 prefill: false
 options:
@@ -7,8 +7,7 @@ options:
     label: "Yes"
     value: "Yes"
     followup:
-      - medication-while-moving-details
-      - medication-carrier-while-moving
+      - prescribed-medication-carrier
     flags:
       -
         label: Medication while moving

@@ -26,7 +26,6 @@ steps:
     slug: medical-care
     questions:
       - sensitive-medication
-      - medication-while-moving
       - prescribed-medication
       - medical-health-professional-referral
     next_step:
@@ -34,6 +33,10 @@ steps:
         question: sensitive-medication
         value: 'Yes'
         next_step: sensitive-medical-details
+      -
+        question: prescribed-medication
+        value: 'Yes'
+        next_step: medication-details
       - dependencies
   -
     name: Provide sensitive medical details
@@ -53,6 +56,11 @@ steps:
         - frequency
         - time last given
         - time next given
+  -
+    name: Provide medication details
+    slug: medication-details
+    questions:
+      - medication-details
   -
     name: Dependencies
     slug: dependencies

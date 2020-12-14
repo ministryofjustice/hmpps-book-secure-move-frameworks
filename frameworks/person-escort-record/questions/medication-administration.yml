@@ -1,0 +1,10 @@
+type: text
+question: How is it given?
+description: Administration
+prefill: true
+display:
+  character_width: 20
+validations:
+  -
+    type: required
+    message: Enter how the medication is given

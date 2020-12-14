@@ -1,5 +1,5 @@
 type: radio
-question: Do they need or have they been prescribed any other medication not required while moving?
+question: Do they need or have they been prescribed any medication?
 hint: This includes relevant regular medication that they need or already have with them, as well as anything that they may have been prescribed whilst in custody
 description: Prescribed medication
 prefill: false
@@ -7,9 +7,6 @@ options:
   -
     label: "Yes"
     value: "Yes"
-    followup:
-      - prescribed-medication-details
-      - prescribed-medication-carrier
     flags:
       -
         label: Medication
