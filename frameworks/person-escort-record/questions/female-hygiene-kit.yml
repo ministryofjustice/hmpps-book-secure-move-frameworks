@@ -6,12 +6,6 @@ options:
   -
     label: "Yes"
     value: "Yes"
-    followup_comment:
-      label: Give details
-      validations:
-        -
-          type: required
-          message: Enter female hygiene kit details
   -
     label: "No"
     value: "No"

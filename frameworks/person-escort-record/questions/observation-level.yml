@@ -27,6 +27,15 @@ options:
   -
     label: Constant physical watch
     value: Constant physical watch
+  -
+    label: Alternative observation level or times
+    value: Alternative observation level or times
+    followup_comment:
+      label: Give details
+      validations:
+        -
+          type: required
+          message: Enter alternative observation level details
 validations:
   -
     type: required

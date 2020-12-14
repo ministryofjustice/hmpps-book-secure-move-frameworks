@@ -1,6 +1,6 @@
 type: text
 question: How is it given?
-description: Administration
+description: How it is given
 prefill: true
 display:
   character_width: 20

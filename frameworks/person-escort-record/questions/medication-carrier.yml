@@ -1,6 +1,6 @@
 type: radio
 question: Who will carry the medication?
-description: Prescribed medication carrier
+description: Medication carrier
 prefill: false
 options:
   -

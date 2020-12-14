@@ -56,6 +56,12 @@ steps:
         - frequency
         - time last given
         - time next given
+    next_step:
+      -
+        question: prescribed-medication
+        value: 'Yes'
+        next_step: medication-details
+      - dependencies
   -
     name: Provide medication details
     slug: medication-details

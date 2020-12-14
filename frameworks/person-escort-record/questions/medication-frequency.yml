@@ -7,4 +7,4 @@ display:
 validations:
   -
     type: required
-    message: Enter the frequency the medication is to be taken
+    message: Enter the frequency the medication should be taken

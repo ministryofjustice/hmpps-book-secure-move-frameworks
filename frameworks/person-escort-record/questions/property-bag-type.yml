@@ -38,6 +38,11 @@ options:
     followup_comment:
       label: Give details (optional)
   -
+    label: Clothing
+    value: Clothing
+    followup_comment:
+      label: Give details (optional)
+  -
     label: Other property
     value: Other property
     followup_comment:
