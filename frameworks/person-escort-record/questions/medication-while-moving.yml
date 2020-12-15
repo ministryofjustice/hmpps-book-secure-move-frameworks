@@ -1,14 +1,11 @@
 type: radio
-question: Do they need to take any medication while moving?
+question: Will they need to take this medication while moving?
 description: Medication while moving
 prefill: false
 options:
   -
     label: "Yes"
     value: "Yes"
-    followup:
-      - medication-while-moving-details
-      - medication-carrier-while-moving
     flags:
       -
         label: Medication while moving

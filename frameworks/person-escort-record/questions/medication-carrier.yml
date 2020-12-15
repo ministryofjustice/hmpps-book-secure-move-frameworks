@@ -1,6 +1,6 @@
 type: radio
 question: Who will carry the medication?
-description: Prescribed medication carrier
+description: Medication carrier
 prefill: false
 options:
   -
@@ -9,7 +9,10 @@ options:
   -
     label: Person being moved
     value: Person being moved
+  -
+    label: Medication not with either escort or detainee
+    value: Medication not with either escort or detainee
 validations:
   -
     type: required
-    message: Select who will carry medication not required while moving
+    message: Select who will carry medication while moving

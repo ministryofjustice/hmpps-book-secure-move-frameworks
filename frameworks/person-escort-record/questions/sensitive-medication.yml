@@ -2,7 +2,7 @@ type: radio
 question: Does this person have any sensitive medical or medication information that needs to be shared with health staff at the receiving location?
 hint: This will be provided to the escort in a sealed envelope during handover
 description: Sensitive medical information
-prefill: false
+prefill: true
 options:
   -
     label: "Yes"

@@ -1,0 +1,17 @@
+type: add_multiple_items
+question: Provide Medication details
+hint: Provide information about regular medication that the detainee needs or has with them, as well as anything that has been prescribed while in custody
+list_item_name: Medication
+questions:
+  - medication-name
+  - medication-administration
+  - medication-dosage
+  - medication-frequency
+  - medication-time-last-given
+  - medication-time-next-given
+  - medication-while-moving
+  - medication-carrier
+validations:
+  -
+    type: required
+    message: Add at least one medication detail

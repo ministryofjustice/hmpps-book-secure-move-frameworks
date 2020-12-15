@@ -1,0 +1,10 @@
+type: text
+question: What time was it last given?
+description: Time last given
+prefill: false
+display:
+  character_width: 20
+validations:
+  -
+    type: required
+    message: Enter the time the medication was last given

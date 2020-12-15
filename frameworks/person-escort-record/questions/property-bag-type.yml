@@ -18,6 +18,7 @@ options:
       hint: For example, 23.99
       display:
         character_width: 5
+        prefix: £
       validations:
         -
           type: required
@@ -35,6 +36,11 @@ options:
   -
     label: Documentation
     value: Documentation
+    followup_comment:
+      label: Give details (optional)
+  -
+    label: Clothing
+    value: Clothing
     followup_comment:
       label: Give details (optional)
   -

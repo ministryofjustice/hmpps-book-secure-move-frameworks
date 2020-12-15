@@ -195,3 +195,6 @@ nomis_mappings:
   -
     code: OURX # Unused Rx: Immediate calculation required on recall
     type: alert
+  -
+    code: ORFW # Ready For Work
+    type: alert

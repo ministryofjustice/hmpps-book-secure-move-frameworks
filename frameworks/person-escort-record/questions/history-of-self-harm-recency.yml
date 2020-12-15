@@ -1,24 +1,10 @@
-type: radio
-question: How recently did self-harm occur?
-description: Recency of self-harm
-prefill: false
-options:
-  -
-    label: Within the last month
-    value: Within the last month
-  -
-    label: Within the last 6 months
-    value: Within the last 6 months
-  -
-    label: Between 6 and 12 months ago
-    value: Between 6 and 12 months ago
-  -
-    label: Between 1 and 5 years ago
-    value: Between 1 and 5 years ago
-  -
-    label: More than 5 years ago
-    value: More than 5 years ago
+type: text
+question: Date when the last incident took place
+hint: For example 28/10/2019 or 28 October 2019
+prefill: true
+display:
+  character_width: 10
 validations:
   -
     type: required
-    message: Select how recently self-harm occurred
+    message: Enter the date of the person’s last self-harm incident
