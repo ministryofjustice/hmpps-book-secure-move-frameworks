@@ -18,6 +18,7 @@ options:
       hint: For example, 23.99
       display:
         character_width: 5
+        prefix: £
       validations:
         -
           type: required

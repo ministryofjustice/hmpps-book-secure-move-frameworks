@@ -91,6 +91,8 @@ Question files should live in `questions/` and be stored in a flat structure. Fi
 - `display` - list of further display styles for question input
   - `rows` - the number of rows to display for `textarea` questions
   - `character_width` - the character width of a question input. Helps to make the input the right size for the content its intended for. Supported values: `20`, `10`, `5`, `4`, `3`, `2`.
+  - `prefix` - text or characters to be used before the field. Only applies to `text` fields.
+  - `suffix` - text or characters to be used after the field. Only applies to `text` fields.
 - `nomis_mappings` - list of NOMIS codes representing NOMIS alerts, personal care needs and reasonable adjustments mapped to a question, to display on questions.
   - `code` **(required)** - the code of the NOMIS resource
   - `type` **(required)** - the type of NOMIS resource. Current supported types for NOMIS mappings: `alert`, `personal_care_need` and `reasonable_adjustment`
@@ -109,6 +111,8 @@ Question files should live in `questions/` and be stored in a flat structure. Fi
     - `display` - list of further display styles for question input
       - `rows` - the number of rows to display for `textarea` questions
       - `character_width` - the character width of a question input. Helps to make the input the right size for the content its intended for. Supported values: `20`, `10`, `5`, `4`, `3`, `2`.
+      - `prefix` - text or characters to be used before the field. Only applies to `text` fields.
+      - `suffix` - text or characters to be used after the field. Only applies to `text` fields.
     - `validations` - list of [validations](#question-validation) that need to be applied to this text box
       - `type` **(required)** - the validation error key
       - `message` - custom text that will be displayed in the form
