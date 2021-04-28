@@ -1,6 +1,6 @@
 type: add_multiple_items
 question: Provide medication details
-hint: Provide information about any medications they have taken within the last 72 hours (including painkillers) or any regular medications they take or may need during the move or once transferred (including long-term moves and time spent at additional locations)
+hint: Provide information about any medication they have taken within the last 72 hours (including painkillers) or any regular medication they take or may need during the move or once transferred (including long-term moves and time spent at additional locations)
 list_item_name: Medication
 questions:
   - medication-name
