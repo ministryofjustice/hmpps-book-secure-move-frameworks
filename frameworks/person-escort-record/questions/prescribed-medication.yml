@@ -1,20 +1,16 @@
 type: radio
 question: Do they need or have they been prescribed any medication?
-hint: This includes relevant regular medication that they need or already have with them, as well as anything that they may have been prescribed whilst in custody
+hint: This consists of any medications they have taken within the last 72 hours (including painkillers) or any regular medications they take or may need during the move or once transferred (including long-term moves and time spent at additional locations)
 description: Prescribed medication
 prefill: true
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     flags:
-      -
-        label: Medication
+      - label: Medication
         type: attention
-  -
-    label: "No"
+  - label: "No"
     value: "No"
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person needs or has been prescribed any medication
