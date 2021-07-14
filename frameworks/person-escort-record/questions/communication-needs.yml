@@ -1,6 +1,6 @@
 type: radio
 question: Do they have any communication needs?
-hint: For example, any foreign language or literacy needs, including visual or hearing impairments
+hint: For example, any foreign language or literacy needs, including visual or hearing impairments.
 description: Communication needs
 prefill: true
 options:

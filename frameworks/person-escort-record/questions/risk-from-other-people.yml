@@ -1,6 +1,6 @@
 type: radio
 question: Are they at risk of physical or verbal abuse from other people?
-hint: Check for any recent vulnerable or at risk alerts or intel
+hint: Check for any recent vulnerable or at risk alerts or intel.
 description: Vulnerable — at risk from other people
 prefill: true
 options:

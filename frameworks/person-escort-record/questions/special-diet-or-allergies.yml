@@ -1,6 +1,6 @@
 type: radio
 question: Do they have any known special diet or allergies?
-hint: For example, dietary, medical or environmental allergies
+hint: For example, dietary, medical or environmental allergies.
 description: Special diet or allergies
 prefill: true
 options:

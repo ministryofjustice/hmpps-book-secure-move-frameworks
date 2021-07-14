@@ -1,6 +1,6 @@
 type: radio
 question: Are they an escape risk?
-hint: For example, they are on the Escape (‘E’) list or there is relevant information about escape attempts
+hint: For example, they are on the Escape (‘E’) list or there is relevant information about escape attempts.
 description: Escape risk
 prefill: true
 options:

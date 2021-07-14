@@ -1,6 +1,6 @@
 type: checkbox
 question: What actions have been taken to keep this person safe?
-hint: Select all that apply
+hint: Select all that apply.
 description: Actions taken to keep person safe
 prefill: true
 options:
@@ -46,7 +46,7 @@ options:
           message: Enter details of any medical professional referrals
   -
     label: Provided them with any additional support
-    hint: For example, a call to family or the Samaritans
+    hint: For example, a call to family or the Samaritans.
     value: Provided them with any additional support
     followup_comment:
       label: Give details

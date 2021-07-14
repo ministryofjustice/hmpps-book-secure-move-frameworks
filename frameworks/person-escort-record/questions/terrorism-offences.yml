@@ -1,7 +1,7 @@
 type: radio
 question: Have they committed any current or previous offences connected to terrorism?
 description: Terrorism related offences
-hint: This includes any terrorism offences, as well as any offences with a connection to terrorism
+hint: This includes any terrorism offences, as well as any offences with a connection to terrorism.
 prefill: true
 options:
   -

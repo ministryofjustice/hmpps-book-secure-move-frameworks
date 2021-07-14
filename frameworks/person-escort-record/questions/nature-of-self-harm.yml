@@ -1,6 +1,6 @@
 type: checkbox
 question: What is the nature of the self-harm concern?
-hint: Select all that apply
+hint: Select all that apply.
 description: Nature of self-harm
 prefill: true
 options:

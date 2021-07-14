@@ -1,6 +1,6 @@
 type: radio
 question: Should this person be held separately?
-hint: For example, they are at risk of physical or verbal abuse from others, or are discriminatory towards others, including prison, police, escort, court or medical staff
+hint: For example, they are at risk of physical or verbal abuse from others, or are discriminatory towards others, including prison, police, escort, court or medical staff.
 description: Hold separately
 prefill: true
 options:
