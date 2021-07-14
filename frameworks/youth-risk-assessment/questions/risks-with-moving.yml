@@ -1,7 +1,7 @@
 type: checkbox
 question: Are there any risks with moving them?
 description: Risks with moving
-hint: Select any that apply
+hint: Select any that apply.
 prefill: true
 options:
   -

@@ -1,12 +1,12 @@
 type: checkbox
 question: What methods were used to self-harm?
-hint: Select all that apply
+hint: Select all that apply.
 description: Methods used to self-harm
 prefill: true
 options:
   -
     label: Ligature
-    hint: For example, a cord, rope, or other material, for hanging or strangulation
+    hint: For example, a cord, rope, or other material, for hanging or strangulation.
     value: Ligature
   -
     label: Cutting

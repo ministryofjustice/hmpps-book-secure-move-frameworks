@@ -1,6 +1,6 @@
 type: text
 question: Date when the last incident took place
-hint: For example 28/10/2019 or 28 October 2019
+hint: For example 28/10/2019 or 28 October 2019.
 prefill: true
 display:
   character_width: 10

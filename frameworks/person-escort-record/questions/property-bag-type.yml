@@ -1,6 +1,6 @@
 type: checkbox
 question: What type of property is in the bag?
-hint: Select all that apply
+hint: Select all that apply.
 description: Contents
 prefill: false
 options:
@@ -15,7 +15,7 @@ options:
     followup_comment:
       type: text
       label: Total amount, in pounds
-      hint: For example, 23.99
+      hint: For example, 23.99.
       display:
         character_width: 5
         prefix: £

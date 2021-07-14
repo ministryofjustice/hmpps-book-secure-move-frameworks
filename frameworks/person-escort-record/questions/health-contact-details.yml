@@ -1,6 +1,6 @@
 type: radio
 question: Is there a contact number for someone who can provide more information about the person’s health information?
-hint: For example, a medical professional who has up-to-date health details
+hint: For example, a medical professional who has up-to-date health details.
 description: Custody contact number for health
 prefill: false
 options:

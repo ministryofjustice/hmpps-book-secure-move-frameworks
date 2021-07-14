@@ -1,7 +1,7 @@
 type: checkbox
 question: Do they have any health issues that may affect transport?
 description: Health affecting transport
-hint: Select any that apply
+hint: Select any that apply.
 prefill: true
 options:
   -

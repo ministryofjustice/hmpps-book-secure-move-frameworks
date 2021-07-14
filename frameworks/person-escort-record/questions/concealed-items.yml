@@ -1,6 +1,6 @@
 type: checkbox
 question: What restricted items have they concealed, created or used?
-hint: Select all that apply
+hint: Select all that apply.
 description: Items concealed, created or used
 prefill: true
 options:
