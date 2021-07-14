@@ -1,6 +1,7 @@
 type: textarea
 question: How is this young person currently behaving in custody?
-hint: For example, how their behaviour may impact others or any behavioural needs they may have.
+hint: For example, how their behaviour may impact others or any behavioural needs they
+  may have.
 description: Current behaviour
 prefill: true
 validations:

@@ -64,7 +64,8 @@ options:
       validations:
         -
           type: required
-          message: Enter details of any other items that have been concealed, created or used
+          message: Enter details of any other items that have been concealed, created
+            or used
     flags:
       -
         label: Concealed items

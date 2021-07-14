@@ -11,7 +11,8 @@ options:
       validations:
         -
           type: required_unless_nomis_mappings
-          message: Enter any other information related to health you would like to include
+          message: Enter any other information related to health you would like to
+            include
     flags:
       -
         label: Health issue

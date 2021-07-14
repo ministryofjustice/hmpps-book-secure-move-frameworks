@@ -22,7 +22,8 @@ options:
 validations:
   -
     type: required
-    message: Select yes if there is any indication that the person might self-harm or attempt suicide
+    message: Select yes if there is any indication that the person might self-harm or
+      attempt suicide
 nomis_mappings:
   -
     code: F1 # Armed Forces Veteran

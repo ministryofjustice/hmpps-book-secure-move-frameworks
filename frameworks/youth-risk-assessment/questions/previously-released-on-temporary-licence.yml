@@ -18,4 +18,5 @@ options:
 validations:
   -
     type: required
-    message: Select yes if the person has previously been released on temporary license or ‘mobility’
+    message: Select yes if the person has previously been released on temporary
+      license or ‘mobility’

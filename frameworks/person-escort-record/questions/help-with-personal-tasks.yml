@@ -12,7 +12,8 @@ options:
       validations:
         -
           type: required_unless_nomis_mappings
-          message: Enter any help with personal tasks the person may need when they leave custody
+          message: Enter any help with personal tasks the person may need when they
+            leave custody
     flags:
       -
         label: Social care
@@ -23,7 +24,8 @@ options:
 validations:
   -
     type: required
-    message: Select yes if the person will need help with personal tasks when they leave custody
+    message: Select yes if the person will need help with personal tasks when they
+      leave custody
 nomis_mappings:
   -
     code: ADSC # Adult Social Care

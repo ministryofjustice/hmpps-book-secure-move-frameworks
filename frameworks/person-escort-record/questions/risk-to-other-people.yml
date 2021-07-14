@@ -38,7 +38,8 @@ options:
       validations:
         -
           type: required_unless_nomis_mappings
-          message: Enter details of why the person is a risk to lesbian, gay or bisexual people
+          message: Enter details of why the person is a risk to lesbian, gay
+            or bisexual people
     flags:
       -
         label: Hold separately
@@ -51,7 +52,8 @@ options:
       validations:
         -
           type: required_unless_nomis_mappings
-          message: Enter details of why the person is a risk to transgender or transexual people
+          message: Enter details of why the person is a risk to transgender or
+            transexual people
     flags:
       -
         label: Hold separately

@@ -1,5 +1,6 @@
 type: radio
-question: Do they have any addictions or dependencies that might affect them when they leave custody?
+question: Do they have any addictions or dependencies that might affect them when they
+  leave custody?
 hint: For example, substance misuse.
 description: Addictions or dependencies
 prefill: true
@@ -12,7 +13,8 @@ options:
       validations:
         -
           type: required_unless_nomis_mappings
-          message: Enter details of any addictions or dependencies that might affect them when they leave custody
+          message: Enter details of any addictions or dependencies that might affect
+            them when they leave custody
     flags:
       -
         label: Dependency
@@ -23,7 +25,8 @@ options:
 validations:
   -
     type: required
-    message: Select yes if the person has any addictions or dependencies that might affect them when they leave custody
+    message: Select yes if the person has any addictions or dependencies that might
+      affect them when they leave custody
 nomis_mappings:
   -
     code: OISFL # Incentivised Substance Free Living

@@ -30,14 +30,17 @@ options:
       validations:
         -
           type: required_unless_nomis_mappings
-          message: Enter details of any open Assessment, Care in Custody and Teamwork (ACCT) plans
+          message: Enter details of any open Assessment, Care in Custody and Teamwork
+            (ACCT) plans
     flags:
       -
         label: Self-harm
         type: alert
   -
-    label: Referred them to a medical professional to manage risk of suicide or self-harm
-    value: Referred them to a medical professional to manage risk of suicide or self-harm
+    label: Referred them to a medical professional to manage risk of suicide or
+      self-harm
+    value: Referred them to a medical professional to manage risk of suicide or
+      self-harm
     followup_comment:
       label: Give details
       validations:

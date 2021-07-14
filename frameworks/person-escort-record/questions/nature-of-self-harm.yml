@@ -25,7 +25,8 @@ options:
       validations:
         -
           type: required_unless_nomis_mappings
-          message: Enter details of anything the person has said about self-harm or suicide
+          message: Enter details of anything the person has said about self-harm or
+            suicide
     flags:
       -
         label: Self-harm
@@ -38,7 +39,8 @@ options:
       validations:
         -
           type: required_unless_nomis_mappings
-          message: Enter details of anything someone else has said about self-harm or suicide
+          message: Enter details of anything someone else has said about self-harm or
+            suicide
     flags:
       -
         label: Self-harm

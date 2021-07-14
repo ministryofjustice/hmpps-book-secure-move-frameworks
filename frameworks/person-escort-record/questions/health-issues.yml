@@ -16,7 +16,8 @@ options:
 validations:
   -
     type: required
-    message: Select yes if the person has any physical or mental health needs that might affect them
+    message: Select yes if the person has any physical or mental health needs that
+      might affect them
 nomis_mappings:
   -
     code: BECTER # End Of Custody Temporary Release

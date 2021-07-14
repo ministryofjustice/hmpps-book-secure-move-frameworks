@@ -1,5 +1,6 @@
 type: radio
-question: Have they been referred to a medical professional, including a Liaison and Diversion professional?
+question: Have they been referred to a medical professional, including a Liaison and
+  Diversion professional?
 description: Referred to a medical professional
 prefill: true
 options:

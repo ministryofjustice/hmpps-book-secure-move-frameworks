@@ -1,6 +1,9 @@
 type: radio
 question: Do they need or have they been prescribed any medication?
-hint: This consists of any medication they have taken within the last 72 hours (including painkillers) or any regular medication they take or may need during the move or once transferred (including long-term moves and time spent at additional locations).
+hint: This consists of any medication they have taken within the last 72 hours
+  (including painkillers) or any regular medication they take or may need during the
+  move or once transferred (including long-term moves and time spent at additional
+  locations).
 description: Prescribed medication
 prefill: true
 options:

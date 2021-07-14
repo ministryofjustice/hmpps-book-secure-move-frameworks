@@ -1,6 +1,7 @@
 type: radio
 question: Do they have any religious or cultural needs?
-hint: For example, they may not be eating or drinking for a length of time during specific dates.
+hint: For example, they may not be eating or drinking for a length of time during
+  specific dates.
 description: Religious or cultural needs
 prefill: true
 options:

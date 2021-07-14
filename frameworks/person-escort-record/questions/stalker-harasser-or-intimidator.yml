@@ -1,6 +1,8 @@
 type: radio
 question: Are they a stalker, harasser or intimidator?
-hint: For example, they have a Restraining Order or a Civil Injunction against them or intel suggests that they may attempt to harass or intimidate witnesses, co-defendants or others. Staff should consider who this person can call.
+hint: For example, they have a Restraining Order or a Civil Injunction against them or
+  intel suggests that they may attempt to harass or intimidate witnesses,
+  co-defendants or others. Staff should consider who this person can call.
 description: Stalker, harasser or intimidator
 prefill: true
 options:
