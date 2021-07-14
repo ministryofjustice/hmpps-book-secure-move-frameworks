@@ -99,44 +99,44 @@ options:
         type: alert
 nomis_mappings:
   -
-    code: RSS # Risk to Staff - Custody
+    code: RSS  # Risk to Staff - Custody
     type: alert
   -
-    code: RST # Risk to Staff - Community
+    code: RST  # Risk to Staff - Community
     type: alert
   -
-    code: SA # Staff Assaulter
+    code: SA  # Staff Assaulter
     type: alert
   -
-    code: XSA # Staff Assaulter
+    code: XSA  # Staff Assaulter
     type: alert
   -
-    code: XRF # Risk to Females
+    code: XRF  # Risk to Females
     type: alert
   -
-    code: RLG # Risk to lesbian/gay/bisexual people
+    code: RLG  # Risk to lesbian/gay/bisexual people
     type: alert
   -
-    code: RTP # Risk to transgender people
+    code: RTP  # Risk to transgender people
     type: alert
   -
-    code: REG # Risk to certain ethnic groups
+    code: REG  # Risk to certain ethnic groups
     type: alert
   -
-    code: XR # Racist
+    code: XR  # Racist
     type: alert
   -
-    code: RRV # Risk to people with religious views
+    code: RRV  # Risk to people with religious views
     type: alert
   -
-    code: RDP # Risk to disabled people
+    code: RDP  # Risk to disabled people
     type: alert
   -
-    code: ROP # Risk to older people
+    code: ROP  # Risk to older people
     type: alert
   -
-    code: RYP # Risk to younger people
+    code: RYP  # Risk to younger people
     type: alert
   -
-    code: SC # Risk to Children
+    code: SC  # Risk to Children
     type: alert

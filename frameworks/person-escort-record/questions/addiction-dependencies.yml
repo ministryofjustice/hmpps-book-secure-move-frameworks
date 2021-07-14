@@ -29,5 +29,5 @@ validations:
       affect them when they leave custody
 nomis_mappings:
   -
-    code: OISFL # Incentivised Substance Free Living
+    code: OISFL  # Incentivised Substance Free Living
     type: alert

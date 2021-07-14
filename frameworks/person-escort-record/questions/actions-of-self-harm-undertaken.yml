@@ -75,5 +75,5 @@ validations:
     message: Select actions that have been taken to keep the person safe
 nomis_mappings:
   -
-    code: HA # ACCT Open (HMPS)
+    code: HA  # ACCT Open (HMPS)
     type: alert

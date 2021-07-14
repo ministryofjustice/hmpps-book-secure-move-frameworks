@@ -27,50 +27,50 @@ validations:
     message: Select yes if the person might need to travel in a special vehicle
 nomis_mappings:
   -
-    code: MEP # Epileptic
+    code: MEP  # Epileptic
     type: alert
   -
-    code: MFL # False Limbs
+    code: MFL  # False Limbs
     type: alert
   -
-    code: MSI # Sight Impaired
+    code: MSI  # Sight Impaired
     type: alert
   -
-    code: PEEP # Personal Emergency Evacuation Plan
+    code: PEEP  # Personal Emergency Evacuation Plan
     type: alert
   -
-    code: ACCU18 # Preg, acc over 9mths under 18mths
+    code: ACCU18  # Preg, acc over 9mths under 18mths
     type: personal_care_need
   -
-    code: ACCU9 # Preg, acc under 9mths
+    code: ACCU9  # Preg, acc under 9mths
     type: personal_care_need
   -
-    code: AU9U18 # Preg, acc under 9mths under 18mths
+    code: AU9U18  # Preg, acc under 9mths under 18mths
     type: personal_care_need
   -
-    code: NO9U18 # Not Preg, acc over 9mths under 18mths
+    code: NO9U18  # Not Preg, acc over 9mths under 18mths
     type: personal_care_need
   -
-    code: NU9 # Not Preg, acc under 9mths
+    code: NU9  # Not Preg, acc under 9mths
     type: personal_care_need
   -
-    code: NU9U18 # Not Preg, acc under 9mths under 18mths
+    code: NU9U18  # Not Preg, acc under 9mths under 18mths
     type: personal_care_need
   -
-    code: PREG # Pregnant Unaccompanied
+    code: PREG  # Pregnant Unaccompanied
     type: personal_care_need
   -
-    code: VI # Visual Impairment (Inc. Blind)
+    code: VI  # Visual Impairment (Inc. Blind)
     type: personal_care_need
   -
-    code: BRK # Broken Bone/s
+    code: BRK  # Broken Bone/s
     type: personal_care_need
   -
-    code: FALS # False Limbs
+    code: FALS  # False Limbs
     type: personal_care_need
   -
-    code: RC # Reduced Physical Capacity
+    code: RC  # Reduced Physical Capacity
     type: personal_care_need
   -
-    code: RM # Reduced Mobility
+    code: RM  # Reduced Mobility
     type: personal_care_need

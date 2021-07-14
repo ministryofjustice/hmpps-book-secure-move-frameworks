@@ -26,59 +26,59 @@ validations:
     message: Select yes if the person is at risk from other people
 nomis_mappings:
   -
-    code: ADSC # Adult Social Care
+    code: ADSC  # Adult Social Care
     type: alert
   -
-    code: AAR # Adult At Risk (Home Office identified)
+    code: AAR  # Adult At Risk (Home Office identified)
     type: alert
   -
-    code: AS # Social Care
+    code: AS  # Social Care
     type: alert
   -
-    code: V49P # Rule 49 - Own Protection
+    code: V49P  # Rule 49 - Own Protection
     type: alert
   -
-    code: VIP # Isolated Prisoner
+    code: VIP  # Isolated Prisoner
     type: alert
   -
-    code: VJOP # Rule 46 - Own Protection
+    code: VJOP  # Rule 46 - Own Protection
     type: alert
   -
-    code: VOP # Rule 45 - Own Protection
+    code: VOP  # Rule 45 - Own Protection
     type: alert
   -
-    code: VU # Poor Coper
+    code: VU  # Poor Coper
     type: alert
   -
-    code: CC1 # Child contact L1
+    code: CC1  # Child contact L1
     type: alert
   -
-    code: CC2 # Child contact L2
+    code: CC2  # Child contact L2
     type: alert
   -
-    code: CC3 # Child contact L3
+    code: CC3  # Child contact L3
     type: alert
   -
-    code: CC4 # Child contact L4
+    code: CC4  # Child contact L4
     type: alert
   -
-    code: CPC # PPRC
+    code: CPC  # PPRC
     type: alert
   -
-    code: CPRC # Potential PPRC
+    code: CPRC  # Potential PPRC
     type: alert
   -
-    code: CSIP # CSIP
+    code: CSIP  # CSIP
     type: alert
   -
-    code: RCC # Risk to Children - Community
+    code: RCC  # Risk to Children - Community
     type: alert
   -
-    code: RCS # Risk to Children - Custody
+    code: RCS  # Risk to Children - Custody
     type: alert
   -
-    code: V49P # Rule 49 - Own Protection
+    code: V49P  # Rule 49 - Own Protection
     type: alert
   -
-    code: VI # Victim
+    code: VI  # Victim
     type: alert

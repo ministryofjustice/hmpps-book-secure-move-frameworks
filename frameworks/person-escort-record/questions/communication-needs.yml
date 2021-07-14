@@ -27,50 +27,50 @@ validations:
     message: Select yes if the person has any communication needs
 nomis_mappings:
   -
-    code: VLES # Little English Spoken
+    code: VLES  # Little English Spoken
     type: alert
   -
-    code: MSP # Speech Impediment
+    code: MSP  # Speech Impediment
     type: alert
   -
-    code: MHT # Hearing Impaired
+    code: MHT  # Hearing Impaired
     type: alert
   -
-    code: MSP # Speech Impediment
+    code: MSP  # Speech Impediment
     type: alert
   -
-    code: HD # Hearing Impairment - not deaf
+    code: HD  # Hearing Impairment - not deaf
     type: personal_care_need
   -
-    code: HDL # Deaf - Lip Reads
+    code: HDL  # Deaf - Lip Reads
     type: personal_care_need
   -
-    code: HDS # Deaf - Uses Sign Language
+    code: HDS  # Deaf - Uses Sign Language
     type: personal_care_need
   -
-    code: SI # Speech Impediment
+    code: SI  # Speech Impediment
     type: personal_care_need
   -
-    code: A/B/M # Audio/Braille/Moon
+    code: A/B/M  # Audio/Braille/Moon
     type: reasonable_adjustment
   -
-    code: AMP TEL # Amplified telephone
+    code: AMP TEL  # Amplified telephone
     type: reasonable_adjustment
   -
-    code: AUD/VISUAL # Audio/visual aids
+    code: AUD/VISUAL  # Audio/visual aids
     type: reasonable_adjustment
   -
-    code: IND LOOP # Induction loop
+    code: IND LOOP  # Induction loop
     type: reasonable_adjustment
   -
-    code: PALAN TYP # Palan typist/note taker
+    code: PALAN TYP  # Palan typist/note taker
     type: reasonable_adjustment
   -
-    code: SGN LANG # Sign language interpreter/Lip speaker
+    code: SGN LANG  # Sign language interpreter/Lip speaker
     type: reasonable_adjustment
   -
-    code: TXT # Text phones
+    code: TXT  # Text phones
     type: reasonable_adjustment
   -
-    code: VERB CLARITY # Verbal clarity
+    code: VERB CLARITY  # Verbal clarity
     type: reasonable_adjustment

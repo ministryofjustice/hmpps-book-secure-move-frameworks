@@ -27,8 +27,8 @@ validations:
     message: Select yes if the person has committed any offences connected to terrorism
 nomis_mappings:
   -
-    code: EXAN # External Agency Nominal
+    code: EXAN  # External Agency Nominal
     type: alert
   -
-    code: XTACT # Terrorism Act or Related Offence
+    code: XTACT  # Terrorism Act or Related Offence
     type: alert

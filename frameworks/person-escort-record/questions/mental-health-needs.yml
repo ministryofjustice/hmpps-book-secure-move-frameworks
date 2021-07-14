@@ -26,38 +26,38 @@ validations:
     message: Select yes if the person has mental health needs that might affect them
 nomis_mappings:
   -
-    code: AUTI # Autism
+    code: AUTI  # Autism
     type: personal_care_need
   -
-    code: BIP # Bi-Polar
+    code: BIP  # Bi-Polar
     type: personal_care_need
   -
-    code: D # Dyslexia
+    code: D  # Dyslexia
     type: personal_care_need
   -
-    code: DEP # Depression
+    code: DEP  # Depression
     type: personal_care_need
   -
-    code: EPI # Epileptic
+    code: EPI  # Epileptic
     type: personal_care_need
   -
-    code: LD # Learning Difficulties (Inc. Dyslexia)
+    code: LD  # Learning Difficulties (Inc. Dyslexia)
     type: personal_care_need
   -
-    code: LDY # Learning Disability (Inc. Autism)
+    code: LDY  # Learning Disability (Inc. Autism)
     type: personal_care_need
   -
-    code: MI # Mental Illness
+    code: MI  # Mental Illness
     type: personal_care_need
   -
-    code: MIMP # Other Mental Impairment
+    code: MIMP  # Other Mental Impairment
     type: personal_care_need
   -
-    code: OD # Other Disability
+    code: OD  # Other Disability
     type: personal_care_need
   -
-    code: PC # Progressive Condition
+    code: PC  # Progressive Condition
     type: personal_care_need
   -
-    code: LEARN SUPP # Learning support
+    code: LEARN SUPP  # Learning support
     type: reasonable_adjustment

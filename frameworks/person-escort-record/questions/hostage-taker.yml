@@ -26,5 +26,5 @@ validations:
     message: Select yes if the person is a hostage taker
 nomis_mappings:
   -
-    code: XHT # Hostage taker
+    code: XHT  # Hostage taker
     type: alert

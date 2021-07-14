@@ -25,14 +25,14 @@ validations:
     message: Select yes if the person is in a gang member or involved in organised crime
 nomis_mappings:
   -
-    code: XEAN # External Agency Nominal
+    code: XEAN  # External Agency Nominal
     type: alert
   -
-    code: XGANG # Gang Member
+    code: XGANG  # Gang Member
     type: alert
   -
-    code: XOCGN # Organised Crime Group Nominal
+    code: XOCGN  # Organised Crime Group Nominal
     type: alert
   -
-    code: DOCGM # Organised Crime Group Nominal, Do not share with offender
+    code: DOCGM  # Organised Crime Group Nominal, Do not share with offender
     type: alert

@@ -26,14 +26,14 @@ validations:
     message: Select yes if the person is of high public interest
 nomis_mappings:
   -
-    code: HPI # High Public Interest
+    code: HPI  # High Public Interest
     type: alert
   -
-    code: XD # Development
+    code: XD  # Development
     type: alert
   -
-    code: XP # Prominent
+    code: XP  # Prominent
     type: alert
   -
-    code: XPOI # Prisoner of Interest
+    code: XPOI  # Prisoner of Interest
     type: alert

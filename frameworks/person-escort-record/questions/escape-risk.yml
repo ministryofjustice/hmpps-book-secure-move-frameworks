@@ -27,17 +27,17 @@ validations:
     message: Select yes if the person is an escape risk
 nomis_mappings:
   -
-    code: XC # Climber
+    code: XC  # Climber
     type: alert
   -
-    code: XCU # Controlled Unlock
+    code: XCU  # Controlled Unlock
     type: alert
   -
-    code: XEBM # Enhanced Behaviour Monitoring
+    code: XEBM  # Enhanced Behaviour Monitoring
     type: alert
   -
-    code: XEL # Escape List
+    code: XEL  # Escape List
     type: alert
   -
-    code: XER # Escape Risk
+    code: XER  # Escape Risk
     type: alert

@@ -29,173 +29,173 @@ nomis_fallback_mappings:
     type: alert
 nomis_mappings:
   -
-    code: C1 # L1 Restriction No contact with any child
+    code: C1  # L1 Restriction No contact with any child
     type: alert
   -
-    code: C2 # L2 Written Contact with Children only
+    code: C2  # L2 Written Contact with Children only
     type: alert
   -
-    code: C3 # L3 Monitored Contact written or phone
+    code: C3  # L3 Monitored Contact written or phone
     type: alert
   -
-    code: C4 # L4 No Restrictions (named child only)
+    code: C4  # L4 No Restrictions (named child only)
     type: alert
   -
-    code: ECA # Exempt to receive cash
+    code: ECA  # Exempt to receive cash
     type: alert
   -
-    code: ECH # Exempt to receive cheques
+    code: ECH  # Exempt to receive cheques
     type: alert
   -
-    code: EPO # Exempt to receive postal orders
+    code: EPO  # Exempt to receive postal orders
     type: alert
   -
-    code: LCE # Care Experienced
+    code: LCE  # Care Experienced
     type: alert
   -
-    code: LFC21 # Former Relevant Child (under 21)
+    code: LFC21  # Former Relevant Child (under 21)
     type: alert
   -
-    code: LFC25 # Former Relevant Child (under 25)
+    code: LFC25  # Former Relevant Child (under 25)
     type: alert
   -
-    code: LPQAA # Qualifies for Assistance and Advice
+    code: LPQAA  # Qualifies for Assistance and Advice
     type: alert
   -
-    code: OCYP # Looked after Child
+    code: OCYP  # Looked after Child
     type: alert
   -
-    code: OFNA # OMiC Female Needs Assessment
+    code: OFNA  # OMiC Female Needs Assessment
     type: alert
   -
-    code: OFR # Food Refusal
+    code: OFR  # Food Refusal
     type: alert
   -
-    code: OIOM # Integrated Offender Management Case
+    code: OIOM  # Integrated Offender Management Case
     type: alert
   -
-    code: ONCR # No-contact request
+    code: ONCR  # No-contact request
     type: alert
   -
-    code: OPPO # PPO Case
+    code: OPPO  # PPO Case
     type: alert
   -
-    code: OTBR # Remand - Held In Police Custody
+    code: OTBR  # Remand - Held In Police Custody
     type: alert
   -
-    code: OVI # Victim Inquiry
+    code: OVI  # Victim Inquiry
     type: alert
   -
-    code: P0 # MAPPA Nominal
+    code: P0  # MAPPA Nominal
     type: alert
   -
-    code: P1 # MAPPA Level 1 Case
+    code: P1  # MAPPA Level 1 Case
     type: alert
   -
-    code: P2 # MAPPA Level 2 Case
+    code: P2  # MAPPA Level 2 Case
     type: alert
   -
-    code: P3 # MAPPA Level 3 Case
+    code: P3  # MAPPA Level 3 Case
     type: alert
   -
-    code: RAIC # DBS auto-inclusion offence
+    code: RAIC  # DBS auto-inclusion offence
     type: alert
   -
-    code: RCP # Children on CP Register
+    code: RCP  # Children on CP Register
     type: alert
   -
-    code: RDBS # DBS auto-bar offence
+    code: RDBS  # DBS auto-bar offence
     type: alert
   -
-    code: RDO # Disqualified From Working with Children
+    code: RDO  # Disqualified From Working with Children
     type: alert
   -
-    code: RHI # High - Workplace Risk Assessment
+    code: RHI  # High - Workplace Risk Assessment
     type: alert
   -
-    code: RKC # Risk to Known Adult - Community
+    code: RKC  # Risk to Known Adult - Community
     type: alert
   -
-    code: RKS # Risk to Known Adult - Custody
+    code: RKS  # Risk to Known Adult - Custody
     type: alert
   -
-    code: RLO # Low - Workplace Risk Assessment
+    code: RLO  # Low - Workplace Risk Assessment
     type: alert
   -
-    code: RME # Medium - Workplace Risk Assessment
+    code: RME  # Medium - Workplace Risk Assessment
     type: alert
   -
-    code: ROTL # ROTL Suspension
+    code: ROTL  # ROTL Suspension
     type: alert
   -
-    code: RROTL # Restricted ROTL
+    code: RROTL  # Restricted ROTL
     type: alert
   -
-    code: RVR # Listed on VISOR System
+    code: RVR  # Listed on VISOR System
     type: alert
   -
-    code: SE # NATIONAL PUBLIC DISORDER (NPD)
+    code: SE  # NATIONAL PUBLIC DISORDER (NPD)
     type: alert
   -
-    code: SROTL # Standard ROTL
+    code: SROTL  # Standard ROTL
     type: alert
   -
-    code: TIERA # Tier A assigned POM
+    code: TIERA  # Tier A assigned POM
     type: alert
   -
-    code: TIERB # Tier B assigned POM
+    code: TIERB  # Tier B assigned POM
     type: alert
   -
-    code: TIERC # Tier C assigned POM
+    code: TIERC  # Tier C assigned POM
     type: alert
   -
-    code: TIERCT # Tier C transactional POM
+    code: TIERCT  # Tier C transactional POM
     type: alert
   -
-    code: TIERD # Tier D assigned POM
+    code: TIERD  # Tier D assigned POM
     type: alert
   -
-    code: TIERDT # Tier D transactional POM
+    code: TIERDT  # Tier D transactional POM
     type: alert
   -
-    code: XCA # Chemical Attacker
+    code: XCA  # Chemical Attacker
     type: alert
   -
-    code: XCC # PSO4400 CH1 Children
+    code: XCC  # PSO4400 CH1 Children
     type: alert
   -
-    code: XCCI # Cyber Capable Individual
+    code: XCCI  # Cyber Capable Individual
     type: alert
   -
-    code: XCI # Concerted Indiscipline
+    code: XCI  # Concerted Indiscipline
     type: alert
   -
-    code: XCIC # Co-Accused In Custody
+    code: XCIC  # Co-Accused In Custody
     type: alert
   -
-    code: XCO # Corruptor
+    code: XCO  # Corruptor
     type: alert
   -
-    code: XFO # Financial Order
+    code: XFO  # Financial Order
     type: alert
   -
-    code: XIT # No access to IT
+    code: XIT  # No access to IT
     type: alert
   -
-    code: XN # Nominal
+    code: XN  # Nominal
     type: alert
   -
-    code: XPHR # Previous HDC Recall
+    code: XPHR  # Previous HDC Recall
     type: alert
   -
-    code: XXRAY # Do Not X-Ray Body Scan
+    code: XXRAY  # Do Not X-Ray Body Scan
     type: alert
   -
-    code: XYA # YO held as Adult
+    code: XYA  # YO held as Adult
     type: alert
   -
-    code: OURX # Unused Rx: Immediate calculation required on recall
+    code: OURX  # Unused Rx: Immediate calculation required on recall
     type: alert
   -
-    code: ORFW # Ready For Work
+    code: ORFW  # Ready For Work
     type: alert
