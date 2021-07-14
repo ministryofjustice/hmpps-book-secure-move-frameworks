@@ -2,9 +2,10 @@ type: text
 question: How is it given?
 description: How it is given
 prefill: true
+
 display:
   character_width: 20
+
 validations:
-  -
-    type: required
+  - type: required
     message: Enter how the medication is given

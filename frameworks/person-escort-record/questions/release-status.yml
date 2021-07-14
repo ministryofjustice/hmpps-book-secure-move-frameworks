@@ -3,61 +3,47 @@ question: Is there a reason this person should not be released?
 hint: For example, they may be wanted by immigration or recalled to custody.
 description: Release status
 prefill: true
+
 options:
-  -
-    label: "Yes, this person should not be released"
+  - label: "Yes, this person should not be released"
     value: "Not for release"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required_unless_nomis_mappings
+        - type: required_unless_nomis_mappings
           message: Enter details of why this person should not be released
     flags:
-      -
-        label: Not for release
+      - label: Not for release
         type: alert
-  -
-    label: "No"
+  - label: "No"
     value: "For release"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person should not be released
+
 nomis_mappings:
-  -
-    code: TAH  # Allocation Hold
+  - code: TAH  # Allocation Hold
     type: alert
-  -
-    code: TAP  # Accredited Programme hold
+  - code: TAP  # Accredited Programme hold
     type: alert
-  -
-    code: TCPA  # Do not transfer to CPA named in comments
+  - code: TCPA  # Do not transfer to CPA named in comments
     type: alert
-  -
-    code: TG  # Governor's Hold
+  - code: TG  # Governor's Hold
     type: alert
-  -
-    code: TM  # Medical Hold
+  - code: TM  # Medical Hold
     type: alert
-  -
-    code: TPR  # Parole Review Hold
+  - code: TPR  # Parole Review Hold
     type: alert
-  -
-    code: TSE  # Security Hold
+  - code: TSE  # Security Hold
     type: alert
-  -
-    code: WO  # Non Appearance at Court
+  - code: WO  # Non Appearance at Court
     type: alert
-  -
-    code: XILLENT  # Illegal entrant
+  - code: XILLENT  # Illegal entrant
     type: alert
-  -
-    code: XLDEPORT  # Notified of liability for Deportation
+  - code: XLDEPORT  # Notified of liability for Deportation
     type: alert
-  -
-    code: XNR  # Not For Release
+  - code: XNR  # Not For Release
     type: alert
-  -
-    code: XSDEPORT  # Deportation Order served
+  - code: XSDEPORT  # Deportation Order served
     type: alert

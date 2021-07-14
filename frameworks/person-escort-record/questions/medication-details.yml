@@ -5,6 +5,7 @@ hint: Provide information about any medication they have taken within the last 7
   move or once transferred (including long-term moves and time spent at additional
   locations).
 list_item_name: Medication
+
 questions:
   - medication-name
   - medication-administration
@@ -14,6 +15,7 @@ questions:
   - medication-time-next-given
   - medication-while-moving
   - medication-carrier
+
 validations:
   - type: required
     message: Add at least one medication detail

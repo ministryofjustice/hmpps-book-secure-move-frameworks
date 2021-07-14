@@ -4,52 +4,41 @@ hint: This doesn’t include prostitution offences, except where the charge is t
   procurement of others into prostitution.
 description: Sex offender
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required_unless_nomis_mappings
+        - type: required_unless_nomis_mappings
           message: Enter details of any current or previous sex offences
     flags:
-      -
-        label: Sexual offence
+      - label: Sexual offence
         type: alert
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person is a current or previous sex offender
+
 nomis_mappings:
-  -
-    code: SC  # Risk to children
+  - code: SC  # Risk to children
     type: alert
-  -
-    code: SO  # Sexual Offence Not on Sex Offender Reg
+  - code: SO  # Sexual Offence Not on Sex Offender Reg
     type: alert
-  -
-    code: SONR  # Sex offender not required to register
+  - code: SONR  # Sex offender not required to register
     type: alert
-  -
-    code: SOR  # Registered sex offender
+  - code: SOR  # Registered sex offender
     type: alert
-  -
-    code: SR  # On Sex Offender Register
+  - code: SR  # On Sex Offender Register
     type: alert
-  -
-    code: SSHO  # RSHO or SRO
+  - code: SSHO  # RSHO or SRO
     type: alert
-  -
-    code: XCSEA  # Child Sexual Exploitation Abuse
+  - code: XCSEA  # Child Sexual Exploitation Abuse
     type: alert
-  -
-    code: XSO  # Sex Offender
+  - code: XSO  # Sex Offender
     type: alert
-  -
-    code: PVN  # ViSOR Nominal
+  - code: PVN  # ViSOR Nominal
     type: alert

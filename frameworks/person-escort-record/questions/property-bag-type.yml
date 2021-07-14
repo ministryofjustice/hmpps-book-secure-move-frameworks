@@ -3,14 +3,14 @@ question: What type of property is in the bag?
 hint: Select all that apply.
 description: Contents
 prefill: false
+
 options:
-  -
-    label: Medication
+  - label: Medication
     value: Medication
     followup_comment:
       label: Give details (optional)
-  -
-    label: UK currency
+
+  - label: UK currency
     value: UK currency
     followup_comment:
       type: text
@@ -20,35 +20,34 @@ options:
         character_width: 5
         prefix: £
       validations:
-        -
-          type: required
+        - type: required
           message: Enter the total amount of UK currency
-  -
-    label: Other currency
+
+  - label: Other currency
     value: Other currency
     followup_comment:
       label: Give details of currencies and amounts (optional)
-  -
-    label: Valuables
+
+  - label: Valuables
     value: Valuables
     followup_comment:
       label: Give details (optional)
-  -
-    label: Documentation
+
+  - label: Documentation
     value: Documentation
     followup_comment:
       label: Give details (optional)
-  -
-    label: Clothing
+
+  - label: Clothing
     value: Clothing
     followup_comment:
       label: Give details (optional)
-  -
-    label: Other property
+
+  - label: Other property
     value: Other property
     followup_comment:
       label: Give details (optional)
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select the types of property

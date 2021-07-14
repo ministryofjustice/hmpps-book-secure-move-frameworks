@@ -1,8 +1,8 @@
 name: Health information
 order: 3
+
 steps:
-  -
-    name: Health issues affecting this young person
+  - name: Health issues affecting this young person
     slug: health-issues-affecting-young-person
     questions:
       - health-affecting-transport

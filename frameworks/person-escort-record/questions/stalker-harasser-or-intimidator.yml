@@ -5,37 +5,31 @@ hint: For example, they have a Restraining Order or a Civil Injunction against t
   co-defendants or others. Staff should consider who this person can call.
 description: Stalker, harasser or intimidator
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required_unless_nomis_mappings
+        - type: required_unless_nomis_mappings
           message: Enter details of a stalking, harassment or intimidation
     flags:
-      -
-        label: Stalker, harasser or intimidator
+      - label: Stalker, harasser or intimidator
         type: alert
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person is a stalker, harasser or intimidator
+
 nomis_mappings:
-  -
-    code: RSP  # Stalking Perpetrator
+  - code: RSP  # Stalking Perpetrator
     type: alert
-  -
-    code: OHA  # Charged under Harassment Act
+  - code: OHA  # Charged under Harassment Act
     type: alert
-  -
-    code: OHCO  # Harassment Offences/Court orders
+  - code: OHCO  # Harassment Offences/Court orders
     type: alert
-  -
-    code: XCH  # PSO4400 CH2 Harassment
+  - code: XCH  # PSO4400 CH2 Harassment
     type: alert

@@ -4,7 +4,7 @@ hint: Include the offence names and any relevant reference numbers you may have 
   example, custody or occurrence reference numbers).
 description: Current offences
 prefill: true
+
 validations:
-  -
-    type: required
+  - type: required
     message: Enter details of what offence the person has been charged with

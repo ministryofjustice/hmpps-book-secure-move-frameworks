@@ -1,8 +1,8 @@
 name: Risk information
 order: 1
+
 steps:
-  -
-    name: Risks with moving this young person
+  - name: Risks with moving this young person
     slug: risks-with-moving-young-person
     questions:
       - risks-with-moving

@@ -3,24 +3,21 @@ question: Do they have any known special diet or allergies?
 hint: For example, dietary, medical or environmental allergies.
 description: Special diet or allergies
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required
+        - type: required
           message: Enter any known special diet or allergies
     flags:
-      -
-        label: Special diet or allergy
+      - label: Special diet or allergy
         type: attention
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person has any known special diet or allergies

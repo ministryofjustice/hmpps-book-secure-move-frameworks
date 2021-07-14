@@ -1,7 +1,7 @@
 type: text
 question: Child’s full name
 prefill: false
+
 validations:
-  -
-    type: required
+  - type: required
     message: Enter the child’s full name

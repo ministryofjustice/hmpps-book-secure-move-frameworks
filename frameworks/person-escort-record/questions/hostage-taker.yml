@@ -3,28 +3,25 @@ question: Are they a hostage taker?
 hint: Including threatened hostage situations.
 description: Hostage taker
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required_unless_nomis_mappings
+        - type: required_unless_nomis_mappings
           message: Enter details of why the person is a hostage taker
     flags:
-      -
-        label: Hostage taker
+      - label: Hostage taker
         type: alert
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person is a hostage taker
+
 nomis_mappings:
-  -
-    code: XHT  # Hostage taker
+  - code: XHT  # Hostage taker
     type: alert

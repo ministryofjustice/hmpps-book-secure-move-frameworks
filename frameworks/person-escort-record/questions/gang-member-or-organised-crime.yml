@@ -2,37 +2,31 @@ type: radio
 question: Are they a gang member or involved in organised crime?
 description: Gang member or involved in organised crime
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required_unless_nomis_mappings
+        - type: required_unless_nomis_mappings
           message: Enter details of any involvements with gangs or organised crime
     flags:
-      -
-        label: Gang member or organised crime
+      - label: Gang member or organised crime
         type: alert
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person is in a gang member or involved in organised crime
+
 nomis_mappings:
-  -
-    code: XEAN  # External Agency Nominal
+  - code: XEAN  # External Agency Nominal
     type: alert
-  -
-    code: XGANG  # Gang Member
+  - code: XGANG  # Gang Member
     type: alert
-  -
-    code: XOCGN  # Organised Crime Group Nominal
+  - code: XOCGN  # Organised Crime Group Nominal
     type: alert
-  -
-    code: DOCGM  # Organised Crime Group Nominal, Do not share with offender
+  - code: DOCGM  # Organised Crime Group Nominal, Do not share with offender
     type: alert

@@ -3,37 +3,31 @@ question: Are they of high public interest?
 hint: For example, if they are a public figure or involved in a high profile case.
 description: Of high public interest
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required_unless_nomis_mappings
+        - type: required_unless_nomis_mappings
           message: Enter why the person is of high public interest
     flags:
-      -
-        label: High public interest
+      - label: High public interest
         type: alert
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person is of high public interest
+
 nomis_mappings:
-  -
-    code: HPI  # High Public Interest
+  - code: HPI  # High Public Interest
     type: alert
-  -
-    code: XD  # Development
+  - code: XD  # Development
     type: alert
-  -
-    code: XP  # Prominent
+  - code: XP  # Prominent
     type: alert
-  -
-    code: XPOI  # Prisoner of Interest
+  - code: XPOI  # Prisoner of Interest
     type: alert

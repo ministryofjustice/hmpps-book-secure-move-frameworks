@@ -2,9 +2,10 @@ type: text
 question: How frequently should it be taken?
 description: Frequency
 prefill: false
+
 display:
   character_width: 20
+
 validations:
-  -
-    type: required
+  - type: required
     message: Enter the frequency the medication should be taken

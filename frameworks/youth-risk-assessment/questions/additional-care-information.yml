@@ -3,20 +3,18 @@ question: Is there any additional information that will help in caring for this 
   person?
 description: Aditional care information
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required
+        - type: required
           message: Enter details of any additional care information
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person has any additional care information

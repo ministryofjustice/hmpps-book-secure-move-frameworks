@@ -1,13 +1,13 @@
 name: Offence information
 order: 2
+
 steps:
-  -
-    name: Release status
+  - name: Release status
     slug: release-status
     questions:
       - release-status
-  -
-    name: Offence history
+
+  - name: Offence history
     slug: offence-history
     content_before_questions: |
       Check your local intelligence system and any arrest and custody records you have
@@ -17,8 +17,8 @@ steps:
       - current-or-previous-sex-offender
       - terrorism-offences
       - arsonist
-  -
-    name: Current offences
+
+  - name: Current offences
     slug: current-offences
     questions:
       - current-offences

@@ -2,28 +2,25 @@ type: radio
 question: Are they an arsonist?
 description: Arsonist
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required_unless_nomis_mappings
+        - type: required_unless_nomis_mappings
           message: Enter details of why the person is an arsonist
     flags:
-      -
-        label: Arsonist
+      - label: Arsonist
         type: alert
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person is an arsonist
+
 nomis_mappings:
-  -
-    code: XA  # Arsonist
+  - code: XA  # Arsonist
     type: alert

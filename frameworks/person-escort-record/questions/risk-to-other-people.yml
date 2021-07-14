@@ -3,140 +3,113 @@ question: Are they a risk to specific groups?
 hint: Select any that apply.
 description: Risk to other people
 prefill: true
+
 options:
-  -
-    label: Staff
+  - label: Staff
     value: Staff
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required_unless_nomis_mappings
+        - type: required_unless_nomis_mappings
           message: Enter details of why the person is a risk to staff
     flags:
-      -
-        label: Hold separately
+      - label: Hold separately
         type: alert
-  -
-    label: Females
+
+  - label: Females
     value: Females
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required_unless_nomis_mappings
+        - type: required_unless_nomis_mappings
           message: Enter details of why the person is a risk to females
     flags:
-      -
-        label: Hold separately
+      - label: Hold separately
         type: alert
-  -
-    label: Lesbian, gay or bisexual people
+
+  - label: Lesbian, gay or bisexual people
     value: Lesbian, gay or bisexual people
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required_unless_nomis_mappings
+        - type: required_unless_nomis_mappings
           message: Enter details of why the person is a risk to lesbian, gay
             or bisexual people
     flags:
-      -
-        label: Hold separately
+      - label: Hold separately
         type: alert
-  -
-    label: Transgender or transexual people
+
+  - label: Transgender or transexual people
     value: Transgender or transexual people
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required_unless_nomis_mappings
+        - type: required_unless_nomis_mappings
           message: Enter details of why the person is a risk to transgender or
             transexual people
     flags:
-      -
-        label: Hold separately
+      - label: Hold separately
         type: alert
-  -
-    label: Other races
+
+  - label: Other races
     value: Other races
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required_unless_nomis_mappings
+        - type: required_unless_nomis_mappings
           message: Enter details of why the person is a risk to other races
     flags:
-      -
-        label: Hold separately
+      - label: Hold separately
         type: alert
-  -
-    label: Other religions
+
+  - label: Other religions
     value: Other religions
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required_unless_nomis_mappings
+        - type: required_unless_nomis_mappings
           message: Enter details of why the person is a risk to other religions
     flags:
-      -
-        label: Hold separately
+      - label: Hold separately
         type: alert
-  -
-    label: Any other group
+
+  - label: Any other group
     value: Any other group
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required_unless_nomis_mappings
+        - type: required_unless_nomis_mappings
           message: Enter details of why the person is a risk to any other group
     flags:
-      -
-        label: Hold separately
+      - label: Hold separately
         type: alert
+
 nomis_mappings:
-  -
-    code: RSS  # Risk to Staff - Custody
+  - code: RSS  # Risk to Staff - Custody
     type: alert
-  -
-    code: RST  # Risk to Staff - Community
+  - code: RST  # Risk to Staff - Community
     type: alert
-  -
-    code: SA  # Staff Assaulter
+  - code: SA  # Staff Assaulter
     type: alert
-  -
-    code: XSA  # Staff Assaulter
+  - code: XSA  # Staff Assaulter
     type: alert
-  -
-    code: XRF  # Risk to Females
+  - code: XRF  # Risk to Females
     type: alert
-  -
-    code: RLG  # Risk to lesbian/gay/bisexual people
+  - code: RLG  # Risk to lesbian/gay/bisexual people
     type: alert
-  -
-    code: RTP  # Risk to transgender people
+  - code: RTP  # Risk to transgender people
     type: alert
-  -
-    code: REG  # Risk to certain ethnic groups
+  - code: REG  # Risk to certain ethnic groups
     type: alert
-  -
-    code: XR  # Racist
+  - code: XR  # Racist
     type: alert
-  -
-    code: RRV  # Risk to people with religious views
+  - code: RRV  # Risk to people with religious views
     type: alert
-  -
-    code: RDP  # Risk to disabled people
+  - code: RDP  # Risk to disabled people
     type: alert
-  -
-    code: ROP  # Risk to older people
+  - code: ROP  # Risk to older people
     type: alert
-  -
-    code: RYP  # Risk to younger people
+  - code: RYP  # Risk to younger people
     type: alert
-  -
-    code: SC  # Risk to Children
+  - code: SC  # Risk to Children
     type: alert

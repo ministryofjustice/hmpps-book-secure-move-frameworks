@@ -1,9 +1,10 @@
 type: text
 question: Seal number
 prefill: false
+
 display:
   character_width: 20
+
 validations:
-  -
-    type: required
+  - type: required
     message: Enter the seal number

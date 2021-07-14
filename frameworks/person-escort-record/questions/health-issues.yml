@@ -2,155 +2,109 @@ type: radio
 question: Do they have any physical or mental health issues?
 description: Health issues
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     flags:
-      -
-        label: Health issue
+      - label: Health issue
         type: attention
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person has any physical or mental health needs that
       might affect them
+
 nomis_mappings:
-  -
-    code: BECTER  # End Of Custody Temporary Release
+  - code: BECTER  # End Of Custody Temporary Release
     type: alert
-  -
-    code: HID  # Hidden Disability
+  - code: HID  # Hidden Disability
     type: alert
-  -
-    code: MAS  # Asthmatic
+  - code: MAS  # Asthmatic
     type: alert
-  -
-    code: MHT  # Hearing Impaired
+  - code: MHT  # Hearing Impaired
     type: alert
-  -
-    code: MSP  # Speech Impediment
+  - code: MSP  # Speech Impediment
     type: alert
-  -
-    code: RHI  # High - Workplace Risk Assessment
+  - code: RHI  # High - Workplace Risk Assessment
     type: alert
-  -
-    code: RLO  # Low - Workplace Risk Assessment
+  - code: RLO  # Low - Workplace Risk Assessment
     type: alert
-  -
-    code: RME  # Medium - Workplace Risk Assessment
+  - code: RME  # Medium - Workplace Risk Assessment
     type: alert
-  -
-    code: TM  # Medical Hold
+  - code: TM  # Medical Hold
     type: alert
-  -
-    code: UPIU  # Protective Isolation Unit
+  - code: UPIU  # Protective Isolation Unit
     type: alert
-  -
-    code: URCU  # Reverse Cohorting Unit
+  - code: URCU  # Reverse Cohorting Unit
     type: alert
-  -
-    code: URS  # Refusing to shield
+  - code: URS  # Refusing to shield
     type: alert
-  -
-    code: USU  # Shielding Unit
+  - code: USU  # Shielding Unit
     type: alert
-  -
-    code: XXRAY  # Do Not X-Ray Body Scan
+  - code: XXRAY  # Do Not X-Ray Body Scan
     type: alert
-  -
-    code: MEP  # Epileptic
+  - code: MEP  # Epileptic
     type: alert
-  -
-    code: MFL  # False Limbs
+  - code: MFL  # False Limbs
     type: alert
-  -
-    code: MSI  # Sight Impaired
+  - code: MSI  # Sight Impaired
     type: alert
-  -
-    code: PEEP  # Personal Emergency Evacuation Plan
+  - code: PEEP  # Personal Emergency Evacuation Plan
     type: alert
-  -
-    code: ARTH  # Arthritic
+  - code: ARTH  # Arthritic
     type: personal_care_need
-  -
-    code: ASTH  # Asthmatic
+  - code: ASTH  # Asthmatic
     type: personal_care_need
-  -
-    code: AUTI  # Autism
+  - code: AUTI  # Autism
     type: personal_care_need
-  -
-    code: BIP  # Bi-Polar
+  - code: BIP  # Bi-Polar
     type: personal_care_need
-  -
-    code: BRK  # Broken Bone/s
+  - code: BRK  # Broken Bone/s
     type: personal_care_need
-  -
-    code: D  # Dyslexia
+  - code: D  # Dyslexia
     type: personal_care_need
-  -
-    code: DEP  # Depression
+  - code: DEP  # Depression
     type: personal_care_need
-  -
-    code: DI  # Diabetic
+  - code: DI  # Diabetic
     type: personal_care_need
-  -
-    code: EPI  # Epileptic
+  - code: EPI  # Epileptic
     type: personal_care_need
-  -
-    code: FALS  # False Limbs
+  - code: FALS  # False Limbs
     type: personal_care_need
-  -
-    code: LD  # Learning Difficulties (Inc. Dyslexia)
+  - code: LD  # Learning Difficulties (Inc. Dyslexia)
     type: personal_care_need
-  -
-    code: LDY  # Learning Disability (Inc. Autism)
+  - code: LDY  # Learning Disability (Inc. Autism)
     type: personal_care_need
-  -
-    code: MI  # Mental Illness
+  - code: MI  # Mental Illness
     type: personal_care_need
-  -
-    code: MIMP  # Other Mental Impairment
+  - code: MIMP  # Other Mental Impairment
     type: personal_care_need
-  -
-    code: OD  # Other Disability
+  - code: OD  # Other Disability
     type: personal_care_need
-  -
-    code: PC  # Progressive Condition
+  - code: PC  # Progressive Condition
     type: personal_care_need
-  -
-    code: RC  # Reduced Physical Capacity
+  - code: RC  # Reduced Physical Capacity
     type: personal_care_need
-  -
-    code: RM  # Reduced Mobility
+  - code: RM  # Reduced Mobility
     type: personal_care_need
-  -
-    code: SD  # Severe Disfigurement
+  - code: SD  # Severe Disfigurement
     type: personal_care_need
-  -
-    code: SPR  # Sprain
+  - code: SPR  # Sprain
     type: personal_care_need
-  -
-    code: TOT  # Dental
+  - code: TOT  # Dental
     type: personal_care_need
-  -
-    code: VI  # Visual Impairment (Inc. Blind)
+  - code: VI  # Visual Impairment (Inc. Blind)
     type: personal_care_need
-  -
-    code: AUD/VISUAL  # Audio/visual aids
+  - code: AUD/VISUAL  # Audio/visual aids
     type: reasonable_adjustment
-  -
-    code: LEARN SUPP  # Learning support
+  - code: LEARN SUPP  # Learning support
     type: reasonable_adjustment
-  -
-    code: LGE PRINT  # Large print
+  - code: LGE PRINT  # Large print
     type: reasonable_adjustment
-  -
-    code: PEEP  # Personal Emergency Evacuation Plan
+  - code: PEEP  # Personal Emergency Evacuation Plan
     type: reasonable_adjustment
-  -
-    code: TAC  # Tactile strip
+  - code: TAC  # Tactile strip
     type: reasonable_adjustment

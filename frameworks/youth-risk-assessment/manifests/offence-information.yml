@@ -1,8 +1,8 @@
 name: Offence information
 order: 2
+
 steps:
-  -
-    name: Offence history
+  - name: Offence history
     slug: offence-history
     questions:
       - current-offences

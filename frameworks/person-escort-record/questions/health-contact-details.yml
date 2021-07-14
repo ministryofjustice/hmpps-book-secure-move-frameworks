@@ -4,22 +4,20 @@ question: Is there a contact number for someone who can provide more information
 hint: For example, a medical professional who has up-to-date health details.
 description: Custody contact number for health
 prefill: false
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required
+        - type: required
           message: Enter contact details for someone who can provide more information
             about the person’s health information
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if there is a contact number for someone who can provide more
       information about the person’s health information

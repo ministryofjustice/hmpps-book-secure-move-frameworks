@@ -3,20 +3,18 @@ question: Are they in possession of any property?
 hint: For example, jewellery.
 description: In possession of property
 prefill: false
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required
+        - type: required
           message: Enter details of any property in possession
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person has possession of any property

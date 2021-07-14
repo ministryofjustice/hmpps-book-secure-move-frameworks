@@ -8,7 +8,7 @@ hint: |
   - role
   - contact details
 description: Contact details for further information
+
 validations:
-  -
-    type: required
+  - type: required
     message: Enter contact details

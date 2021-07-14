@@ -2,100 +2,74 @@ type: radio
 question: Is there any other information related to health you would like to include?
 description: Other health information
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required_unless_nomis_mappings
+        - type: required_unless_nomis_mappings
           message: Enter any other information related to health you would like to
             include
     flags:
-      -
-        label: Health issue
+      - label: Health issue
         type: attention
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person has any other information related to health
+
 nomis_fallback_mappings:
-  -
-    type: personal_care_need
-  -
-    type: reasonable_adjustment
+  - type: personal_care_need
+  - type: reasonable_adjustment
+
 nomis_mappings:
-  -
-    code: OISFL  # Incentivised Substance Free Living
+  - code: OISFL  # Incentivised Substance Free Living
     type: alert
-  -
-    code: AA  # Accessing Activities
+  - code: AA  # Accessing Activities
     type: personal_care_need
-  -
-    code: AS  # Accessing Services
+  - code: AS  # Accessing Services
     type: personal_care_need
-  -
-    code: BAC  # Being Appropriately Clothed
+  - code: BAC  # Being Appropriately Clothed
     type: personal_care_need
-  -
-    code: CHS  # Maintaining Cell To Habitable Standard
+  - code: CHS  # Maintaining Cell To Habitable Standard
     type: personal_care_need
-  -
-    code: MR  # Maintaining Relationships
+  - code: MR  # Maintaining Relationships
     type: personal_care_need
-  -
-    code: ND  # No Disability
+  - code: ND  # No Disability
     type: personal_care_need
-  -
-    code: NED  # Nutrition Eating and Drinking
+  - code: NED  # Nutrition Eating and Drinking
     type: personal_care_need
-  -
-    code: NR  # No Disability Recorded
+  - code: NR  # No Disability Recorded
     type: personal_care_need
-  -
-    code: PRD  # Refused to Disclose
+  - code: PRD  # Refused to Disclose
     type: personal_care_need
-  -
-    code: RD  # Refusal to Disclose
+  - code: RD  # Refusal to Disclose
     type: personal_care_need
-  -
-    code: UPS  # Using Prison Safely
+  - code: UPS  # Using Prison Safely
     type: personal_care_need
-  -
-    code: BEH/BODY LAN  # Behavioural responses/Body language
+  - code: BEH/BODY LAN  # Behavioural responses/Body language
     type: reasonable_adjustment
-  -
-    code: C/VIS  # Colour / visibility marking
+  - code: C/VIS  # Colour / visibility marking
     type: reasonable_adjustment
-  -
-    code: CALL POINTS  # Call points
+  - code: CALL POINTS  # Call points
     type: reasonable_adjustment
-  -
-    code: COLOUR DIFF  # Colour differentiation
+  - code: COLOUR DIFF  # Colour differentiation
     type: reasonable_adjustment
-  -
-    code: COMP SOFT  # Computer software
+  - code: COMP SOFT  # Computer software
     type: reasonable_adjustment
-  -
-    code: FLEX_REFRESH  # Flexible refreshment breaks
+  - code: FLEX_REFRESH  # Flexible refreshment breaks
     type: reasonable_adjustment
-  -
-    code: FORM SMPL  # Form simplicity
+  - code: FORM SMPL  # Form simplicity
     type: reasonable_adjustment
-  -
-    code: IMP SGN  # Improved signage
+  - code: IMP SGN  # Improved signage
     type: reasonable_adjustment
-  -
-    code: OTHR  # Other
+  - code: OTHR  # Other
     type: reasonable_adjustment
-  -
-    code: PIC IMAGES  # Pictorial images
+  - code: PIC IMAGES  # Pictorial images
     type: reasonable_adjustment
-  -
-    code: VOICE MAIL  # Voice mail
+  - code: VOICE MAIL  # Voice mail
     type: reasonable_adjustment

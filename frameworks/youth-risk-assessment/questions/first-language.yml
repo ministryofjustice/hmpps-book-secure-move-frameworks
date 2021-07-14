@@ -3,24 +3,21 @@ question: Is English their first language?
 hint: This is the first language they learnt and continue to use.
 description: English is their first language
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
-  -
-    label: "No"
+  - label: "No"
     value: "No"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required
+        - type: required
           message: Enter details of the person’s first language
     flags:
-      -
-        label: English not first language
+      - label: English not first language
         type: information
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person’s first language is english

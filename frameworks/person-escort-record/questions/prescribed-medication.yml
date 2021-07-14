@@ -6,6 +6,7 @@ hint: This consists of any medication they have taken within the last 72 hours
   locations).
 description: Prescribed medication
 prefill: true
+
 options:
   - label: "Yes"
     value: "Yes"
@@ -14,6 +15,7 @@ options:
         type: attention
   - label: "No"
     value: "No"
+
 validations:
   - type: required
     message: Select yes if the person needs or has been prescribed any medication

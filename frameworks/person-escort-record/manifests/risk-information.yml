@@ -1,8 +1,8 @@
 name: Risk information
 order: 1
+
 steps:
-  -
-    name: Security
+  - name: Security
     slug: security
     questions:
       - high-public-interest
@@ -10,60 +10,57 @@ steps:
       - gang-member-or-organised-crime
       - stalker-harasser-or-intimidator
       - escape-risk
-  -
-    name: Hold separately
+
+  - name: Hold separately
     slug: hold-separately
     next_step:
-      -
-        question: held-separately
+      - question: held-separately
         value: "Yes"
         next_step: vulnerable-or-risk-to-others
       - self-harm
     questions:
       - held-separately
-  -
-    name: Vulnerable or risk to others
+
+  - name: Vulnerable or risk to others
     slug: vulnerable-or-risk-to-others
     questions:
       - risk-from-other-people
       - risk-to-other-people
-  -
-    name: Self-harm
+
+  - name: Self-harm
     slug: self-harm
     next_step:
-      -
-        question: indication-of-self-harm-or-suicide
+      - question: indication-of-self-harm-or-suicide
         value: "Yes"
         next_step: self-harm-information
       - weapons-drugs-or-concealed-items
     questions:
       - indication-of-self-harm-or-suicide
       - observation-level
-  -
-    name: Self-harm information
+
+  - name: Self-harm information
     slug: self-harm-information
     questions:
       - nature-of-self-harm
       - history-of-self-harm
       - actions-of-self-harm-undertaken
-  -
-    name: Weapons, drugs, or concealed items
+
+  - name: Weapons, drugs, or concealed items
     slug: weapons-drugs-or-concealed-items
     next_step:
-      -
-        question: has-concealed-items
+      - question: has-concealed-items
         value: "Yes"
         next_step: weapons-drugs-or-concealed-items-information
       - other-risks
     questions:
       - has-concealed-items
-  -
-    name: Weapons, drugs, or concealed items information
+
+  - name: Weapons, drugs, or concealed items information
     slug: weapons-drugs-or-concealed-items-information
     questions:
       - concealed-items
-  -
-    name: Any other risks
+
+  - name: Any other risks
     slug: other-risks
     questions:
       - communication-needs
