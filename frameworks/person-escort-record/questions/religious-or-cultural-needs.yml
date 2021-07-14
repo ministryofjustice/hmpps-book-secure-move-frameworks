@@ -1,0 +1,23 @@
+type: radio
+question: Do they have any religious or cultural needs?
+hint: For example, they may be fasting or require a prayer mat.
+description: Religious or cultural needs
+prefill: true
+
+options:
+  - label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        - type: required
+          message: Enter religious or cultural needs
+    flags:
+      - label: Religious or cultural needs
+        type: information
+  - label: "No"
+    value: "No"
+
+validations:
+  - type: required
+    message: Select yes if the person has any religious or cultural needs
