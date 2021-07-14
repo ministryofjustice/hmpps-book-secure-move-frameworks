@@ -39,4 +39,3 @@ nomis_mappings:
   -
     code: NU9U18 # Not Preg, acc under 9mths under 18mths
     type: personal_care_need
-
