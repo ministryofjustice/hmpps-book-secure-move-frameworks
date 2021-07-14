@@ -173,3 +173,14 @@ In some places of the framework we support basic [markdown formatting](https://g
 1. Increase the version number in the package.json `name` property to match the new version. This is to support the method needed to cater for multiple versions of the framework in the [frontend project](https://github.com/ministryofjustice/hmpps-book-secure-move-frontend/blob/d374ac9e46f0e258ec2a9fa1bbc9a7df2fb81cc4/package.json#L70-L71).
 1. Push the commit to the remote server (`git push`)
 1. Push tags to remote (`git push --tags`)
+
+## Linting
+
+We use [yamllint] to lint the YAML files. [Once installed][yamllint-installation], you can check all the files are linted correctly by running:
+
+```shell
+$ yamllint .
+```
+
+[yamllint]: https://yamllint.readthedocs.io/en/stable/index.html
+[yamllint-installation]: https://yamllint.readthedocs.io/en/stable/quickstart.html#installing-yamllint
