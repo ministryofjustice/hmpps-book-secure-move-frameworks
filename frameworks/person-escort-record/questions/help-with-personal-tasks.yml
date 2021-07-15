@@ -3,40 +3,35 @@ question: Will they need help with personal tasks when they leave custody?
 hint: For example, going to the toilet, eating or drinking.
 description: Help with personal tasks
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required_unless_nomis_mappings
-          message: Enter any help with personal tasks the person may need when they leave custody
+        - type: required_unless_nomis_mappings
+          message: Enter any help with personal tasks the person may need when they
+            leave custody
     flags:
-      -
-        label: Social care
+      - label: Social care
         type: attention
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
-    message: Select yes if the person will need help with personal tasks when they leave custody
+  - type: required
+    message: Select yes if the person will need help with personal tasks when they
+      leave custody
+
 nomis_mappings:
-  -
-    code: ADSC # Adult Social Care
+  - code: ADSC  # Adult Social Care
     type: alert
-  -
-    code: ASC # Social Care
+  - code: ASC  # Social Care
     type: alert
-  -
-    code: TTG # Toileting
+  - code: TTG  # Toileting
     type: personal_care_need
-  -
-    code: DA # Dining Aids (Eating utensils or holders)
+  - code: DA  # Dining Aids (Eating utensils or holders)
     type: reasonable_adjustment
-  -
-    code: PH # Personal Hygiene
+  - code: PH  # Personal Hygiene
     type: personal_care_need

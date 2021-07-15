@@ -1,21 +1,20 @@
 type: radio
-question: Have they been referred to a medical professional, including a Liaison and Diversion professional?
+question: Have they been referred to a medical professional, including a Liaison and
+  Diversion professional?
 description: Referred to a medical professional
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required
+        - type: required
           message: Enter details of the medical referral
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person has been referred to a medical professional

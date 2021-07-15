@@ -12,39 +12,32 @@ hint: |
   - killed or seriously injured a family member
   - is at increased risk due to their veterans status
 description: Risk of self-harm or suicide
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
-    message: Select yes if there is any indication that the person might self-harm or attempt suicide
+  - type: required
+    message: Select yes if there is any indication that the person might self-harm or
+      attempt suicide
+
 nomis_mappings:
-  -
-    code: F1 # Armed Forces Veteran
+  - code: F1  # Armed Forces Veteran
     type: alert
-  -
-    code: HA # ACCT Open (HMPS)
+  - code: HA  # ACCT Open (HMPS)
     type: alert
-  -
-    code: HA1 # ACCT Post Closure (HMPS)
+  - code: HA1  # ACCT Post Closure (HMPS)
     type: alert
-  -
-    code: HA2 # ACCT Closed (HMPS)
+  - code: HA2  # ACCT Closed (HMPS)
     type: alert
-  -
-    code: HC # Self Harm - Custody
+  - code: HC  # Self Harm - Custody
     type: alert
-  -
-    code: HS # Self Harm - Community
+  - code: HS  # Self Harm - Community
     type: alert
-  -
-    code: SH # Self Harm
+  - code: SH  # Self Harm
     type: alert
-  -
-    code: VU # Poor Coper
+  - code: VU  # Poor Coper
     type: alert

@@ -2,7 +2,7 @@ type: textarea
 question: Give details
 description: Self-harm history details
 prefill: true
+
 validations:
-  -
-    type: required
+  - type: required
     message: Enter details of self-harm history

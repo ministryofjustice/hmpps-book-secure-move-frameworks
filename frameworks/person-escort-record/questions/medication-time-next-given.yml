@@ -2,9 +2,10 @@ type: text
 question: What time should it next be given?
 description: Time next given
 prefill: false
+
 display:
   character_width: 20
+
 validations:
-  -
-    type: required
+  - type: required
     message: Enter the time the medication should be given next

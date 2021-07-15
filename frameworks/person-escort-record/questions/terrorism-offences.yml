@@ -1,33 +1,30 @@
 type: radio
 question: Have they committed any current or previous offences connected to terrorism?
 description: Terrorism related offences
-hint: This includes any terrorism offences, as well as any offences with a connection to terrorism.
+hint: This includes any terrorism offences, as well as any offences with a connection
+  to terrorism.
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required_unless_nomis_mappings
+        - type: required_unless_nomis_mappings
           message: Enter details of any terrorism offences
     flags:
-      -
-        label: Terrorism related offence
+      - label: Terrorism related offence
         type: alert
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person has committed any offences connected to terrorism
+
 nomis_mappings:
-  -
-    code: EXAN # External Agency Nominal
+  - code: EXAN  # External Agency Nominal
     type: alert
-  -
-    code: XTACT # Terrorism Act or Related Offence
+  - code: XTACT  # Terrorism Act or Related Offence
     type: alert

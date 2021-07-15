@@ -1,8 +1,8 @@
 name: Contact details
 order: 5
+
 steps:
-  -
-    name: Contacts for further information
+  - name: Contacts for further information
     slug: contact-for-further-information
     questions:
       - contact-details-for-further-information

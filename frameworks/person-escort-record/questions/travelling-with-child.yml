@@ -2,41 +2,33 @@ type: radio
 question: Are they travelling with a child?
 description: Travelling with a child
 prefill: false
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup:
       - child-full-name
       - child-date-of-birth
     flags:
-      -
-        label: Accompanied by child
+      - label: Accompanied by child
         type: alert
-  -
-    label: "No"
+  - label: "No"
     value: "No"
-validations:
-  -
-    type: required
-    message: Select yes if the person is travelling with a child
-nomis_mappings:
-  -
-    code: ACCU18 # Preg, acc over 9mths under 18mths
-    type: personal_care_need
-  -
-    code: ACCU9 # Preg, acc under 9mths
-    type: personal_care_need
-  -
-    code: AU9U18 # Preg, acc under 9mths under 18mths
-    type: personal_care_need
-  -
-    code: NO9U18 # Not Preg, acc over 9mths under 18mths
-    type: personal_care_need
-  -
-    code: NU9 # Not Preg, acc under 9mths
-    type: personal_care_need
-  -
-    code: NU9U18 # Not Preg, acc under 9mths under 18mths
-    type: personal_care_need
 
+validations:
+  - type: required
+    message: Select yes if the person is travelling with a child
+
+nomis_mappings:
+  - code: ACCU18  # Preg, acc over 9mths under 18mths
+    type: personal_care_need
+  - code: ACCU9  # Preg, acc under 9mths
+    type: personal_care_need
+  - code: AU9U18  # Preg, acc under 9mths under 18mths
+    type: personal_care_need
+  - code: NO9U18  # Not Preg, acc over 9mths under 18mths
+    type: personal_care_need
+  - code: NU9  # Not Preg, acc under 9mths
+    type: personal_care_need
+  - code: NU9U18  # Not Preg, acc under 9mths under 18mths
+    type: personal_care_need

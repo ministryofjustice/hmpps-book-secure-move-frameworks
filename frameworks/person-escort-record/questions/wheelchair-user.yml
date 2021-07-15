@@ -2,31 +2,27 @@ type: radio
 question: Are they a wheelchair user?
 description: Wheelchair user
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required_unless_nomis_mappings
+        - type: required_unless_nomis_mappings
           message: Enter details of any wheelchair use
     flags:
-      -
-        label: Wheelchair user
+      - label: Wheelchair user
         type: attention
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person is a wheelchair user
+
 nomis_mappings:
-  -
-    code: PEEP # Personal Emergency Evacuation Plan
+  - code: PEEP  # Personal Emergency Evacuation Plan
     type: reasonable_adjustment
-  -
-    code: WHEELCHR_ACC # Wheelchair accessibility
+  - code: WHEELCHR_ACC  # Wheelchair accessibility
     type: reasonable_adjustment

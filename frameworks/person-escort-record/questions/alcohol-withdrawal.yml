@@ -2,28 +2,25 @@ type: radio
 question: Are they experiencing or at risk of alcohol withdrawal?
 description: Alcohol withdrawal
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required_unless_nomis_mappings
+        - type: required_unless_nomis_mappings
           message: Enter any risk of alcohol withdrawal
     flags:
-      -
-        label: Alcohol withdrawal
+      - label: Alcohol withdrawal
         type: attention
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person is experiencing or at risk of alcohol withdrawal
+
 nomis_mappings:
-  -
-    code: XAB # Known Brewer of Alcohol
+  - code: XAB  # Known Brewer of Alcohol
     type: alert

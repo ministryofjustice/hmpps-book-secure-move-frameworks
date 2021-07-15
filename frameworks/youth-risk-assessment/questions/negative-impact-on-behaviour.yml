@@ -3,24 +3,21 @@ question: Is there anything that negatively impacts on their behaviour?
 hint: For example, topics of discussion that should be avoided.
 description: Negative impact on behaviour
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required
+        - type: required
           message: Enter details of any negative impacts
     flags:
-      -
-        label: Behaviour triggers
+      - label: Behaviour triggers
         type: information
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person has negative impacts on their behaviour

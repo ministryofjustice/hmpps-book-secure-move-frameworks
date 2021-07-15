@@ -1,12 +1,11 @@
 name: Health information
 order: 3
+
 steps:
-  -
-    name: Health concerns
+  - name: Health concerns
     slug: health-concerns
     next_step:
-      -
-        question: health-issues
+      - question: health-issues
         value: 'Yes'
         next_step: physical-and-mental-health-needs
       - medical-care
@@ -15,39 +14,39 @@ steps:
       - wheelchair-user
       - pregnant
       - travelling-with-child
-  -
-    name: Physical and mental health needs
+
+  - name: Physical and mental health needs
     slug: physical-and-mental-health-needs
     questions:
       - physical-health-needs
       - mental-health-needs
-  -
-    name: Medical care
+
+  - name: Medical care
     slug: medical-care
     questions:
       - sensitive-medication
       - prescribed-medication
       - medical-health-professional-referral
     next_step:
-      -
-        question: sensitive-medication
+      - question: sensitive-medication
         value: 'Yes'
         next_step: sensitive-medical-details
-      -
-        question: prescribed-medication
+      - question: prescribed-medication
         value: 'Yes'
         next_step: medication-details
       - dependencies
-  -
-    name: Provide sensitive medical details
+
+  - name: Provide sensitive medical details
     slug: sensitive-medical-details
     type: interruption-card
     content_before_questions: |
       !!! warning
-      Print out sensitive medical details and provide to the escort in a sealed envelope during handover
+      Print out sensitive medical details and provide to the escort in a sealed
+      envelope during handover
       !!!
 
-      Include information about medical care and medication that the person needs or has with them, as well as anything that has been prescribed while in custody.
+      Include information about medical care and medication that the person needs or
+      has with them, as well as anything that has been prescribed while in custody.
 
       Include the following details:
         - medication name
@@ -57,45 +56,44 @@ steps:
         - time last given
         - time next given
     next_step:
-      -
-        question: prescribed-medication
+      - question: prescribed-medication
         value: 'Yes'
         next_step: medication-details
       - dependencies
-  -
-    name: Provide medication details
+
+  - name: Provide medication details
     slug: medication-details
     questions:
       - medication-details
-  -
-    name: Dependencies
+
+  - name: Dependencies
     slug: dependencies
     questions:
       - alcohol-withdrawal
       - addiction-dependencies
-  -
-    name: Allergies and intolerances
+
+  - name: Allergies and intolerances
     slug: allergies-and-intolerances
     questions:
       - special-diet-or-allergies
-  -
-    name: Personal care
+
+  - name: Personal care
     slug: personal-care
     questions:
       - help-with-personal-tasks
       - female-hygiene-kit
-  -
-    name: Special vehicle
+
+  - name: Special vehicle
     slug: special-vehicle
     questions:
       - requires-special-vehicle
-  -
-    name: Any other health concerns
+
+  - name: Any other health concerns
     slug: other-health-concerns
     questions:
       - other-health-information
-  -
-    name: Contact details
+
+  - name: Contact details
     slug: contact-details
     questions:
       - health-contact-details

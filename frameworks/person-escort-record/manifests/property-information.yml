@@ -1,20 +1,19 @@
 name: Property information
 order: 4
+
 steps:
-  -
-    name: Property
+  - name: Property
     slug: property
     next_step:
-      -
-        question: property-being-moved
+      - question: property-being-moved
         value: 'Yes'
         next_step: property-details
     questions:
       - property-being-moved
       - property-being-retained
       - property-in-possession
-  -
-    name: Property details
+
+  - name: Property details
     slug: property-details
     questions:
       - property-bags

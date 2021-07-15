@@ -3,73 +3,64 @@ question: What restricted items have they concealed, created or used?
 hint: Select all that apply.
 description: Items concealed, created or used
 prefill: true
+
 options:
-  -
-    label: Created or used weapons
+  - label: Created or used weapons
     value: Created or used weapons
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required
+        - type: required
           message: Enter details of weapons the person has created or used
     flags:
-      -
-        label: Created or used weapons
+      - label: Created or used weapons
         type: alert
-  -
-    label: Concealed weapons
+
+  - label: Concealed weapons
     value: Concealed weapons
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required
+        - type: required
           message: Enter details of weapons the person has concealed
     flags:
-      -
-        label: Concealed items
+      - label: Concealed items
         type: alert
-  -
-    label: Concealed drugs
+
+  - label: Concealed drugs
     value: Concealed drugs
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required
+        - type: required
           message: Enter details of drugs that have been concealed
     flags:
-      -
-        label: Concealed items
+      - label: Concealed items
         type: alert
-  -
-    label: Concealed mobiles phones or SIM cards
+
+  - label: Concealed mobiles phones or SIM cards
     value: Concealed mobiles phones or SIM cards
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required
+        - type: required
           message: Enter details of mobile phones or SIM cards that have been concealed
     flags:
-      -
-        label: Concealed items
+      - label: Concealed items
         type: alert
-  -
-    label: Any other items
+
+  - label: Any other items
     value: Any other items
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required
-          message: Enter details of any other items that have been concealed, created or used
+        - type: required
+          message: Enter details of any other items that have been concealed, created
+            or used
     flags:
-      -
-        label: Concealed items
+      - label: Concealed items
         type: alert
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select the items that the person has concealed, created or used

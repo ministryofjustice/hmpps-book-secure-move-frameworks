@@ -2,18 +2,17 @@ type: radio
 question: Is there a history of self-harm?
 description: History of self-harm
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup:
       - history-of-self-harm-recency
       - history-of-self-harm-method
       - history-of-self-harm-details
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if there is a history of self-harm

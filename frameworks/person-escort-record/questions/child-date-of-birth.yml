@@ -2,7 +2,7 @@ type: text
 question: Child’s date of birth
 hint: For example, 28/10/2019 or 28 October 2019.
 prefill: false
+
 validations:
-  -
-    type: required
+  - type: required
     message: Enter the child’s date of birth

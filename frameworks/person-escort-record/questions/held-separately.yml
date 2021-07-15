@@ -1,150 +1,108 @@
 type: radio
 question: Should this person be held separately?
-hint: For example, they are at risk of physical or verbal abuse from others, or are discriminatory towards others, including prison, police, escort, court or medical staff.
+hint: For example, they are at risk of physical or verbal abuse from others, or are
+  discriminatory towards others, including prison, police, escort, court or medical
+  staff.
 description: Hold separately
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     flags:
-      -
-        label: Hold separately
+      - label: Hold separately
         type: alert
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person should be held separately
+
 nomis_mappings:
-  -
-    code: ADSC # Adult Social Care
+  - code: ADSC  # Adult Social Care
     type: alert
-  -
-    code: AAR # Adult At Risk (Home Office identified)
+  - code: AAR  # Adult At Risk (Home Office identified)
     type: alert
-  -
-    code: AS # Social Care
+  - code: AS  # Social Care
     type: alert
-  -
-    code: V49P # Rule 49 - Own Protection
+  - code: V49P  # Rule 49 - Own Protection
     type: alert
-  -
-    code: VIP # Isolated Prisoner
+  - code: VIP  # Isolated Prisoner
     type: alert
-  -
-    code: VJOP # Rule 46 - Own Protection
+  - code: VJOP  # Rule 46 - Own Protection
     type: alert
-  -
-    code: VOP # Rule 45 - Own Protection
+  - code: VOP  # Rule 45 - Own Protection
     type: alert
-  -
-    code: VU # Poor Coper
+  - code: VU  # Poor Coper
     type: alert
-  -
-    code: CC1 # Child contact L1
+  - code: CC1  # Child contact L1
     type: alert
-  -
-    code: CC2 # Child contact L2
+  - code: CC2  # Child contact L2
     type: alert
-  -
-    code: CC3 # Child contact L3
+  - code: CC3  # Child contact L3
     type: alert
-  -
-    code: CC4 # Child contact L4
+  - code: CC4  # Child contact L4
     type: alert
-  -
-    code: CPC # PPRC
+  - code: CPC  # PPRC
     type: alert
-  -
-    code: CPRC # Potential PPRC
+  - code: CPRC  # Potential PPRC
     type: alert
-  -
-    code: CSIP # CSIP
+  - code: CSIP  # CSIP
     type: alert
-  -
-    code: RCC # Risk to Children - Community
+  - code: RCC  # Risk to Children - Community
     type: alert
-  -
-    code: RCDR # Quarantined - Communicable Disease Risk
+  - code: RCDR  # Quarantined - Communicable Disease Risk
     type: alert
-  -
-    code: RCON # Conflict with other prisoners
+  - code: RCON  # Conflict with other prisoners
     type: alert
-  -
-    code: RCS # Risk to Children - Custody
+  - code: RCS  # Risk to Children - Custody
     type: alert
-  -
-    code: RDP # Risk to disabled people
+  - code: RDP  # Risk to disabled people
     type: alert
-  -
-    code: REG # Risk to certain ethnic groups
+  - code: REG  # Risk to certain ethnic groups
     type: alert
-  -
-    code: RLG # Risk to lesbian/gay/bisexual people
+  - code: RLG  # Risk to lesbian/gay/bisexual people
     type: alert
-  -
-    code: RNO121 # No 1 to 1s with this prisoner
+  - code: RNO121  # No 1 to 1s with this prisoner
     type: alert
-  -
-    code: ROP # Risk to older people
+  - code: ROP  # Risk to older people
     type: alert
-  -
-    code: RRV # Risk to people with religious views
+  - code: RRV  # Risk to people with religious views
     type: alert
-  -
-    code: RSS # Risk to Staff - Custody
+  - code: RSS  # Risk to Staff - Custody
     type: alert
-  -
-    code: RST # Risk to Staff - Community
+  - code: RST  # Risk to Staff - Community
     type: alert
-  -
-    code: RTP # Risk to transgender people
+  - code: RTP  # Risk to transgender people
     type: alert
-  -
-    code: RYP # Risk to younger people
+  - code: RYP  # Risk to younger people
     type: alert
-  -
-    code: SA # Staff Assaulter
+  - code: SA  # Staff Assaulter
     type: alert
-  -
-    code: SC # Risk to Children
+  - code: SC  # Risk to Children
     type: alert
-  -
-    code: UPIU # Protective Isolation Unit
+  - code: UPIU  # Protective Isolation Unit
     type: alert
-  -
-    code: URCU # Reverse Cohorting Unit
+  - code: URCU  # Reverse Cohorting Unit
     type: alert
-  -
-    code: URS # Refusing to shield
+  - code: URS  # Refusing to shield
     type: alert
-  -
-    code: USU # Shielding Unit
+  - code: USU  # Shielding Unit
     type: alert
-  -
-    code: V45 # Rule 45 - GOOD
+  - code: V45  # Rule 45 - GOOD
     type: alert
-  -
-    code: V46 # Rule 46 - GOOD
+  - code: V46  # Rule 46 - GOOD
     type: alert
-  -
-    code: V49G # Rule 49 - GOOD
+  - code: V49G  # Rule 49 - GOOD
     type: alert
-  -
-    code: V49P # Rule 49 - Own Protection
+  - code: V49P  # Rule 49 - Own Protection
     type: alert
-  -
-    code: VI # Victim
+  - code: VI  # Victim
     type: alert
-  -
-    code: XR # Racist
+  - code: XR  # Racist
     type: alert
-  -
-    code: XRF # Risk to Females
+  - code: XRF  # Risk to Females
     type: alert
-  -
-    code: XSA # Staff Assaulter
+  - code: XSA  # Staff Assaulter
     type: alert

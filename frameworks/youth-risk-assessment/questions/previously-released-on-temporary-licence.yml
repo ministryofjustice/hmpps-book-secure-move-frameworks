@@ -2,20 +2,19 @@ type: radio
 question: Have they previously been Released on Temporary Licence (ROTL) or ‘mobility’?
 description: Previously released
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required
+        - type: required
           message: Enter details of any previous releases
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
-    message: Select yes if the person has previously been released on temporary license or ‘mobility’
+  - type: required
+    message: Select yes if the person has previously been released on temporary
+      license or ‘mobility’

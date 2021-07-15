@@ -2,41 +2,32 @@ type: radio
 question: What is their current observation level?
 description: Current observation level
 prefill: false
+
 options:
-  -
-    label: Standard observation level — no additional observation required
+  - label: Standard observation level — no additional observation required
     value: Standard observation level — no additional observation required
-  -
-    label: Check at least hourly
+  - label: Check at least hourly
     value: Check at least hourly
-  -
-    label: Check at least every 30 minutes
+  - label: Check at least every 30 minutes
     value: Check at least every 30 minutes
-  -
-    label: Check at least every 15 minutes
+  - label: Check at least every 15 minutes
     value: Check at least every 15 minutes
-  -
-    label: Check at least every 10 minutes
+  - label: Check at least every 10 minutes
     value: Check at least every 10 minutes
-  -
-    label: Check at least every 5 minutes
+  - label: Check at least every 5 minutes
     value: Check at least every 5 minutes
-  -
-    label: Constant watch via CCTV
+  - label: Constant watch via CCTV
     value: Constant watch via CCTV
-  -
-    label: Constant physical watch
+  - label: Constant physical watch
     value: Constant physical watch
-  -
-    label: Alternative observation level or times
+  - label: Alternative observation level or times
     value: Alternative observation level or times
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required
+        - type: required
           message: Enter alternative observation level details
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select a current observation level

@@ -2,16 +2,15 @@ type: radio
 question: Is there any property being retained?
 description: Property retained
 prefill: false
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup_comment:
       label: Give details (optional)
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person has property being retained

@@ -1,42 +1,36 @@
 type: radio
 question: Are they an escape risk?
-hint: For example, they are on the Escape (‘E’) list or there is relevant information about escape attempts.
+hint: For example, they are on the Escape (‘E’) list or there is relevant information
+  about escape attempts.
 description: Escape risk
 prefill: true
+
 options:
-  -
-    label: "Yes"
+  - label: "Yes"
     value: "Yes"
     followup_comment:
       label: Give details
       validations:
-        -
-          type: required_unless_nomis_mappings
+        - type: required_unless_nomis_mappings
           message: Enter why the person is an escape risk
     flags:
-      -
-        label: Escape
+      - label: Escape
         type: alert
-  -
-    label: "No"
+  - label: "No"
     value: "No"
+
 validations:
-  -
-    type: required
+  - type: required
     message: Select yes if the person is an escape risk
+
 nomis_mappings:
-  -
-    code: XC # Climber
+  - code: XC  # Climber
     type: alert
-  -
-    code: XCU # Controlled Unlock
+  - code: XCU  # Controlled Unlock
     type: alert
-  -
-    code: XEBM # Enhanced Behaviour Monitoring
+  - code: XEBM  # Enhanced Behaviour Monitoring
     type: alert
-  -
-    code: XEL # Escape List
+  - code: XEL  # Escape List
     type: alert
-  -
-    code: XER # Escape Risk
+  - code: XER  # Escape Risk
     type: alert

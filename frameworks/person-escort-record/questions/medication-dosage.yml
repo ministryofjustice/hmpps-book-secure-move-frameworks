@@ -1,9 +1,10 @@
 type: text
 question: Dosage
 prefill: true
+
 display:
   character_width: 20
+
 validations:
-  -
-    type: required
+  - type: required
     message: Enter the medication dosage
