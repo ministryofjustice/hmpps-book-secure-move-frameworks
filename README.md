@@ -93,11 +93,11 @@ Question files should live in `questions/` and be stored in a flat structure. Fi
   - `character_width` - the character width of a question input. Helps to make the input the right size for the content its intended for. Supported values: `20`, `10`, `5`, `4`, `3`, `2`.
   - `prefix` - text or characters to be used before the field. Only applies to `text` fields.
   - `suffix` - text or characters to be used after the field. Only applies to `text` fields.
-- `nomis_mappings` - list of NOMIS codes representing NOMIS alerts, personal care needs and reasonable adjustments mapped to a question, to display on questions.
+- `nomis_mappings` - list of NOMIS codes representing NOMIS alerts, assessments, personal care needs and reasonable adjustments mapped to a question, to display on questions.
   - `code` **(required)** - the code of the NOMIS resource
-  - `type` **(required)** - the type of NOMIS resource. Current supported types for NOMIS mappings: `alert`, `personal_care_need` and `reasonable_adjustment`
+  - `type` **(required)** - the type of NOMIS resource. Current supported types for NOMIS mappings: `alert`, `assessment`, `personal_care_need` and `reasonable_adjustment`
 - `nomis_fallback_mappings` - list of NOMIS code types that will fallback to a question if they are not mapped to any other question.
-  - `type` **(required)** - the type of NOMIS resource. Current supported types for NOMIS mappings: `alert`, `personal_care_need` and `reasonable_adjustment`
+  - `type` **(required)** - the type of NOMIS resource. Current supported types for NOMIS mappings: `alert`, `assessment`, `personal_care_need` and `reasonable_adjustment`
 - `prefill` - indicates if a question's response should be populated by the previously completed assessment. If there is no previous record or the question does not exist in the previous record the response will be left empty. Accepted values are `true` or `false`.
 - `options` - for question types that require answers to be within a particular set of items. Usually for radios and checkboxes
   - `label` **(required)** - text displayed on the option label
