@@ -106,3 +106,5 @@ nomis_mappings:
     type: alert
   - code: XSA  # Staff Assaulter
     type: alert
+  - code: CSR  # Cell Share Risk Assessment
+    type: assessment
