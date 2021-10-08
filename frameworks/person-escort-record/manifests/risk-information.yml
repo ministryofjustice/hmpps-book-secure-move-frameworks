@@ -64,5 +64,6 @@ steps:
     slug: other-risks
     questions:
       - communication-needs
+      - next-of-kin
       - religious-or-cultural-needs
       - other-risk-information
