@@ -21,3 +21,7 @@ options:
 validations:
   - type: required
     message: Select yes if you have next of kin information for this person
+
+nomis_mappings:
+  - code: NEXTOFKIN
+    type: contact
