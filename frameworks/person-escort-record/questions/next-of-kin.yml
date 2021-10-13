@@ -1,0 +1,27 @@
+type: radio
+question: Do you have any next of kin information for this person?
+hint: The next of kin is not necessarily the same as the nominated person.
+description: Next of kin
+prefill: true
+
+options:
+  - label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        - type: required
+          message: Enter next of kin
+    flags:
+      - label: Next of kin
+        type: information
+  - label: "No"
+    value: "No"
+
+validations:
+  - type: required
+    message: Select yes if you have next of kin information for this person
+
+nomis_mappings:
+  - code: NEXTOFKIN
+    type: contact
