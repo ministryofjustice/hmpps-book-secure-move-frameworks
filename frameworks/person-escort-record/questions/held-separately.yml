@@ -108,9 +108,9 @@ nomis_mappings:
     type: alert
   - code: CSR  # Cell Share Risk Assessment
     type: assessment
-  - code: CSRF  # Cell Share Risk Assessment
+  - code: CSRF  # Cell Share Risk Assessment (Full)
     type: assessment
-  - code: CSR1  # Cell Share Risk Assessment
+  - code: CSR1  # Cell Share Risk Assessment (Reception)
     type: assessment
-  - code: CSRREV  # Cell Share Risk Assessment
+  - code: CSRREV  # Cell Share Risk Assessment (Review)
     type: assessment
