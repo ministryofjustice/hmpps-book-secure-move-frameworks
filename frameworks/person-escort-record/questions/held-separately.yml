@@ -112,3 +112,5 @@ nomis_mappings:
     type: assessment
   - code: CSR1  # Cell Share Risk Assessment
     type: assessment
+  - code: CSRREV  # Cell Share Risk Assessment
+    type: assessment
