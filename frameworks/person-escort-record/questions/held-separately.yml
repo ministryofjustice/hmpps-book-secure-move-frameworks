@@ -108,3 +108,5 @@ nomis_mappings:
     type: alert
   - code: CSR  # Cell Share Risk Assessment
     type: assessment
+  - code: CSRF  # Cell Share Risk Assessment
+    type: assessment
