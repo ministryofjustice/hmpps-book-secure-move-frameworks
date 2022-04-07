@@ -14,6 +14,6 @@ options:
       hint: For example, 28 November 2022.
       validations:
         - type: required
-          message: Enter date they returned to police custody
+          message: Enter the date they returned to police custody
   - label: "No"
     value: "No"
