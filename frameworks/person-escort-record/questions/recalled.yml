@@ -10,6 +10,7 @@ options:
   - label: "Yes"
     value: "Yes — Date they returned to custody"
     followup_comment:
+      type: text
       label: Date they returned to police custody
       hint: For example, 28 November 2022.
       validations:
