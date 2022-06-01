@@ -174,6 +174,7 @@ In some places of the framework we support basic [markdown formatting](https://g
 1. Push the commit to the remote server (`git push`)
 1. Push tags to remote (`git push --tags`)
 1. Create a [release manually](https://github.com/ministryofjustice/hmpps-book-secure-move-frameworks/releases/new)
+1. You then need to run `bundle exec rake frameworks:populate_data` in the [Book a secure move API](https://github.com/ministryofjustice/hmpps-book-secure-move-api) K8 environments in order for the new framework to be seeded into the database.
 
 ## Linting
 
