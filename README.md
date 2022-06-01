@@ -173,6 +173,7 @@ In some places of the framework we support basic [markdown formatting](https://g
 1. Increase the version number in the package.json `name` property to match the new version. This is to support the method needed to cater for multiple versions of the framework in the [frontend project](https://github.com/ministryofjustice/hmpps-book-secure-move-frontend/blob/d374ac9e46f0e258ec2a9fa1bbc9a7df2fb81cc4/package.json#L70-L71).
 1. Push the commit to the remote server (`git push`)
 1. Push tags to remote (`git push --tags`)
+1. Create a [release manually](https://github.com/ministryofjustice/hmpps-book-secure-move-frameworks/releases/new)
 
 ## Linting
 
