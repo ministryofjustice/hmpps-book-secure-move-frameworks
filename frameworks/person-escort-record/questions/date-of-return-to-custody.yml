@@ -3,7 +3,7 @@ question: Date they returned to police custody (optional – for police to compl
 hint: |
   If this person has been recalled, we need this information to calculate their release
   dates. For example, 28 November 2022.
-description: Date of return to custody
+description: Date of return to police custody
 prefill: false
 
 display:
