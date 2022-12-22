@@ -22,4 +22,3 @@ steps:
     slug: current-offences
     questions:
       - current-offences
-      - date-of-return-to-custody
