@@ -10,6 +10,7 @@ steps:
       - gang-member-or-organised-crime
       - stalker-harasser-or-intimidator
       - escape-risk
+      - civil-disorder
 
   - name: Hold separately
     slug: hold-separately
