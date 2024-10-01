@@ -1,0 +1,28 @@
+type: radio
+question: Were they involved in civil disorder?
+hint: For example, they were involved in violent disorder, a riot, assaulting an
+ emergency worker or online offences related to civil disorder.
+description: Civil disorder offender
+prefill: true
+
+options:
+  - label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: Give details
+      validations:
+        - type: required_unless_nomis_mappings
+          message: Enter details of their involvement with civil disorder
+    flags:
+      - label: Civil disorder involvement
+        type: alert
+  - label: "No"
+    value: "No"
+
+validations:
+  - type: required
+    message: Select yes if the person was involved in civil disorder
+
+nomis_mappings:
+  - code: XCDO  # Civil Disorder Offender (2024)
+    type: alert
