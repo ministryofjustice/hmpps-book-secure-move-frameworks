@@ -2,7 +2,7 @@ type: radio
 question: Were they involved in civil disorder?
 hint: For example, they were involved in violent disorder, a riot, assaulting an
  emergency worker or online offences related to civil disorder.
-description: Civil disorder offender
+description: Civil disorder involvement
 prefill: true
 
 options:
@@ -14,7 +14,7 @@ options:
         - type: required_unless_nomis_mappings
           message: Enter details of their involvement with civil disorder
     flags:
-      - label: Civil disorder involvement
+      - label: Civil disorder offender
         type: alert
   - label: "No"
     value: "No"
