@@ -1,6 +1,6 @@
 type: radio
 question: Are they subject to IS91?
-hint: Are they being held under immigration detention powers?
+hint: This means they are being held under immigration detention powers.
 #description:
 prefill: false
 
