@@ -1,0 +1,15 @@
+type: radio
+question: Are they a foreign national?
+#hint: A hint might go here.
+#description:
+prefill: true
+
+options:
+  - label: "Yes"
+    value: "Yes"
+  - label: "No"
+    value: "No"
+
+validations:
+  - type: required
+    message: Select whether the person is a foreign national

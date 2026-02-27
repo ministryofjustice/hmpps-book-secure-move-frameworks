@@ -1,0 +1,15 @@
+type: radio
+question: Are they of interest to immigration?
+#hint: A hint might go here.
+#description:
+prefill: false
+
+options:
+  - label: "Yes"
+    value: "Yes"
+  - label: "No"
+    value: "No"
+
+validations:
+  - type: required
+    message: Select whether the person is of interest to immigration

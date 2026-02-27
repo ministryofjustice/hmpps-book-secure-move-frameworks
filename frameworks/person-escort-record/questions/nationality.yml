@@ -1,0 +1,10 @@
+type: text
+question: What is their nationality?
+prefill: true
+
+display:
+  character_width: 20
+
+validations:
+  - type: required
+    message: Enter the person's nationality
