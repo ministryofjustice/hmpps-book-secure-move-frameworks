@@ -4,14 +4,14 @@ prefill: true
 description: Nationality
 
 options:
-  - label: "British"
-    value: "british"
-  - label: "Irish"
-    value: "irish"
-  - label: "Other"
-    value: "other"
+  - label: "British (including English, Scottish, Welsh or Northern Irish)"
+    value: "British"
+  - label: "Irish (including Northern Irish)"
+    value: "Irish"
+  - label: "Foreign national"
+    value: "Foreign national"
     followup_comment:
-      label: Specify nationality
+      label: Country of nationality
       validations:
         - type: required
           message: Enter the person's nationality
