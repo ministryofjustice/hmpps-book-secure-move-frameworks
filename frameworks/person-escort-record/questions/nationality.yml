@@ -1,9 +1,22 @@
-type: text
+type: checkbox
 question: What is their nationality?
 prefill: true
 
-display:
-  character_width: 20
+options:
+  - label: "British"
+    value: "british"
+  - label: "Irish"
+    value: "irish"
+  - label: "Other"
+    value: "other"
+    followup_comment:
+      label: Specify nationality
+      validations:
+        - type: required
+          message: Enter the person's nationality
+    flags:
+      - label: Foreign national
+        type: alert
 
 validations:
   - type: required

@@ -10,7 +10,6 @@ steps:
   - name: Nationality
     slug: nationality
     questions:
-      - foreign-national
       - nationality
 
   - name: Immigration Status
