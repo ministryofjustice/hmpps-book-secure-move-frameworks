@@ -1,6 +1,7 @@
-type: checkbox
+type: radio
 question: What is their nationality?
 prefill: true
+description: Nationality
 
 options:
   - label: "British"
@@ -16,7 +17,7 @@ options:
           message: Enter the person's nationality
     flags:
       - label: Foreign national
-        type: alert
+        type: information
 
 validations:
   - type: required
