@@ -2,7 +2,7 @@ name: Release information
 order: 5
 
 steps:
-  - name: Foreign Nationality
+  - name: Foreign nationality
     slug: nationality
     questions:
       - nationality

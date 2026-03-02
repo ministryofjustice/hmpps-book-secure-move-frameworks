@@ -4,8 +4,6 @@ prefill: true
 description: Nationality
 
 options:
-  - label: "No"
-    value: "No"
   - label: "Yes"
     value: "Yes"
     followup_comment:
@@ -16,7 +14,8 @@ options:
     flags:
       - label: Foreign national
         type: information
-
+  - label: "No"
+    value: "No"
 validations:
   - type: required
     message: Select whether this person is a foreign national.
