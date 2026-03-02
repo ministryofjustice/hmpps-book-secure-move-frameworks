@@ -2,18 +2,13 @@ name: Release information
 order: 5
 
 steps:
+  - name: Foreign Nationality
+    slug: nationality
+    questions:
+      - nationality
+      - immigration-detention
+
   - name: Release status
     slug: release-status
     questions:
       - release-status
-
-  - name: Nationality
-    slug: nationality
-    questions:
-      - nationality
-
-  - name: Immigration Status
-    slug: immigration-status
-    questions:
-      - immigration-detention
-      - interest-to-immigration
