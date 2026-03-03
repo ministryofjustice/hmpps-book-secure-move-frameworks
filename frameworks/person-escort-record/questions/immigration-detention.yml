@@ -1,0 +1,15 @@
+type: radio
+question: Are they subject to IS91?
+hint: This means they are being held under immigration detention powers.
+description: Immigration detention
+prefill: false
+
+options:
+  - label: "Yes"
+    value: "Yes"
+  - label: "No"
+    value: "No"
+
+validations:
+  - type: required
+    message: Select whether the person is subject to IS91

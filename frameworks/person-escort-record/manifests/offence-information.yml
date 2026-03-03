@@ -2,11 +2,6 @@ name: Offence information
 order: 2
 
 steps:
-  - name: Release status
-    slug: release-status
-    questions:
-      - release-status
-
   - name: Offence history
     slug: offence-history
     content_before_questions: |

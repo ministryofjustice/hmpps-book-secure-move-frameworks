@@ -1,0 +1,21 @@
+type: radio
+question: Are they a foreign national?
+prefill: true
+description: Foreign national
+
+options:
+  - label: "Yes"
+    value: "Yes"
+    followup_comment:
+      label: What is their nationality?
+      validations:
+        - type: required
+          message: Enter the person's nationality
+    flags:
+      - label: Foreign national
+        type: information
+  - label: "No"
+    value: "No"
+validations:
+  - type: required
+    message: Select whether this person is a foreign national.

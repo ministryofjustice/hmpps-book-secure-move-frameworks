@@ -1,0 +1,14 @@
+name: Release information
+order: 5
+
+steps:
+  - name: Foreign nationality
+    slug: nationality
+    questions:
+      - nationality
+      - immigration-detention
+
+  - name: Release status
+    slug: release-status
+    questions:
+      - release-status
