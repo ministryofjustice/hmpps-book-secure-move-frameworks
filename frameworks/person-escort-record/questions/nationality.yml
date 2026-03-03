@@ -1,7 +1,7 @@
 type: radio
 question: Are they a foreign national?
 prefill: true
-description: Nationality
+description: Foreign national
 
 options:
   - label: "Yes"
