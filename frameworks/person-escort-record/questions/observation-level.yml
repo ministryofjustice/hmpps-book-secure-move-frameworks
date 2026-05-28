@@ -8,20 +8,44 @@ options:
     value: Standard observation level — no additional observation required
   - label: Check at least hourly
     value: Check at least hourly
+    flags:
+      - label: Increased observation
+        type: warning
   - label: Check at least every 30 minutes
     value: Check at least every 30 minutes
+    flags:
+      - label: Increased observation
+        type: warning
   - label: Check at least every 15 minutes
     value: Check at least every 15 minutes
+    flags:
+      - label: Increased observation
+        type: warning
   - label: Check at least every 10 minutes
     value: Check at least every 10 minutes
+    flags:
+      - label: Increased observation
+        type: warning
   - label: Check at least every 5 minutes
     value: Check at least every 5 minutes
+    flags:
+      - label: Increased observation
+        type: warning
   - label: Constant watch via CCTV
     value: Constant watch via CCTV
+    flags:
+      - label: Constant watch
+        type: warning
   - label: Constant physical watch
     value: Constant physical watch
+    flags:
+      - label: Constant watch
+        type: warning
   - label: Alternative observation level or times
     value: Alternative observation level or times
+    flags:
+      - label: Alternative observation
+        type: warning
     followup_comment:
       label: Give details
       validations:
