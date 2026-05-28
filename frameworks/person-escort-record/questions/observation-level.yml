@@ -44,7 +44,7 @@ options:
   - label: Alternative observation level or times
     value: Alternative observation level or times
     flags:
-      - label: Alternative observation
+      - label: Additional observation
         type: warning
     followup_comment:
       label: Give details
