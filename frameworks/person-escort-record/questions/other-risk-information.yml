@@ -34,6 +34,8 @@ nomis_mappings:
     type: alert
   - code: C4  # L4 No Restrictions (named child only)
     type: alert
+  - code: DCEO  # Cyber Enabled Offender - Do not share with offender
+    type: alert
   - code: ECA  # Exempt to receive cash
     type: alert
   - code: ECH  # Exempt to receive cheques

@@ -32,5 +32,7 @@ nomis_mappings:
     type: alert
   - code: XEL  # Escape List
     type: alert
+  - code: XELH  # Escape List - Heightened
+    type: alert
   - code: XER  # Escape Risk
     type: alert
