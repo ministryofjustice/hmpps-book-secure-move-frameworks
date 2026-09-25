@@ -28,5 +28,7 @@ nomis_mappings:
     type: personal_care_need
   - code: AU9U18  # Preg, acc under 9mths under 18mths
     type: personal_care_need
+  - code: PGWCP  # Pregnant with Care Plan
+    type: personal_care_need
   - code: PREG  # Pregnant Unaccompanied
     type: personal_care_need
